@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Riferimento all’elemento pubblicitario di offerta cliente a cui è associata questa linea di opportunità. Questo viene popolato quando crei</help>
+        <label><!-- Customer Quotation Line --></label>
+        <name>SCMC__Customer_Quotation_Line__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Override Product GLA --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAGeneralLedgerAccount__c</name>
+        <relationshipLabel><!-- Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <help>Cerca la data soft che determina quando si verifica la fatturazione.</help>
+        <label><!-- Billing Term --></label>
+        <name>ffbc__BillingTerm__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Il tipo di fatturazione per questo elemento pubblicitario opportunità.</help>
+        <label><!-- Billing Type --></label>
+        <name>ffbc__BillingType__c</name>
+        <picklistValues>
+            <masterLabel>One-off</masterLabel>
+            <translation>One-off</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Fixed</masterLabel>
+            <translation>Risolto fisso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Variable</masterLabel>
+            <translation>Variabile ricorrente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Data in cui termina l&apos;elemento pubblicitario del contratto.</help>
+        <label><!-- Contract Line End Date --></label>
+        <name>ffbc__ContractLineEndDate__c</name>
+    </fields>
+    <fields>
+        <help>Prima data in cui l&apos;elemento pubblicitario del contratto deve essere fatturato.</help>
+        <label><!-- Contract Line First Bill Date --></label>
+        <name>ffbc__ContractLineFirstBillDate__c</name>
+    </fields>
+    <fields>
+        <help>Data di inizio della fatturazione per l&apos;elemento pubblicitario del contratto.</help>
+        <label><!-- Contract Line Start Date --></label>
+        <name>ffbc__ContractLineStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Piano a cui si riferisce questo elemento pubblicitario dell&apos;opportunità.</help>
+        <label><!-- Plan Name --></label>
+        <name>ffbc__Plan__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cerca l&apos;unità di misura utilizzata per determinare l&apos;utilizzo del cliente in questo elemento pubblicitario di opportunità.</help>
+        <label><!-- Unit Of Measure --></label>
+        <name>ffbc__UnitOfMeasure__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Added To Project --></label>
+        <name>pse__Added_To_Project__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsServicesProductLine --></label>
+        <name>pse__IsServicesProductLine__c</name>
+    </fields>
+</CustomObjectTranslation>

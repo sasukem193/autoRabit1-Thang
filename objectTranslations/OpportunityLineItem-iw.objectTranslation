@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>התייחסות לפריט הצעת המחיר של הלקוח שאליו נקשרת קו ההזדמנות. זה מאוכלס כשאתה יוצר</help>
+        <label><!-- Customer Quotation Line --></label>
+        <name>SCMC__Customer_Quotation_Line__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Override Product GLA --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAGeneralLedgerAccount__c</name>
+        <relationshipLabel><!-- Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <help>חיפוש לתאריך הרך הקובע מתי מתרחש חיוב.</help>
+        <label><!-- Billing Term --></label>
+        <name>ffbc__BillingTerm__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>סוג החיוב עבור פריט קו הזדמנות זה.</help>
+        <label><!-- Billing Type --></label>
+        <name>ffbc__BillingType__c</name>
+        <picklistValues>
+            <masterLabel>One-off</masterLabel>
+            <translation>חד פעמי</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Fixed</masterLabel>
+            <translation>קבוע חוזר</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Variable</masterLabel>
+            <translation>משתנה חוזר</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>תאריך סיום פריט קו החוזה.</help>
+        <label><!-- Contract Line End Date --></label>
+        <name>ffbc__ContractLineEndDate__c</name>
+    </fields>
+    <fields>
+        <help>התאריך הראשון בו יש לחייב את פריט קו החוזה.</help>
+        <label><!-- Contract Line First Bill Date --></label>
+        <name>ffbc__ContractLineFirstBillDate__c</name>
+    </fields>
+    <fields>
+        <help>התאריך ממנו ניתן להתחיל בחיוב עבור פריט קו החוזה.</help>
+        <label><!-- Contract Line Start Date --></label>
+        <name>ffbc__ContractLineStartDate__c</name>
+    </fields>
+    <fields>
+        <help>תכנית שאליה נוגע פריט קו הזדמנות זה.</help>
+        <label><!-- Plan Name --></label>
+        <name>ffbc__Plan__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>חיפוש ליחידת המדידה המשמשת לקביעת השימוש בלקוחות בפריט קו הזדמנות זה.</help>
+        <label><!-- Unit Of Measure --></label>
+        <name>ffbc__UnitOfMeasure__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Added To Project --></label>
+        <name>pse__Added_To_Project__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsServicesProductLine --></label>
+        <name>pse__IsServicesProductLine__c</name>
+    </fields>
+</CustomObjectTranslation>

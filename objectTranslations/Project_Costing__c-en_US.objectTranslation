@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project Costing</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Project Costings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Blended Sales Rate Per Hour --></label>
+        <name>Ble__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blended Sales Rate Per Day --></label>
+        <name>Blended_Sales_Rate_Per_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Architect --></label>
+        <name>Max_Architect__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Construct --></label>
+        <name>Max_Construct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Deploy --></label>
+        <name>Max_Deploy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Support --></label>
+        <name>Max_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Validate --></label>
+        <name>Max_Validate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Cost Price --></label>
+        <name>Net_Cost_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Sales Price --></label>
+        <name>Net_Sales_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of records --></label>
+        <name>No_of_records__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Project Costings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Synced Project --></label>
+        <name>Selected_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost Price --></label>
+        <name>Total_Cost_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Days --></label>
+        <name>Total_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours --></label>
+        <name>Total_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Margin --></label>
+        <name>Total_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Months --></label>
+        <name>Total_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sales Rate --></label>
+        <name>Total_Sales_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Weeks --></label>
+        <name>Total_Weeks__c</name>
+    </fields>
+    <layouts>
+        <layout>Project Costing Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

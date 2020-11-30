@@ -1,0 +1,9 @@
+<design:component>
+    <design:attribute name ="backgroundColor" label="Background Color" default="#1A242E" placeholder="Default = #1A242E"></design:attribute>
+    <design:attribute name="axisConfig" label="Font / Grid Color" datasource="white,black" default="white" />
+    <design:attribute name="durationSettings" label="View In" datasource="Month,Week" default="Month" />
+    <!--<design:attribute name ="yAxisLabel" label="yAxis Label" default="Project Phases" placeholder="Project Phases"/>
+    <design:attribute name ="xAxisLabel" label="xAxis Label" default="Number of Weeks" placeholder="Number of weeks"/>-->
+    <design:attribute name="showTitle" label="Titles" default="true" />
+    <design:attribute name="showAxisLabels" label="Axis Labels" default="true" />
+</design:component>

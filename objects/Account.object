@@ -1,0 +1,3868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>c2g__AccountCompactLayout</fullName>
+        <fields>Name</fields>
+        <fields>AnnualRevenue</fields>
+        <fields>Type</fields>
+        <fields>Phone</fields>
+        <fields>Website</fields>
+        <fields>c2g__CODAFinanceContact__c</fields>
+        <label>Account Compact Layout</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <fieldSets>
+        <fullName>MC4SF__Account_Filter_Fields</fullName>
+        <description>used on the MailChimp query builder</description>
+        <displayedFields>
+            <field>Fax</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>AccountNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Phone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Rating</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Site</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>AccountSource</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Type</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>AnnualRevenue</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingCity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingCountry</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingState</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingStreet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingPostalCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>NumberOfEmployees</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Industry</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastActivityDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ShippingCity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ShippingCountry</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ShippingState</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ShippingStreet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ShippingPostalCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Website</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Account Filter Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>AccountNumber</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>AccountSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Backlog_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Contract_Value__c -  Total_Invoiced_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Backlog Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Data_Quality_Score__c =100,&quot;All Account Details Captured&quot;, &quot;Missing: &quot;&amp;IF( ISPICKVAL( Industry,&quot;&quot;),&quot;Industry, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(ISPICKVAL(Rating,&quot;&quot;), &quot;Rating, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(BillingCity) = 0, &quot;Complete Address, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(Phone) = 0, &quot;Phone, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( ISPICKVAL(Type,&quot;&quot;), &quot;Type&quot;,&quot;&quot;))</formula>
+        <label>Data Quality Description</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(Industry,&quot;&quot;), 0,20) + IF( ISPICKVAL(Rating,&quot;&quot;), 0,20) + IF( LEN(BillingCity) = 0, 0,20) + IF(LEN(Phone) = 0, 0,20) + IF( ISPICKVAL(Type,&quot;&quot;), 0,20)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Industry</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>NumberOfEmployees</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ownership</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Power1__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Power1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rating</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Account is available for trade if checked. A Customer is deactivated to prevent new Sales Orders and automatic Quotes from being created. A Supplier is deactivated to prevent new Purchase Orders from being created.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Account is available for SCM trade  if checked</inlineHelpText>
+        <label>Active?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Auto_Quote__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the auto quote indicates whether we can automatically send a Quote to this Customer. This can be turned off to force a sales person to review the Quote and send it manually.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system is authorized to automatically create Quotes to this Customer.</inlineHelpText>
+        <label>Auto Quote?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Bill_to_E_mail__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bill-to E-mail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__CAGE_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CAGE Code</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Capability_Listing__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Capability Listing</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SCMC__Certifications__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Certifications</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SCMC__Corp_City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Corporate City</description>
+        <externalId>false</externalId>
+        <label>Corporate City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Corp_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The country for the corporate address</inlineHelpText>
+        <label>Corporate Country</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Corp_Line1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>First line of corporate address</description>
+        <externalId>false</externalId>
+        <label>Corporate Address Line 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Corp_Line2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Second line of corporate address</description>
+        <externalId>false</externalId>
+        <label>Corporate Address Line 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Corp_PostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Postal code of address</description>
+        <externalId>false</externalId>
+        <label>Corporate Zip / Postal Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Corp_State_Province__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the corporate state or province</inlineHelpText>
+        <label>Corporate State/Province</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Credit_Card_Expiration_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DEPRECATED: Credit Card Expiration Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Credit_Card_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DEPRECATED: Credit Card Number</label>
+        <length>18</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>creditCard</maskType>
+        <required>false</required>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Credit_Card_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DEPRECATED: Credit Card Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>American Express</fullName>
+                    <default>false</default>
+                    <label>American Express</label>
+                </value>
+                <value>
+                    <fullName>Master Card</fullName>
+                    <default>false</default>
+                    <label>Master Card</label>
+                </value>
+                <value>
+                    <fullName>Visa</fullName>
+                    <default>false</default>
+                    <label>Visa</label>
+                </value>
+                <value>
+                    <fullName>Discover</fullName>
+                    <default>false</default>
+                    <label>Discover</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SCMC__Credit_Card_Validation_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>American Express (AMEX) -AMEX&apos;s code is a four-digit number on the front of the card above the credit card number. Visa - Visa&apos;s Card Verification Value (CVV) and MasterCard&apos;s Validation Code (CVC) are three-digit numbers on the back of the card.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>American Express (AMEX) -AMEX&apos;s code is a four-digit number on the front of the card above the credit card number. Visa - Visa&apos;s Card Verification Value (CVV) and MasterCard&apos;s Validation Code (CVC) are three-digit numbers on the back of the card.</inlineHelpText>
+        <label>DEPRECATED: Credit Card Validation Code</label>
+        <length>4</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Currency__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Currency for the Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Currency for the Account.</inlineHelpText>
+        <label>Currency</label>
+        <referenceTo>SCMC__Currency_Master__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Account_Currency_Master</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__CustomerPriority__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Customer Priority</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SCMC__Customer_Site_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is a unique identifier for an Account. This field will be used in the creation of a Sales Order from a Quote to determine if the Quote came in from a known Customer.  This Id may be assigned in a foreign system - especially if the RFQ came from that foreign system</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Enter a unique Id for this Account. If RFQs are retrieved from a foreign system, use the value for the site that the foreign system assigns.</inlineHelpText>
+        <label>Customer Site Id</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Customer_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Select Head Quarters if this account is the headquarters for the company.  Select Division if this account is a division of a company and select Subsidiary if this account is a subsidiary of another account.</inlineHelpText>
+        <label>Customer Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Division</fullName>
+                    <default>false</default>
+                    <label>Division</label>
+                </value>
+                <value>
+                    <fullName>Head Quarters</fullName>
+                    <default>false</default>
+                    <label>Head Quarters</label>
+                </value>
+                <value>
+                    <fullName>Subsidiary</fullName>
+                    <default>false</default>
+                    <label>Subsidiary</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SCMC__Customer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this if the account is a SCM customer account.</inlineHelpText>
+        <label>Customer?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__DUNS_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DUNS Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Default_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Name + BR()+
+ SCMC__Corp_Line1__c +BR()+ 
+SCMC__Corp_Line2__c+ IF(SCMC__Corp_Line2__c = &quot;&quot;, &quot;&quot;, BR() ) +
+ SCMC__Corp_City__c + &apos;, &apos; +  SCMC__Corp_State_Province__c + &apos; &apos; + 
+ SCMC__Corp_PostalCode__c  + &apos; &apos; +
+ SCMC__Corp_Country__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Default Address</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Default_Payment_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Customer&apos;s preferred method of payment for goods or services</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Customer&apos;s preferred method of payment</inlineHelpText>
+        <label>Default Payment Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Purchase Order</fullName>
+                    <default>true</default>
+                    <label>Purchase Order</label>
+                </value>
+                <value>
+                    <fullName>Credit Card</fullName>
+                    <default>false</default>
+                    <label>Credit Card</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SCMC__Discount_off_Standard__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The discount off standard prices.  During the pricing algorithm, if the price is a standard price, this discount is applied to come up with the price for the item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the discount off the standard price for this Customer.</inlineHelpText>
+        <label>Discount off Standard Price</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__E_Mail__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>E-Mail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__FOB__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Destination, Origin, COD etc…</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Destination, Origin, COD etc…</inlineHelpText>
+        <label>FOB</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Freight__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Bill, Prepay, Collect etc…</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Bill, Prepay, Collect etc…</inlineHelpText>
+        <label>Freight</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Invoice_Format__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If this customer requires a specific invoice format, enter the name of the Visualforce page that renders the invoice</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the name of a Visualforce page that renders the invoice. You only need this if you have a specific invoice for this customer</inlineHelpText>
+        <label>Invoice Format</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Language__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Language</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__No_Response__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This flag is set to indicate an RFQ coming into the system from this Account should be ignored.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this flag if you do not want to return anything when a request for quote is received from this Account.</inlineHelpText>
+        <label>No Response?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__NumberofLocations__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Number of Locations</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Packslip_Format__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of a Visualforce page that renders a specific packslip for this Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the name of a Visualforce page that renders a packslip that is in a specific format for this Account. You do not need to enter anything here if you do not need a customer specific packslip.</inlineHelpText>
+        <label>Packslip Format</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Payment_Terms_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>SCMC__Payment_Terms__r.SCMC__Terms_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Payment Terms Name</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Payment_Terms__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify default payment terms for this accout</inlineHelpText>
+        <label>Payment Terms</label>
+        <referenceTo>SCMC__PO_Payment_Terms__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Preferred_Communication__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The preferred communication vehicle for correspondence</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The preferred communication vehicle for correspondence</inlineHelpText>
+        <label>Preferred Communication</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>E-Mail</fullName>
+                    <default>true</default>
+                    <label>E-Mail</label>
+                </value>
+                <value>
+                    <fullName>Fax</fullName>
+                    <default>false</default>
+                    <label>Fax</label>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                    <label>Phone</label>
+                </value>
+                <value>
+                    <fullName>Mail</fullName>
+                    <default>false</default>
+                    <label>Mail</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SCMC__Price_Type__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>For customers and partners define a price typing that will govern how items are automatically priced.</inlineHelpText>
+        <label>Price Type</label>
+        <referenceTo>SCMC__Price_Type__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Provide_Advanced_Ship_Notice__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Provide an advance ship notice for the customer if this is checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether an advanced ship notice is required or not.</inlineHelpText>
+        <label>Provide Advanced Ship Notice?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Provide_Electronic_Invoice__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, an electronic invoice is sent when a shipment to the customer is confirmed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you want an electronic invoice sent to this customer whenever a shipment is confirmed.</inlineHelpText>
+        <label>Provide Electronic Invoice</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Reason_for_Temporary_Hold__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Reason for Temporary Hold</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SCMC__Sales_Rep__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The user who is the sales rep for this Account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The user who is the sales rep for this Account</inlineHelpText>
+        <label>Sales Rep</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Sales_Responsibility__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The Sales Responsibility that looks after this Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Sales Responsibility that normally looks after this Account.</inlineHelpText>
+        <label>Sales Responsibility</label>
+        <referenceTo>SCMC__Sales_Responsibility__c</referenceTo>
+        <relationshipLabel>Customer Sites (Sales Responsibility)</relationshipLabel>
+        <relationshipName>SalesResponsibilities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Ship_Via__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Preferred Carrier</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Preferred Carrier</inlineHelpText>
+        <label>Ship Via</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Shipping_Account__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the account number to use when shipping to this customer.</inlineHelpText>
+        <label>Shipping Account</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Small_Business_Designations__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Small Business Designations</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Standard_Order_Detail__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Last Standard Order Detail View</description>
+        <externalId>false</externalId>
+        <label>Standard Order Detail</label>
+        <referenceTo>SCMC__Standard_Order_Detail__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SCMC__Tax_Exemption_Group__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tax Exemption Group</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Temporary_Hold__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Temporary Hold</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Finance</fullName>
+                    <default>false</default>
+                    <label>Finance</label>
+                </value>
+                <value>
+                    <fullName>Quality</fullName>
+                    <default>false</default>
+                    <label>Quality</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SCMC__Terms__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Terms</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SCMC__Warehouse__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>If orders for this customer are allocated from a specific warehouse, specify that warehouse here.</inlineHelpText>
+        <label>Warehouse</label>
+        <referenceTo>SCMC__Warehouse__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Sic</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>SicDesc</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Site</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TextFieldTest__c</fullName>
+        <externalId>false</externalId>
+        <label>TextFieldTest</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TickerSymbol</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Total_Contract_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Contract Value</label>
+        <summarizedField>Opportunity.Amount</summarizedField>
+        <summaryFilterItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Won</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Invoiced_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Invoiced Amount</label>
+        <summarizedField>Invoice__c.Amount__c</summarizedField>
+        <summaryForeignKey>Invoice__c.Account__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Invoiced_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Invoiced Hours</label>
+        <summarizedField>Invoice__c.Hours__c</summarizedField>
+        <summaryForeignKey>Invoice__c.Account__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Website</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>c2g__AverageDaysToPay__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of days the customer takes to pay on average, based on their payments in the last 365 days. The value in this field is automatically calculated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of days the customer takes to pay on average, based on their payments in the last 365 days. The value in this field is automatically calculated.</inlineHelpText>
+        <label>Average Days to Pay</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAAccountTradingCurrency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Account Trading Currency</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAAccountsPayableControl__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>A vendor must refer to a GLA for it to be used in making a posting. This association is inherited from the Accounting Dimension.</description>
+        <externalId>false</externalId>
+        <label>Accounts Payable Control</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <errorMessage>The selected GLA does not exist or is not valid. It must be a corporate GLA.</errorMessage>
+            <filterItems>
+                <field>c2g__codaGeneralLedgerAccount__c.c2g__ChartOfAccountsStructure__r.Name</field>
+                <operation>equals</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>c2g__codaGeneralLedgerAccount__c.c2g__ChartOfAccountsStructure__r.c2g__IsCorporate__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>c2g__codaGeneralLedgerAccount__c</referenceTo>
+        <relationshipLabel>Accounts (Accounts Payable Control Account)</relationshipLabel>
+        <relationshipName>Accounts1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAAccountsReceivableControl__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>An appropriate accounts receivable (or trade debtors) general ledger account.</description>
+        <externalId>false</externalId>
+        <label>Accounts Receivable Control</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <errorMessage>The selected GLA does not exist or is not valid. It must be a corporate GLA.</errorMessage>
+            <filterItems>
+                <field>c2g__codaGeneralLedgerAccount__c.c2g__ChartOfAccountsStructure__r.Name</field>
+                <operation>equals</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>c2g__codaGeneralLedgerAccount__c.c2g__ChartOfAccountsStructure__r.c2g__IsCorporate__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>c2g__codaGeneralLedgerAccount__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAAllowDeleteInUse__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Allow Deletion of Account in Use</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankAccountName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the bank account</description>
+        <externalId>false</externalId>
+        <label>Bank Account Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankAccountNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The account number</description>
+        <externalId>false</externalId>
+        <label>Bank Account Number</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankAccountReference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The account reference, sometimes required for electronic transfers</description>
+        <externalId>false</externalId>
+        <label>Bank Account Reference</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankCity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The city</description>
+        <externalId>false</externalId>
+        <label>Bank City</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The country</description>
+        <externalId>false</externalId>
+        <label>Bank Country</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankFax__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The fax number</description>
+        <externalId>false</externalId>
+        <label>Bank Fax</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankIBANNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The IBAN number</description>
+        <externalId>false</externalId>
+        <label>Bank IBAN Number</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the bank</description>
+        <externalId>false</externalId>
+        <label>Bank Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankPhone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The bank phone number</description>
+        <externalId>false</externalId>
+        <label>Bank Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankSWIFTNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The SWIFT or similar number</description>
+        <externalId>false</externalId>
+        <label>Bank SWIFT Number</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankSortCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The sort code / bank identifier</description>
+        <externalId>false</externalId>
+        <label>Bank Sort Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankStateProvince__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The state / county / province</description>
+        <externalId>false</externalId>
+        <label>Bank State/Province</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bank Street</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABankZipPostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The postal code</description>
+        <externalId>false</externalId>
+        <label>Bank Zip/Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABaseDate1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date on which terms will be calculated.</description>
+        <externalId>false</externalId>
+        <label>Base Date 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>End of Next Month</fullName>
+                    <default>false</default>
+                    <label>End of Next Month</label>
+                </value>
+                <value>
+                    <fullName>Invoice Date</fullName>
+                    <default>false</default>
+                    <label>Invoice Date</label>
+                </value>
+                <value>
+                    <fullName>Start of Next Month</fullName>
+                    <default>false</default>
+                    <label>Start of Next Month</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABaseDate2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date on which terms will be calculated</description>
+        <externalId>false</externalId>
+        <label>Base Date 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>End of Next Month</fullName>
+                    <default>false</default>
+                    <label>End of Next Month</label>
+                </value>
+                <value>
+                    <fullName>Invoice Date</fullName>
+                    <default>false</default>
+                    <label>Invoice Date</label>
+                </value>
+                <value>
+                    <fullName>Start of Next Month</fullName>
+                    <default>false</default>
+                    <label>Start of Next Month</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABaseDate3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date on which terms will be calculated</description>
+        <externalId>false</externalId>
+        <label>Base Date 3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>End of Next Month</fullName>
+                    <default>false</default>
+                    <label>End of Next Month</label>
+                </value>
+                <value>
+                    <fullName>Invoice Date</fullName>
+                    <default>false</default>
+                    <label>Invoice Date</label>
+                </value>
+                <value>
+                    <fullName>Start of Next Month</fullName>
+                    <default>false</default>
+                    <label>Start of Next Month</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABaseDate4__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date on which terms will be calculated</description>
+        <externalId>false</externalId>
+        <label>Base Date 4</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>End of Next Month</fullName>
+                    <default>false</default>
+                    <label>End of Next Month</label>
+                </value>
+                <value>
+                    <fullName>Invoice Date</fullName>
+                    <default>false</default>
+                    <label>Invoice Date</label>
+                </value>
+                <value>
+                    <fullName>Start of Next Month</fullName>
+                    <default>false</default>
+                    <label>Start of Next Month</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABillingAddressIsValid__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>NOT(ISBLANK(BillingStreet) &amp;&amp;
+ISBLANK(BillingCity) &amp;&amp;
+ISBLANK(BillingState) &amp;&amp;
+ISBLANK(BillingPostalCode) &amp;&amp;
+ISBLANK(BillingCountry)) &amp;&amp;
+c2g__CODAValidatedBillingStreet__c == BillingStreet &amp;&amp;
+c2g__CODAValidatedBillingCity__c == BillingCity &amp;&amp;
+c2g__CODAValidatedBillingState__c == BillingState &amp;&amp;
+c2g__CODAValidatedBillingPostCode__c == BillingPostalCode &amp;&amp;
+c2g__CODAValidatedBillingCountry__c == BillingCountry</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Billing Address Validated</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODABillingMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing method</description>
+        <externalId>false</externalId>
+        <label>Billing Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Electronic</fullName>
+                    <default>false</default>
+                    <label>Electronic</label>
+                </value>
+                <value>
+                    <fullName>Paper</fullName>
+                    <default>false</default>
+                    <label>Paper</label>
+                </value>
+                <value>
+                    <fullName>Self-billing</fullName>
+                    <default>false</default>
+                    <label>Self-billing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODACreditAgency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the credit agency</description>
+        <externalId>false</externalId>
+        <label>Credit Agency</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODACreditLimitEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Set to enable the credit limit</description>
+        <externalId>false</externalId>
+        <label>Credit Limit Enabled</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODACreditLimitReviewed__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the limit was last reviewed</description>
+        <externalId>false</externalId>
+        <label>Credit Limit Reviewed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODACreditLimit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The credit limit in org currency</description>
+        <externalId>false</externalId>
+        <label>Credit Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODACreditManager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The manager responsible for the credit details</description>
+        <externalId>false</externalId>
+        <label>Credit Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODACreditRatingReviewed__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the rating was last reviewed</description>
+        <externalId>false</externalId>
+        <label>Credit Rating Reviewed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODACreditRating__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rating given by the credit agency</description>
+        <externalId>false</externalId>
+        <label>Credit Rating</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODACreditReference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The reference at the credit agency</description>
+        <externalId>false</externalId>
+        <label>Credit Reference</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODACreditStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The current credit status. The picklist is user-definable</description>
+        <externalId>false</externalId>
+        <label>Credit Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Credit Allowed</fullName>
+                    <default>true</default>
+                    <label>Credit Allowed</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+                <value>
+                    <fullName>Cash with Order</fullName>
+                    <default>false</default>
+                    <label>Cash with Order</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADaysOffset1__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of days to add to the base date</description>
+        <externalId>false</externalId>
+        <label>Days Offset 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADaysOffset2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of days to add to the base date</description>
+        <externalId>false</externalId>
+        <label>Days Offset 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADaysOffset3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of days to add to the base date</description>
+        <externalId>false</externalId>
+        <label>Days Offset 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADaysOffset4__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of days to add to the base date</description>
+        <externalId>false</externalId>
+        <label>Days Offset 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADefaultExpenseAccount__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The default GLA on expense lines.</description>
+        <externalId>false</externalId>
+        <label>Default Expense Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <errorMessage>The selected GLA does not exist or is not valid. It must be a corporate GLA.</errorMessage>
+            <filterItems>
+                <field>c2g__codaGeneralLedgerAccount__c.c2g__ChartOfAccountsStructure__r.Name</field>
+                <operation>equals</operation>
+                <value></value>
+            </filterItems>
+            <filterItems>
+                <field>c2g__codaGeneralLedgerAccount__c.c2g__ChartOfAccountsStructure__r.c2g__IsCorporate__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>c2g__codaGeneralLedgerAccount__c</referenceTo>
+        <relationshipLabel>Accounts (Default Expense Account)</relationshipLabel>
+        <relationshipName>Accounts2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADescription1__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description of the settlement terms</description>
+        <externalId>false</externalId>
+        <label>Description 1</label>
+        <length>24</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADescription2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description of the settlement terms</description>
+        <externalId>false</externalId>
+        <label>Description 2</label>
+        <length>24</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADescription3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description of the settlement terms</description>
+        <externalId>false</externalId>
+        <label>Description 3</label>
+        <length>24</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADescription4__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description of the settlement terms</description>
+        <externalId>false</externalId>
+        <label>Description 4</label>
+        <length>24</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADimension1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Dimension 1</label>
+        <referenceTo>c2g__codaDimension1__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADimension2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Dimension 2</label>
+        <referenceTo>c2g__codaDimension2__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADimension3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Dimension 3</label>
+        <referenceTo>c2g__codaDimension3__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADimension4__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Dimension 4</label>
+        <referenceTo>c2g__codaDimension4__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADiscount1__c</fullName>
+        <defaultValue>0.00</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The amount of discount to be applied</description>
+        <externalId>false</externalId>
+        <label>Discount 1</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADiscount2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amount of discount to be applied</description>
+        <externalId>false</externalId>
+        <label>Discount 2</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADiscount3__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amount of discount to be applied</description>
+        <externalId>false</externalId>
+        <label>Discount 3</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODADiscount4__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amount of discount to be applied</description>
+        <externalId>false</externalId>
+        <label>Discount 4</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAECCountryCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tax Country Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AE</fullName>
+                    <default>false</default>
+                    <label>AE</label>
+                </value>
+                <value>
+                    <fullName>AT</fullName>
+                    <default>false</default>
+                    <label>AT</label>
+                </value>
+                <value>
+                    <fullName>AU</fullName>
+                    <default>false</default>
+                    <label>AU</label>
+                </value>
+                <value>
+                    <fullName>BE</fullName>
+                    <default>false</default>
+                    <label>BE</label>
+                </value>
+                <value>
+                    <fullName>BG</fullName>
+                    <default>false</default>
+                    <label>BG</label>
+                </value>
+                <value>
+                    <fullName>CA</fullName>
+                    <default>false</default>
+                    <label>CA</label>
+                </value>
+                <value>
+                    <fullName>CH</fullName>
+                    <default>false</default>
+                    <label>CH</label>
+                </value>
+                <value>
+                    <fullName>CY</fullName>
+                    <default>false</default>
+                    <label>CY</label>
+                </value>
+                <value>
+                    <fullName>CZ</fullName>
+                    <default>false</default>
+                    <label>CZ</label>
+                </value>
+                <value>
+                    <fullName>DE</fullName>
+                    <default>false</default>
+                    <label>DE</label>
+                </value>
+                <value>
+                    <fullName>DK</fullName>
+                    <default>false</default>
+                    <label>DK</label>
+                </value>
+                <value>
+                    <fullName>EE</fullName>
+                    <default>false</default>
+                    <label>EE</label>
+                </value>
+                <value>
+                    <fullName>EL</fullName>
+                    <default>false</default>
+                    <label>EL</label>
+                </value>
+                <value>
+                    <fullName>ES</fullName>
+                    <default>false</default>
+                    <label>ES</label>
+                </value>
+                <value>
+                    <fullName>FI</fullName>
+                    <default>false</default>
+                    <label>FI</label>
+                </value>
+                <value>
+                    <fullName>FR</fullName>
+                    <default>false</default>
+                    <label>FR</label>
+                </value>
+                <value>
+                    <fullName>GB</fullName>
+                    <default>false</default>
+                    <label>GB</label>
+                </value>
+                <value>
+                    <fullName>GR</fullName>
+                    <default>false</default>
+                    <label>GR</label>
+                </value>
+                <value>
+                    <fullName>HK</fullName>
+                    <default>false</default>
+                    <label>HK</label>
+                </value>
+                <value>
+                    <fullName>HU</fullName>
+                    <default>false</default>
+                    <label>HU</label>
+                </value>
+                <value>
+                    <fullName>IE</fullName>
+                    <default>false</default>
+                    <label>IE</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>LT</fullName>
+                    <default>false</default>
+                    <label>LT</label>
+                </value>
+                <value>
+                    <fullName>LU</fullName>
+                    <default>false</default>
+                    <label>LU</label>
+                </value>
+                <value>
+                    <fullName>LV</fullName>
+                    <default>false</default>
+                    <label>LV</label>
+                </value>
+                <value>
+                    <fullName>MT</fullName>
+                    <default>false</default>
+                    <label>MT</label>
+                </value>
+                <value>
+                    <fullName>MY</fullName>
+                    <default>false</default>
+                    <label>MY</label>
+                </value>
+                <value>
+                    <fullName>NL</fullName>
+                    <default>false</default>
+                    <label>NL</label>
+                </value>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                    <label>NO</label>
+                </value>
+                <value>
+                    <fullName>NZ</fullName>
+                    <default>false</default>
+                    <label>NZ</label>
+                </value>
+                <value>
+                    <fullName>PL</fullName>
+                    <default>false</default>
+                    <label>PL</label>
+                </value>
+                <value>
+                    <fullName>PT</fullName>
+                    <default>false</default>
+                    <label>PT</label>
+                </value>
+                <value>
+                    <fullName>RO</fullName>
+                    <default>false</default>
+                    <label>RO</label>
+                </value>
+                <value>
+                    <fullName>SE</fullName>
+                    <default>false</default>
+                    <label>SE</label>
+                </value>
+                <value>
+                    <fullName>SG</fullName>
+                    <default>false</default>
+                    <label>SG</label>
+                </value>
+                <value>
+                    <fullName>SI</fullName>
+                    <default>false</default>
+                    <label>SI</label>
+                </value>
+                <value>
+                    <fullName>SK</fullName>
+                    <default>false</default>
+                    <label>SK</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
+                    <fullName>ZA</fullName>
+                    <default>false</default>
+                    <label>ZA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAEntityUseCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Entity / Use Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A - Federal government - United States</fullName>
+                    <default>false</default>
+                    <label>A - Federal government - United States</label>
+                </value>
+                <value>
+                    <fullName>B - State government - United States</fullName>
+                    <default>false</default>
+                    <label>B - State government - United States</label>
+                </value>
+                <value>
+                    <fullName>C - Tribe / Status Indian / Indian Band - both</fullName>
+                    <default>false</default>
+                    <label>C - Tribe / Status Indian / Indian Band - both</label>
+                </value>
+                <value>
+                    <fullName>D - Foreign diplomat - both</fullName>
+                    <default>false</default>
+                    <label>D - Foreign diplomat - both</label>
+                </value>
+                <value>
+                    <fullName>E - Charitable or benevolent org - both</fullName>
+                    <default>false</default>
+                    <label>E - Charitable or benevolent org - both</label>
+                </value>
+                <value>
+                    <fullName>F - Religious or educational org - both</fullName>
+                    <default>false</default>
+                    <label>F - Religious or educational org - both</label>
+                </value>
+                <value>
+                    <fullName>G - Resale - both</fullName>
+                    <default>false</default>
+                    <label>G - Resale - both</label>
+                </value>
+                <value>
+                    <fullName>H - Commercial agricultural production - both</fullName>
+                    <default>false</default>
+                    <label>H - Commercial agricultural production - both</label>
+                </value>
+                <value>
+                    <fullName>I - Industrial production / manufacturer - both</fullName>
+                    <default>false</default>
+                    <label>I - Industrial production / manufacturer - both</label>
+                </value>
+                <value>
+                    <fullName>J - Direct pay permit - United States</fullName>
+                    <default>false</default>
+                    <label>J - Direct pay permit - United States</label>
+                </value>
+                <value>
+                    <fullName>K - Direct mail - United States</fullName>
+                    <default>false</default>
+                    <label>K - Direct mail - United States</label>
+                </value>
+                <value>
+                    <fullName>L - Other - both</fullName>
+                    <default>false</default>
+                    <label>L - Other - both</label>
+                </value>
+                <value>
+                    <fullName>N - Local government - United States</fullName>
+                    <default>false</default>
+                    <label>N - Local government - United States</label>
+                </value>
+                <value>
+                    <fullName>P - Commercial aquaculture - Canada</fullName>
+                    <default>false</default>
+                    <label>P - Commercial aquaculture - Canada</label>
+                </value>
+                <value>
+                    <fullName>Q - Commercial Fishery - Canada</fullName>
+                    <default>false</default>
+                    <label>Q - Commercial Fishery - Canada</label>
+                </value>
+                <value>
+                    <fullName>R - Non-resident - Canada</fullName>
+                    <default>false</default>
+                    <label>R - Non-resident - Canada</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAExemptionCertificate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Exemption Certificate</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAExternalId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAFederallyReportable1099__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Federally Reportable 1099</description>
+        <externalId>false</externalId>
+        <label>Federally Reportable 1099</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAFinanceContact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Finance Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAIncomeTaxType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Income Tax Type</description>
+        <externalId>false</externalId>
+        <label>Income Tax Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 - Rents</fullName>
+                    <default>false</default>
+                    <label>1 - Rents</label>
+                </value>
+                <value>
+                    <fullName>2 - Royalties</fullName>
+                    <default>false</default>
+                    <label>2 - Royalties</label>
+                </value>
+                <value>
+                    <fullName>3 - Other Income</fullName>
+                    <default>false</default>
+                    <label>3 - Other Income</label>
+                </value>
+                <value>
+                    <fullName>4 - Federal Income Tax Withheld</fullName>
+                    <default>false</default>
+                    <label>4 - Federal Income Tax Withheld</label>
+                </value>
+                <value>
+                    <fullName>5 - Fishing Boat Proceeds</fullName>
+                    <default>false</default>
+                    <label>5 - Fishing Boat Proceeds</label>
+                </value>
+                <value>
+                    <fullName>6 - Medical and Healthcare Payments</fullName>
+                    <default>false</default>
+                    <label>6 - Medical and Healthcare Payments</label>
+                </value>
+                <value>
+                    <fullName>7 - Nonemployee Compensation</fullName>
+                    <default>false</default>
+                    <label>7 - Nonemployee Compensation</label>
+                </value>
+                <value>
+                    <fullName>8 - Substitute Payments in Lieu of Dividends or Interest</fullName>
+                    <default>false</default>
+                    <label>8 - Substitute Payments in Lieu of Dividends or Interest</label>
+                </value>
+                <value>
+                    <fullName>9 - Payer Made Direct Sales of 5000 or More</fullName>
+                    <default>false</default>
+                    <label>9 - Payer Made Direct Sales of 5000 or More</label>
+                </value>
+                <value>
+                    <fullName>10 - Crop Insurance Proceeds</fullName>
+                    <default>false</default>
+                    <label>10 - Crop Insurance Proceeds</label>
+                </value>
+                <value>
+                    <fullName>11 - Unused 11</fullName>
+                    <default>false</default>
+                    <label>11 - Unused 11</label>
+                </value>
+                <value>
+                    <fullName>12 - Unused 12</fullName>
+                    <default>false</default>
+                    <label>12 - Unused 12</label>
+                </value>
+                <value>
+                    <fullName>13 - Excess Golden Parachute Payments</fullName>
+                    <default>false</default>
+                    <label>13 - Excess Golden Parachute Payments</label>
+                </value>
+                <value>
+                    <fullName>14 - Gross Proceeds Paid to an Attorney</fullName>
+                    <default>false</default>
+                    <label>14 - Gross Proceeds Paid to an Attorney</label>
+                </value>
+                <value>
+                    <fullName>Not Reportable</fullName>
+                    <default>true</default>
+                    <label>Not Reportable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAInputVATCode__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Input VAT/GST Code</label>
+        <referenceTo>c2g__codaTaxCode__c</referenceTo>
+        <relationshipLabel>Accounts (Input VAT/GST Code)</relationshipLabel>
+        <relationshipName>Accounts1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAIntercompanyAccount__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Intercompany Account</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAInvoiceEmail__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Invoice Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAMergeId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Merge Id</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAOutputVATCode__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Output VAT/GST Code</label>
+        <referenceTo>c2g__codaTaxCode__c</referenceTo>
+        <relationshipLabel>Accounts (Output VAT/GST Code)</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAPaymentMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The payment method</description>
+        <externalId>false</externalId>
+        <label>Payment Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cash</fullName>
+                    <default>false</default>
+                    <label>Cash</label>
+                </value>
+                <value>
+                    <fullName>Check</fullName>
+                    <default>false</default>
+                    <label>Check</label>
+                </value>
+                <value>
+                    <fullName>Electronic</fullName>
+                    <default>false</default>
+                    <label>Electronic</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAReportingCode__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>A unique code used for reporting</description>
+        <externalId>false</externalId>
+        <label>Reporting Code</label>
+        <length>24</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODASalesTaxStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sales Tax Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Taxable</fullName>
+                    <default>true</default>
+                    <label>Taxable</label>
+                </value>
+                <value>
+                    <fullName>Exempt</fullName>
+                    <default>false</default>
+                    <label>Exempt</label>
+                </value>
+                <value>
+                    <fullName>Exempt for Qualifying Products</fullName>
+                    <default>false</default>
+                    <label>Exempt for Qualifying Products</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAShippingAddressIsValid__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>NOT(ISBLANK(ShippingStreet) &amp;&amp;
+ISBLANK(ShippingCity) &amp;&amp;
+ISBLANK(ShippingState) &amp;&amp;
+ISBLANK(ShippingPostalCode) &amp;&amp;
+ISBLANK(ShippingCountry)) &amp;&amp;
+c2g__CODAValidatedShippingStreet__c == ShippingStreet &amp;&amp;
+c2g__CODAValidatedShippingCity__c == ShippingCity &amp;&amp;
+c2g__CODAValidatedShippingState__c == ShippingState &amp;&amp;
+c2g__CODAValidatedShippingPostCode__c == ShippingPostalCode &amp;&amp;
+c2g__CODAValidatedShippingCountry__c == ShippingCountry</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipping Address Validated</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODATaxCalculationMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The method of calculating tax in the UK.</description>
+        <externalId>false</externalId>
+        <label>Tax Calculation Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Gross</fullName>
+                    <default>true</default>
+                    <label>Gross</label>
+                </value>
+                <value>
+                    <fullName>Net of Discount</fullName>
+                    <default>false</default>
+                    <label>Net of Discount</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODATaxCode1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tax Code 1</label>
+        <referenceTo>c2g__codaTaxCode__c</referenceTo>
+        <relationshipLabel>Accounts (Tax Code 1)</relationshipLabel>
+        <relationshipName>AccountsTC1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODATaxCode2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tax Code 2</label>
+        <referenceTo>c2g__codaTaxCode__c</referenceTo>
+        <relationshipLabel>Accounts (Tax Code 2)</relationshipLabel>
+        <relationshipName>AccountsTC2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODATaxCode3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tax Code 3</label>
+        <referenceTo>c2g__codaTaxCode__c</referenceTo>
+        <relationshipLabel>Accounts (Tax Code 3)</relationshipLabel>
+        <relationshipName>AccountsTC3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODATaxpayerIdentificationNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Taxpayer Identification Number</description>
+        <externalId>false</externalId>
+        <label>Taxpayer Identification Number</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAUnitOfWork__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Unit of Work</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAVATRegistrationNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tax Registration Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAVATStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tax Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Home</fullName>
+                    <default>true</default>
+                    <label>Home</label>
+                </value>
+                <value>
+                    <fullName>EC Registered</fullName>
+                    <default>false</default>
+                    <label>EC Registered</label>
+                </value>
+                <value>
+                    <fullName>EC Non-registered</fullName>
+                    <default>false</default>
+                    <label>EC Non-registered</label>
+                </value>
+                <value>
+                    <fullName>Export</fullName>
+                    <default>false</default>
+                    <label>Export</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAValidatedBillingCity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ValidatedBillingCity</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAValidatedBillingCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ValidatedBillingCountry</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAValidatedBillingPostCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ValidatedBillingPostCode</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAValidatedBillingState__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ValidatedBillingState</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAValidatedBillingStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ValidatedBillingStreet</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAValidatedShippingCity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ValidatedShippingCity</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAValidatedShippingCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ValidatedShippingCountry</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAValidatedShippingPostCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ValidatedShippingPostCode</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAValidatedShippingState__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ValidatedShippingState</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>c2g__CODAValidatedShippingStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ValidatedShippingStreet</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>c2g__CollectionsOnHoldReason__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Collections On Hold Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Invoice in dispute</fullName>
+                    <default>false</default>
+                    <label>Invoice in dispute</label>
+                </value>
+                <value>
+                    <fullName>Account in dispute</fullName>
+                    <default>false</default>
+                    <label>Account in dispute</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>c2g__CollectionsOnHold__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Collections On Hold</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>c2g__DaysSalesOutstanding__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Average number of days it takes to collect payment after a sale has been made, based on the sales and payments made in the last 365 days. The value in this field is automatically calculated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Average number of days it takes to collect payment after a sale has been made, based on the sales and payments made in the last 365 days. The value in this field is automatically calculated.</inlineHelpText>
+        <label>Days Sales Outstanding (Annual)</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ffaci__CurrencyCulture__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Currency Culture</label>
+        <length>8</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ffbc__BillingAccount__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the Salesforce Account to use for the Billing Address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to the Salesforce Account to use for the Billing Address.</inlineHelpText>
+        <label>Billing Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Related Billing Accounts</relationshipLabel>
+        <relationshipName>SubAccounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ffbf__AccountParticulars__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Account Particulars</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ffbf__BankBIC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Bank BIC</label>
+        <length>16</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ffbf__PaymentCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Payment Code</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ffbf__PaymentCountryISO__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Payment Country ISO</label>
+        <length>2</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ffbf__PaymentPriority__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Payment Priority</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>true</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>U</fullName>
+                    <default>false</default>
+                    <label>U</label>
+                </value>
+                <value>
+                    <fullName>L</fullName>
+                    <default>false</default>
+                    <label>L</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ffbf__PaymentRoutingMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Payment Routing Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ExemptionCertificate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Tax exemption certificate for the account. We recommend that you use the tax exemption features of Avalara. Use this field only when you are not required to collect tax for the account and your finance team tracks and verifies tax exemption certificates manually.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Tax exemption certificate for the account. Enter a value if you are not required to collect tax for the account and your finance team tracks and verifies tax exemption certificates manually.</inlineHelpText>
+        <label>Exemption Certificate</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fferpcore__IsBillingAddressValidated__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the billing address has been validated against the addresses in the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <formula>fferpcore__MaterializedBillingAddressValidated__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicates whether the billing address has been validated against the addresses in the external tax calculation service.</inlineHelpText>
+        <label>Billing Address Validated</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>fferpcore__IsShippingAddressValidated__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the shipping address has been validated against the addresses in the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <formula>fferpcore__MaterializedShippingAddressValidated__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicates whether the shipping address has been validated against the addresses in the external tax calculation service.</inlineHelpText>
+        <label>Shipping Address Validated</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>fferpcore__MaterializedBillingAddressValidated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used by Foundations to indicate that an address has been validated when Update Address Validated Fields is selected in the FDN Common Object Settings custom setting.</description>
+        <externalId>false</externalId>
+        <label>Billing Address Validated Reference</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>fferpcore__MaterializedShippingAddressValidated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used by Foundations to indicate that an address has been validated when Update Address Validated Fields is selected in the FDN Common Object Settings custom setting.</description>
+        <externalId>false</externalId>
+        <label>Shipping Address Validated Reference</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>fferpcore__OutputVatCode__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The tax code to be used when calculating tax in a VAT or GST company.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The tax code to be used when calculating tax in a VAT or GST company.</inlineHelpText>
+        <label>Output VAT/GST Code</label>
+        <referenceTo>fferpcore__TaxCode__c</referenceTo>
+        <relationshipLabel>Accounts (Output VAT/GST Code)</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>fferpcore__SalesTaxStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The tax status for this account for SUT companies.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The tax status for this account for SUT companies.</inlineHelpText>
+        <label>Sales Tax Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Taxable</fullName>
+                    <default>false</default>
+                    <label>Taxable</label>
+                </value>
+                <value>
+                    <fullName>Exempt</fullName>
+                    <default>false</default>
+                    <label>Exempt</label>
+                </value>
+                <value>
+                    <fullName>Exempt for Qualifying Products</fullName>
+                    <default>false</default>
+                    <label>Exempt for Qualifying Products</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>fferpcore__TaxCode1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The first SUT tax code for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The first SUT tax code for this account.</inlineHelpText>
+        <label>Tax Code 1</label>
+        <referenceTo>fferpcore__TaxCode__c</referenceTo>
+        <relationshipLabel>Accounts (Tax Code 1)</relationshipLabel>
+        <relationshipName>AccountsTC1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>fferpcore__TaxCode2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The second SUT tax code for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The second SUT tax code for this account.</inlineHelpText>
+        <label>Tax Code 2</label>
+        <referenceTo>fferpcore__TaxCode__c</referenceTo>
+        <relationshipLabel>Accounts (Tax Code 2)</relationshipLabel>
+        <relationshipName>AccountsTC2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>fferpcore__TaxCode3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The third SUT tax code for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The third SUT tax code for this account.</inlineHelpText>
+        <label>Tax Code 3</label>
+        <referenceTo>fferpcore__TaxCode__c</referenceTo>
+        <relationshipLabel>Accounts (Tax Code 3)</relationshipLabel>
+        <relationshipName>AccountsTC3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>fferpcore__TaxCountryCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Code for the European Union country in which this account operates. You can update the entries in this custom picklist if required.
+The country code is required for the correct reporting of VAT on cross-border trades within the European Union.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The country code for this account. This is required for correct reporting of VAT on cross-border trades within the European Union.</inlineHelpText>
+        <label>Tax Country Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>fferpcore__TaxCountryCode</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ValidatedBillingCity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Billing address city validated by the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <label>Validated Billing City</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ValidatedBillingCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Billing address country validated by the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <label>Validated Billing Country</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ValidatedBillingPostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Billing address postal code validated by the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <label>Validated Billing Zip/Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ValidatedBillingState__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Billing address state or province validated by the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <label>Validated Billing State/Province</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ValidatedBillingStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Billing address street validated by the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <label>Validated Billing Street</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ValidatedShippingCity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shipping address city validated by the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <label>Validated Shipping City</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ValidatedShippingCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shipping address country validated by the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <label>Validated Shipping Country</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ValidatedShippingPostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shipping address postal code validated by the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <label>Validated Shipping Zip/Postal Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ValidatedShippingState__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shipping address state or province validated by the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <label>Validated Shipping State/Province</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fferpcore__ValidatedShippingStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shipping address street validated by the external tax calculation service.</description>
+        <externalId>false</externalId>
+        <label>Validated Shipping Street</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>fferpcore__VatRegistrationNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Identifying number used for VAT purposes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifying number used for tax purposes.</inlineHelpText>
+        <label>Tax Registration Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fferpcore__VatStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The tax status for this account for VAT/GST accounts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The tax status for this account for VAT/GST accounts.</inlineHelpText>
+        <label>Tax Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Home</fullName>
+                    <default>false</default>
+                    <label>Home</label>
+                </value>
+                <value>
+                    <fullName>EC Non-registered</fullName>
+                    <default>false</default>
+                    <label>EC Non-registered</label>
+                </value>
+                <value>
+                    <fullName>EC Registered</fullName>
+                    <default>false</default>
+                    <label>EC Registered</label>
+                </value>
+                <value>
+                    <fullName>Export</fullName>
+                    <default>false</default>
+                    <label>Export</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>pse__Add_BEIs_To_Existing_Batches__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If selected, all existing billing event items are added to an existing billing event instead of creating a new billing event.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If selected, all existing billing event items are added to an existing billing event instead of creating a new billing event.</inlineHelpText>
+        <label>Add BEIs To Existing Batches</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>pse__ERP_Worker_Correlation_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This records the worker correlation key used within the Foundations system.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>This records the worker correlation key used within the Foundations system.</inlineHelpText>
+        <label>Foundations Worker Correlation</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pse__Services_Billing_Time_Period_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Services Billing Time Period Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Week</fullName>
+                    <default>false</default>
+                    <label>Week</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Quarter</fullName>
+                    <default>false</default>
+                    <label>Quarter</label>
+                </value>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>false</default>
+                    <label>Year</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>AllAccounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyAccounts</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>NewThisWeek</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>New This Week</label>
+    </listViews>
+    <listViews>
+        <fullName>ffaws__Customer_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>c2g__CODAInvoiceEmail__c</columns>
+        <columns>c2g__CODAPaymentMethod__c</columns>
+        <columns>c2g__CODAAccountTradingCurrency__c</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>c2g__CODACreditStatus__c</columns>
+        <columns>c2g__CODACreditLimitEnabled__c</columns>
+        <columns>c2g__CODACreditLimit__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>c2g__CODAAccountsReceivableControl__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Customer Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>ffaws__OnHoldForCollections</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>c2g__CollectionsOnHold__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Accounts On Hold for collections</label>
+    </listViews>
+    <listViews>
+        <fullName>ffaws__Vendor_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>c2g__CODAFinanceContact__c</columns>
+        <columns>c2g__CODAPaymentMethod__c</columns>
+        <columns>c2g__CODAAccountTradingCurrency__c</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>c2g__CODAAccountsPayableControl__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Vendor Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>scmws__Active_Customers</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ACCOUNT.SALES</columns>
+        <columns>SCMC__E_Mail__c</columns>
+        <columns>ACCOUNT.INDUSTRY</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>SCMC__Sales_Rep__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.TYPE</field>
+            <operation>equals</operation>
+            <value>Customer - Direct,Customer - Channel</value>
+        </filters>
+        <filters>
+            <field>SCMC__Active__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>SCMC__Customer__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Active Customers</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>c2g__CODAIntercompanyAccount__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>c2g__CODABankFax__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>c2g__CODABankPhone__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Lock_Account_Currency</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+
+ISCHANGED( CurrencyIsoCode ),
+
+OR(
+
+NOT( ISBLANK( c2g__CODAAccountsReceivableControl__c )),
+
+NOT( ISBLANK( c2g__CODAAccountsPayableControl__c ))
+
+)
+
+)</errorConditionFormula>
+        <errorDisplayField>CurrencyIsoCode</errorDisplayField>
+        <errorMessage>This Account is in use by FinancialForce Accounting. You cannot change its currency.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SCMC__Both_Auto_Quote_No_Response_Checked</fullName>
+        <active>false</active>
+        <description>User can not have both Auto Quote and No Response Checked</description>
+        <errorConditionFormula>SCMC__Auto_Quote__c = true  &amp;&amp;  SCMC__No_Response__c = true</errorConditionFormula>
+        <errorMessage>You cannot set up an Account with Auto Quote and No Response</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>APXTConga4__Conga_Composer_OAuth</fullName>
+        <availability>online</availability>
+        <description>*** DO NOT USE THIS BUTTON ON A PAGE LAYOUT ***
+
+OAuth buttons require additional setup. Please see the Composer Installation Guide for more details.
+
+COPY THE URL FROM THIS BUTTON and paste it into your own custom button or link. Then add optional parameters to finely tune the button&apos;s behavior. See the Composer Configuration Guide for details.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Conga Composer (OAuth)</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer
+?serverUrl={!API.Partner_Server_URL_370}
+&amp;id={!Account.Id}</url>
+        <width>900</width>
+    </webLinks>
+    <webLinks>
+        <fullName>APXTConga4__Conga_Mail_Merge</fullName>
+        <availability>online</availability>
+        <description>*** DO NOT USE THIS BUTTON ON A PAGE LAYOUT ***
+
+COPY THE URL FROM THIS BUTTON and paste it into your own custom button or link. Then add optional parameters to finely tune the button&apos;s behavior. See the Conga Configuration Guide for details.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Conga Composer</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://composer.congamerge.com
+?serverUrl={!API.Partner_Server_URL_370}
+&amp;id={!Account.Id}</url>
+        <width>900</width>
+    </webLinks>
+    <webLinks>
+        <fullName>AltavistaNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Altavista News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://news.altavista.com/search?nc=0&amp;q={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Account_BillingStreet}+{!Account_BillingCity}+{!Account_BillingState}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/news?&amp;q={!Account_Name}&amp;btnG=Search+News</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>HooversProfile</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Hoovers Profile</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>MC4SF__MailChimp_Subscriptions</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>MailChimp Subscriptions</masterLabel>
+        <openType>noSidebar</openType>
+        <page>MC4SF__ForwardPersonAcctToSubscriptionContact</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>YahooMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Yahoo Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Account_BillingCountry}&amp;csz={!Account_BillingCity}+{!Account_BillingState}+{!Account_BillingPostalCode}+&amp;addr={!Account_BillingAddress}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>c2g__CODAValidateBillingAddress</fullName>
+        <availability>online</availability>
+        <description>Validate Billing Address</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Validate Billing Address</masterLabel>
+        <openType>sidebar</openType>
+        <page>c2g__BillingAddressValidation</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>c2g__CODAValidateCustomer</fullName>
+        <availability>online</availability>
+        <description>Validate Customer</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Validate Customer</masterLabel>
+        <openType>sidebar</openType>
+        <page>c2g__codaccountvalidatecustomer</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>c2g__CODAValidateShippingAddress</fullName>
+        <availability>online</availability>
+        <description>Validate Shipping Address</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Validate Shipping Address</masterLabel>
+        <openType>sidebar</openType>
+        <page>c2g__ShippingAddressValidation</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>c2g__CODAValidateVendor</fullName>
+        <availability>online</availability>
+        <description>Validate Vendor fields in Account</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Validate Vendor</masterLabel>
+        <openType>sidebar</openType>
+        <page>c2g__codaaccountvalidatevendor</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>c2g__CashMatching</fullName>
+        <availability>online</availability>
+        <description>Open the Cash Matching screen with the Account pre-populated.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Cash Matching</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR(&apos;/apex/c2g__cashmatching?f=c&amp;accountid=&apos; +  URLENCODE(Account.Id))}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>fferpcore__ValidateBillingAddress</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Validate Billing Address</masterLabel>
+        <openType>sidebar</openType>
+        <page>fferpcore__AccountBillingAddressValidation</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>fferpcore__ValidateShippingAddress</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Validate Shipping Address</masterLabel>
+        <openType>sidebar</openType>
+        <page>fferpcore__AccountShippingAddressValidation</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>pse__Account_Billing</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Account Billing</masterLabel>
+        <openType>sidebar</openType>
+        <page>pse__AccountBilling</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>pse__Create_Change_Request</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Create Change Request</masterLabel>
+        <openType>sidebar</openType>
+        <page>pse__CreateCRFromAccountDetailsForward</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

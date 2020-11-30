@@ -1,0 +1,18 @@
+.THIS {
+}
+
+
+.THIS a:link{
+    color: black ;
+
+}
+
+.THIS a:visited{
+    color: black ;
+
+}
+
+.THIS a:hover{
+    color: red;
+background:""; text-decoration: none
+}

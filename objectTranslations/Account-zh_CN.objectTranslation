@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Account Filter Fields --></label>
+        <name>MC4SF__Account_Filter_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Backlog Amount --></label>
+        <name>Backlog_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Power1 --></label>
+        <name>Power1__c</name>
+    </fields>
+    <fields>
+        <help>如果选中该帐户，则可用于SCM交易</help>
+        <label><!-- Active? --></label>
+        <name>SCMC__Active__c</name>
+    </fields>
+    <fields>
+        <help>选中后，系统被授权自动为此客户创建报价。</help>
+        <label><!-- Auto Quote? --></label>
+        <name>SCMC__Auto_Quote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill-to E-mail --></label>
+        <name>SCMC__Bill_to_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAGE Code --></label>
+        <name>SCMC__CAGE_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capability Listing --></label>
+        <name>SCMC__Capability_Listing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certifications --></label>
+        <name>SCMC__Certifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate City --></label>
+        <name>SCMC__Corp_City__c</name>
+    </fields>
+    <fields>
+        <help>公司地址所在的国家</help>
+        <label><!-- Corporate Country --></label>
+        <name>SCMC__Corp_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Address Line 1 --></label>
+        <name>SCMC__Corp_Line1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Address Line 2 --></label>
+        <name>SCMC__Corp_Line2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Zip / Postal Code --></label>
+        <name>SCMC__Corp_PostalCode__c</name>
+    </fields>
+    <fields>
+        <help>输入公司所在州或省</help>
+        <label><!-- Corporate State/Province --></label>
+        <name>SCMC__Corp_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Credit Card Expiration Date --></label>
+        <name>SCMC__Credit_Card_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Credit Card Number --></label>
+        <name>SCMC__Credit_Card_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Credit Card Type --></label>
+        <name>SCMC__Credit_Card_Type__c</name>
+        <picklistValues>
+            <masterLabel>American Express</masterLabel>
+            <translation>美国运通</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discover</masterLabel>
+            <translation>发现</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Card</masterLabel>
+            <translation>万事达卡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visa</masterLabel>
+            <translation>签证</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>美国运通（AMEX）-AMEX的代码是信用卡号上方卡正面的四位数数字。 Visa-Visa的卡验证值（CVV）和万事达卡的验证码（CVC）是卡背面的三位数字。</help>
+        <label><!-- DEPRECATED: Credit Card Validation Code --></label>
+        <name>SCMC__Credit_Card_Validation_Code__c</name>
+    </fields>
+    <fields>
+        <help>帐户的货币。</help>
+        <label><!-- Currency --></label>
+        <name>SCMC__Currency__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>SCMC__CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>低</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>介质</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>输入此帐户的唯一ID。如果从外部系统检索RFQ，请使用外部系统分配的站点的值。</help>
+        <label><!-- Customer Site Id --></label>
+        <name>SCMC__Customer_Site_Id__c</name>
+    </fields>
+    <fields>
+        <help>如果此帐户是公司的总部，请选择总部。如果此帐户是公司的部门，请选择部门；如果此帐户是另一个帐户的子公司，则选择子公司。</help>
+        <label><!-- Customer Type --></label>
+        <name>SCMC__Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Division</masterLabel>
+            <translation>师</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head Quarters</masterLabel>
+            <translation>总部</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation>子公司</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>如果该帐户是SCM客户帐户，请选中此选项。</help>
+        <label><!-- Customer? --></label>
+        <name>SCMC__Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- DUNS Number --></label>
+        <name>SCMC__DUNS_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Address --></label>
+        <name>SCMC__Default_Address__c</name>
+    </fields>
+    <fields>
+        <help>选择客户首选的付款方式</help>
+        <label><!-- Default Payment Type --></label>
+        <name>SCMC__Default_Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation>信用卡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation>采购订单</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>输入此客户标准价格的折扣。</help>
+        <label><!-- Discount off Standard Price --></label>
+        <name>SCMC__Discount_off_Standard__c</name>
+    </fields>
+    <fields>
+        <label><!-- E-Mail --></label>
+        <name>SCMC__E_Mail__c</name>
+    </fields>
+    <fields>
+        <help>目的地，出发地，化学需氧量等</help>
+        <label><!-- FOB --></label>
+        <name>SCMC__FOB__c</name>
+    </fields>
+    <fields>
+        <help>帐单，预付款，收款等…</help>
+        <label><!-- Freight --></label>
+        <name>SCMC__Freight__c</name>
+    </fields>
+    <fields>
+        <help>输入呈现发票的Visualforce页面的名称。仅当您有此客户的特定发票时，才需要此发票</help>
+        <label><!-- Invoice Format --></label>
+        <name>SCMC__Invoice_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>SCMC__Language__c</name>
+    </fields>
+    <fields>
+        <help>如果从该帐户收到报价请求时您不希望返回任何内容，请选择此标志。</help>
+        <label><!-- No Response? --></label>
+        <name>SCMC__No_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>SCMC__NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <help>输入Visualforce页面的名称，该页面将呈现此帐户采用特定格式的装箱单。如果不需要客户特定的装箱单，则无需在此处输入任何内容。</help>
+        <label><!-- Packslip Format --></label>
+        <name>SCMC__Packslip_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms Name --></label>
+        <name>SCMC__Payment_Terms_Name__c</name>
+    </fields>
+    <fields>
+        <help>指定此帐户的默认付款条件</help>
+        <label><!-- Payment Terms --></label>
+        <name>SCMC__Payment_Terms__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>首选通信工具</help>
+        <label><!-- Preferred Communication --></label>
+        <name>SCMC__Preferred_Communication__c</name>
+        <picklistValues>
+            <masterLabel>E-Mail</masterLabel>
+            <translation>电子邮件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation>传真</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation>邮件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>电话</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>为客户和合作伙伴定义价格类型，该价格类型将控制项目的自动定价方式。</help>
+        <label><!-- Price Type --></label>
+        <name>SCMC__Price_Type__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>指示是否需要提前发运通知。</help>
+        <label><!-- Provide Advanced Ship Notice? --></label>
+        <name>SCMC__Provide_Advanced_Ship_Notice__c</name>
+    </fields>
+    <fields>
+        <help>如果您希望每当确认发货时就向该客户发送电子发票，请选中此框。</help>
+        <label><!-- Provide Electronic Invoice --></label>
+        <name>SCMC__Provide_Electronic_Invoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Temporary Hold --></label>
+        <name>SCMC__Reason_for_Temporary_Hold__c</name>
+    </fields>
+    <fields>
+        <help>该帐户的销售代表用户</help>
+        <label><!-- Sales Rep --></label>
+        <name>SCMC__Sales_Rep__c</name>
+        <relationshipLabel><!-- Accounts (Sales Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>通常负责此帐户的销售职责。</help>
+        <label><!-- Sales Responsibility --></label>
+        <name>SCMC__Sales_Responsibility__c</name>
+        <relationshipLabel><!-- Customer Sites (Sales Responsibility) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>首选承运人</help>
+        <label><!-- Ship Via --></label>
+        <name>SCMC__Ship_Via__c</name>
+    </fields>
+    <fields>
+        <help>输入运送给该客户时要使用的帐号。</help>
+        <label><!-- Shipping Account --></label>
+        <name>SCMC__Shipping_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Small Business Designations --></label>
+        <name>SCMC__Small_Business_Designations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Order Detail --></label>
+        <name>SCMC__Standard_Order_Detail__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Exemption Group --></label>
+        <name>SCMC__Tax_Exemption_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temporary Hold --></label>
+        <name>SCMC__Temporary_Hold__c</name>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation>质量</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>营业额</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Terms --></label>
+        <name>SCMC__Terms__c</name>
+    </fields>
+    <fields>
+        <help>如果从特定仓库分配了此客户的订单，请在此处指定该仓库。</help>
+        <label><!-- Warehouse --></label>
+        <name>SCMC__Warehouse__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TextFieldTest --></label>
+        <name>TextFieldTest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Contract Value --></label>
+        <name>Total_Contract_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Invoiced Amount --></label>
+        <name>Total_Invoiced_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Invoiced Hours --></label>
+        <name>Total_Invoiced_Hours__c</name>
+    </fields>
+    <fields>
+        <help>客户根据过去365天的付款平均支付的天数。将自动计算此字段中的值。</help>
+        <label><!-- Average Days to Pay --></label>
+        <name>c2g__AverageDaysToPay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Trading Currency --></label>
+        <name>c2g__CODAAccountTradingCurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accounts Payable Control --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAAccountsPayableControl__c</name>
+        <relationshipLabel><!-- Accounts (Accounts Payable Control Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accounts Receivable Control --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAAccountsReceivableControl__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Allow Deletion of Account in Use --></label>
+        <name>c2g__CODAAllowDeleteInUse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Name --></label>
+        <name>c2g__CODABankAccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Number --></label>
+        <name>c2g__CODABankAccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Reference --></label>
+        <name>c2g__CODABankAccountReference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank City --></label>
+        <name>c2g__CODABankCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Country --></label>
+        <name>c2g__CODABankCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Fax --></label>
+        <name>c2g__CODABankFax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank IBAN Number --></label>
+        <name>c2g__CODABankIBANNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Name --></label>
+        <name>c2g__CODABankName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Phone --></label>
+        <name>c2g__CODABankPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank SWIFT Number --></label>
+        <name>c2g__CODABankSWIFTNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Sort Code --></label>
+        <name>c2g__CODABankSortCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank State/Province --></label>
+        <name>c2g__CODABankStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Street --></label>
+        <name>c2g__CODABankStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Zip/Postal Code --></label>
+        <name>c2g__CODABankZipPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Date 1 --></label>
+        <name>c2g__CODABaseDate1__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>下个月底</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>发票日期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>下个月的开始</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Base Date 2 --></label>
+        <name>c2g__CODABaseDate2__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>下个月底</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>发票日期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>下个月的开始</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Base Date 3 --></label>
+        <name>c2g__CODABaseDate3__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>下个月底</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>发票日期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>下个月的开始</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Base Date 4 --></label>
+        <name>c2g__CODABaseDate4__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>下个月底</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>发票日期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>下个月的开始</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Validated --></label>
+        <name>c2g__CODABillingAddressIsValid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Method --></label>
+        <name>c2g__CODABillingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Electronic</masterLabel>
+            <translation>电子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper</masterLabel>
+            <translation>纸</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-billing</masterLabel>
+            <translation>自开票</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Credit Agency --></label>
+        <name>c2g__CODACreditAgency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit Enabled --></label>
+        <name>c2g__CODACreditLimitEnabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit Reviewed --></label>
+        <name>c2g__CODACreditLimitReviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit --></label>
+        <name>c2g__CODACreditLimit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Manager --></label>
+        <name>c2g__CODACreditManager__c</name>
+        <relationshipLabel><!-- Accounts (Credit Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating Reviewed --></label>
+        <name>c2g__CODACreditRatingReviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating --></label>
+        <name>c2g__CODACreditRating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Reference --></label>
+        <name>c2g__CODACreditReference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Status --></label>
+        <name>c2g__CODACreditStatus__c</name>
+        <picklistValues>
+            <masterLabel>Cash with Order</masterLabel>
+            <translation>现金订单</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Allowed</masterLabel>
+            <translation>信用额度</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation>等候接听</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 1 --></label>
+        <name>c2g__CODADaysOffset1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 2 --></label>
+        <name>c2g__CODADaysOffset2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 3 --></label>
+        <name>c2g__CODADaysOffset3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 4 --></label>
+        <name>c2g__CODADaysOffset4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Expense Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODADefaultExpenseAccount__c</name>
+        <relationshipLabel><!-- Accounts (Default Expense Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description 1 --></label>
+        <name>c2g__CODADescription1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description 2 --></label>
+        <name>c2g__CODADescription2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description 3 --></label>
+        <name>c2g__CODADescription3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description 4 --></label>
+        <name>c2g__CODADescription4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dimension 1 --></label>
+        <name>c2g__CODADimension1__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dimension 2 --></label>
+        <name>c2g__CODADimension2__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dimension 3 --></label>
+        <name>c2g__CODADimension3__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dimension 4 --></label>
+        <name>c2g__CODADimension4__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Discount 1 --></label>
+        <name>c2g__CODADiscount1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount 2 --></label>
+        <name>c2g__CODADiscount2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount 3 --></label>
+        <name>c2g__CODADiscount3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount 4 --></label>
+        <name>c2g__CODADiscount4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Country Code --></label>
+        <name>c2g__CODAECCountryCode__c</name>
+        <picklistValues>
+            <masterLabel>AE</masterLabel>
+            <translation>AE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT</masterLabel>
+            <translation>在</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AU</masterLabel>
+            <translation>AU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE</masterLabel>
+            <translation>是</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG</masterLabel>
+            <translation>BG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>CA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH</masterLabel>
+            <translation>CH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CY</masterLabel>
+            <translation>CY</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CZ</masterLabel>
+            <translation>CZ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation>DE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK</masterLabel>
+            <translation>DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EE</masterLabel>
+            <translation>EE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL</masterLabel>
+            <translation>EL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES</masterLabel>
+            <translation>ES</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation>FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FR</masterLabel>
+            <translation>FR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GB</masterLabel>
+            <translation>GB</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GR</masterLabel>
+            <translation>GR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HK</masterLabel>
+            <translation>HK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HU</masterLabel>
+            <translation>胡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IE</masterLabel>
+            <translation>IE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>它</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LT</masterLabel>
+            <translation>LT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LU</masterLabel>
+            <translation>鲁</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LV</masterLabel>
+            <translation>LV</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation>公吨</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY</masterLabel>
+            <translation>MY</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL</masterLabel>
+            <translation>NL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation>没有</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ</masterLabel>
+            <translation>NZ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PL</masterLabel>
+            <translation>PL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT</masterLabel>
+            <translation>PT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RO</masterLabel>
+            <translation>RO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE</masterLabel>
+            <translation>SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SG</masterLabel>
+            <translation>SG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation>SI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SK</masterLabel>
+            <translation>SK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation>我们</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZA</masterLabel>
+            <translation>ZA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Entity / Use Code --></label>
+        <name>c2g__CODAEntityUseCode__c</name>
+        <picklistValues>
+            <masterLabel>A - Federal government - United States</masterLabel>
+            <translation>A - 联邦政府 - 美国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B - State government - United States</masterLabel>
+            <translation>B - 州政府 - 美国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C - Tribe / Status Indian / Indian Band - both</masterLabel>
+            <translation>C - Tribe / Status印度/印度乐队 - 两者兼而有之</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D - Foreign diplomat - both</masterLabel>
+            <translation>D - 外交官 - 两者兼而有之</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E - Charitable or benevolent org - both</masterLabel>
+            <translation>E - 慈善或仁慈的组织 - 两者兼而有之</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F - Religious or educational org - both</masterLabel>
+            <translation>F - 宗教或教育组织 - 两者兼而有之</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G - Resale - both</masterLabel>
+            <translation>G - 转售 - 两者兼而有之</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H - Commercial agricultural production - both</masterLabel>
+            <translation>H - 商业农业生产 - 两者兼而有之</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I - Industrial production / manufacturer - both</masterLabel>
+            <translation>我 - 工业生产/制造商 - 两者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J - Direct pay permit - United States</masterLabel>
+            <translation>J - 直接支付许可证 - 美国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K - Direct mail - United States</masterLabel>
+            <translation>K - 直邮 - 美国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L - Other - both</masterLabel>
+            <translation>L - 其他 - 两者兼而有之</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N - Local government - United States</masterLabel>
+            <translation>N - 地方政府 - 美国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P - Commercial aquaculture - Canada</masterLabel>
+            <translation>P - 商业水产养殖 - 加拿大</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q - Commercial Fishery - Canada</masterLabel>
+            <translation>Q - 商业渔业 - 加拿大</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R - Non-resident - Canada</masterLabel>
+            <translation>R - 非居民 - 加拿大</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exemption Certificate --></label>
+        <name>c2g__CODAExemptionCertificate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>c2g__CODAExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Federally Reportable 1099 --></label>
+        <name>c2g__CODAFederallyReportable1099__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Contact --></label>
+        <name>c2g__CODAFinanceContact__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Income Tax Type --></label>
+        <name>c2g__CODAIncomeTaxType__c</name>
+        <picklistValues>
+            <masterLabel>1 - Rents</masterLabel>
+            <translation>1 - 租金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Crop Insurance Proceeds</masterLabel>
+            <translation>10 - 作物保险收益</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 - Unused 11</masterLabel>
+            <translation>11 - 未使用11</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 - Unused 12</masterLabel>
+            <translation>12 - 未使用12</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 - Excess Golden Parachute Payments</masterLabel>
+            <translation>13 - 超额黄金降落伞付款</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 - Gross Proceeds Paid to an Attorney</masterLabel>
+            <translation>14 - 向律师支付的总收益</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Royalties</masterLabel>
+            <translation>2 - 特许权使用费</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Other Income</masterLabel>
+            <translation>3 - 其他收入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Federal Income Tax Withheld</masterLabel>
+            <translation>4 - 扣缴联邦所得税</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Fishing Boat Proceeds</masterLabel>
+            <translation>5 - 渔船收益</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Medical and Healthcare Payments</masterLabel>
+            <translation>6 - 医疗和医疗保健支付</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Nonemployee Compensation</masterLabel>
+            <translation>7 - 非员工补偿</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 - Substitute Payments in Lieu of Dividends or Interest</masterLabel>
+            <translation>8 - 代替股息或利息的替代付款</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 - Payer Made Direct Sales of 5000 or More</masterLabel>
+            <translation>9 - 付款人直接销售5000或以上</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Reportable</masterLabel>
+            <translation>不可报告</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Input VAT/GST Code --></label>
+        <name>c2g__CODAInputVATCode__c</name>
+        <relationshipLabel><!-- Accounts (Input VAT/GST Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Intercompany Account --></label>
+        <name>c2g__CODAIntercompanyAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Email --></label>
+        <name>c2g__CODAInvoiceEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Id --></label>
+        <name>c2g__CODAMergeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output VAT/GST Code --></label>
+        <name>c2g__CODAOutputVATCode__c</name>
+        <relationshipLabel><!-- Accounts (Output VAT/GST Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>c2g__CODAPaymentMethod__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation>现金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation>校验</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronic</masterLabel>
+            <translation>电子</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reporting Code --></label>
+        <name>c2g__CODAReportingCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Tax Status --></label>
+        <name>c2g__CODASalesTaxStatus__c</name>
+        <picklistValues>
+            <masterLabel>Exempt</masterLabel>
+            <translation>豁免</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt for Qualifying Products</masterLabel>
+            <translation>免除合格产品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable</masterLabel>
+            <translation>应税</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address Validated --></label>
+        <name>c2g__CODAShippingAddressIsValid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Calculation Method --></label>
+        <name>c2g__CODATaxCalculationMethod__c</name>
+        <picklistValues>
+            <masterLabel>Gross</masterLabel>
+            <translation>毛</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net of Discount</masterLabel>
+            <translation>折扣净额</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax Code 1 --></label>
+        <name>c2g__CODATaxCode1__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Code 2 --></label>
+        <name>c2g__CODATaxCode2__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Code 3 --></label>
+        <name>c2g__CODATaxCode3__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Taxpayer Identification Number --></label>
+        <name>c2g__CODATaxpayerIdentificationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Registration Number --></label>
+        <name>c2g__CODAVATRegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Status --></label>
+        <name>c2g__CODAVATStatus__c</name>
+        <picklistValues>
+            <masterLabel>EC Non-registered</masterLabel>
+            <translation>EC未注册</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EC Registered</masterLabel>
+            <translation>EC已注册</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export</masterLabel>
+            <translation>出口</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>家</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingCity --></label>
+        <name>c2g__CODAValidatedBillingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingCountry --></label>
+        <name>c2g__CODAValidatedBillingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingPostCode --></label>
+        <name>c2g__CODAValidatedBillingPostCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingState --></label>
+        <name>c2g__CODAValidatedBillingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingStreet --></label>
+        <name>c2g__CODAValidatedBillingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingCity --></label>
+        <name>c2g__CODAValidatedShippingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingCountry --></label>
+        <name>c2g__CODAValidatedShippingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingPostCode --></label>
+        <name>c2g__CODAValidatedShippingPostCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingState --></label>
+        <name>c2g__CODAValidatedShippingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingStreet --></label>
+        <name>c2g__CODAValidatedShippingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collections On Hold Reason --></label>
+        <name>c2g__CollectionsOnHoldReason__c</name>
+        <picklistValues>
+            <masterLabel>Account in dispute</masterLabel>
+            <translation>有争议的帐户</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice in dispute</masterLabel>
+            <translation>发票有争议</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Collections On Hold --></label>
+        <name>c2g__CollectionsOnHold__c</name>
+    </fields>
+    <fields>
+        <help>根据过去365天内的销售和付款，在销售完成后收取付款所需的平均天数。将自动计算此字段中的值。</help>
+        <label><!-- Days Sales Outstanding (Annual) --></label>
+        <name>c2g__DaysSalesOutstanding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Culture --></label>
+        <name>ffaci__CurrencyCulture__c</name>
+    </fields>
+    <fields>
+        <help>查找要用于帐单地址的Salesforce帐户。</help>
+        <label><!-- Billing Account --></label>
+        <name>ffbc__BillingAccount__c</name>
+        <relationshipLabel><!-- Related Billing Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Particulars --></label>
+        <name>ffbf__AccountParticulars__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank BIC --></label>
+        <name>ffbf__BankBIC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Code --></label>
+        <name>ffbf__PaymentCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Country ISO --></label>
+        <name>ffbf__PaymentCountryISO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Priority --></label>
+        <name>ffbf__PaymentPriority__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation>大号</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation>ñ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U</masterLabel>
+            <translation>ü</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Routing Method --></label>
+        <name>ffbf__PaymentRoutingMethod__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation>C</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>帐户的免税证明。如果您不需要为该帐户征税，并且您的财务团队手动跟踪和验证免税证书，请输入一个值。</help>
+        <label><!-- Exemption Certificate --></label>
+        <name>fferpcore__ExemptionCertificate__c</name>
+    </fields>
+    <fields>
+        <help>指示是否已根据外部税务计算服务中的地址验证帐单邮寄地址。</help>
+        <label><!-- Billing Address Validated --></label>
+        <name>fferpcore__IsBillingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <help>指示是否已根据外部税计算服务中的地址验证送货地址。</help>
+        <label><!-- Shipping Address Validated --></label>
+        <name>fferpcore__IsShippingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Validated Reference --></label>
+        <name>fferpcore__MaterializedBillingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address Validated Reference --></label>
+        <name>fferpcore__MaterializedShippingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <help>在增值税或商品及服务税公司计算税项时使用的税码。</help>
+        <label><!-- Output VAT/GST Code --></label>
+        <name>fferpcore__OutputVatCode__c</name>
+        <relationshipLabel><!-- Accounts (Output VAT/GST Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>SUT公司此帐户的纳税身份。</help>
+        <label><!-- Sales Tax Status --></label>
+        <name>fferpcore__SalesTaxStatus__c</name>
+        <picklistValues>
+            <masterLabel>Exempt</masterLabel>
+            <translation>豁免</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt for Qualifying Products</masterLabel>
+            <translation>免除合格产品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable</masterLabel>
+            <translation>应税</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>此帐户的第一个SUT税码。</help>
+        <label><!-- Tax Code 1 --></label>
+        <name>fferpcore__TaxCode1__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>此帐户的第二个SUT税码。</help>
+        <label><!-- Tax Code 2 --></label>
+        <name>fferpcore__TaxCode2__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>此帐户的第三个SUT税码。</help>
+        <label><!-- Tax Code 3 --></label>
+        <name>fferpcore__TaxCode3__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>此帐户的国家/地区代码。这是在欧盟内跨境贸易中正确报告增值税所必需的。</help>
+        <label><!-- Tax Country Code --></label>
+        <name>fferpcore__TaxCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing City --></label>
+        <name>fferpcore__ValidatedBillingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing Country --></label>
+        <name>fferpcore__ValidatedBillingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing Zip/Postal Code --></label>
+        <name>fferpcore__ValidatedBillingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing State/Province --></label>
+        <name>fferpcore__ValidatedBillingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing Street --></label>
+        <name>fferpcore__ValidatedBillingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping City --></label>
+        <name>fferpcore__ValidatedShippingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping Country --></label>
+        <name>fferpcore__ValidatedShippingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping Zip/Postal Code --></label>
+        <name>fferpcore__ValidatedShippingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping State/Province --></label>
+        <name>fferpcore__ValidatedShippingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping Street --></label>
+        <name>fferpcore__ValidatedShippingStreet__c</name>
+    </fields>
+    <fields>
+        <help>识别用于税收目的的号码。</help>
+        <label><!-- Tax Registration Number --></label>
+        <name>fferpcore__VatRegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <help>增值税/商品及服务税帐户的此帐户的纳税身份。</help>
+        <label><!-- Tax Status --></label>
+        <name>fferpcore__VatStatus__c</name>
+        <picklistValues>
+            <masterLabel>EC Non-registered</masterLabel>
+            <translation>EC未注册</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EC Registered</masterLabel>
+            <translation>EC已注册</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export</masterLabel>
+            <translation>出口</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>家</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>如果选中，则会将所有现有结算事件项添加到现有结算事件，而不是创建新的结算事件。</help>
+        <label><!-- Add BEIs To Existing Batches --></label>
+        <name>pse__Add_BEIs_To_Existing_Batches__c</name>
+    </fields>
+    <fields>
+        <help>这将记录在Foundations系统中使用的工作人员相关密钥。</help>
+        <label><!-- Foundations Worker Correlation --></label>
+        <name>pse__ERP_Worker_Correlation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Billing Time Period Type --></label>
+        <name>pse__Services_Billing_Time_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation>月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation>25美分硬币</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation>周</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation>年</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Customer Contracts and Invoices numbers --></label>
+            <section>Customer Contracts and Invoices numbers</section>
+        </sections>
+        <sections>
+            <label>SUT税务信息</label>
+            <section>SUT Tax Information</section>
+        </sections>
+        <sections>
+            <label>VAT / GST纳税信息</label>
+            <section>VAT/GST Tax Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account SCM</layout>
+        <sections>
+            <label><!-- Classification Information --></label>
+            <section>Classification Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Standard Order --></label>
+            <section>Standard Order</section>
+        </sections>
+        <sections>
+            <label><!-- Trade Information --></label>
+            <section>Trade Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FinancialForce Account Layout</layout>
+        <sections>
+            <label><!-- Account Balance --></label>
+            <section>Account Balance</section>
+        </sections>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Bank Details --></label>
+            <section>Bank Details</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Management Information --></label>
+            <section>Credit Management Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms --></label>
+            <section>Credit Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dimension Analysis --></label>
+            <section>Dimension Analysis</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Correspondence --></label>
+            <section>Finance Correspondence</section>
+        </sections>
+        <sections>
+            <label><!-- Sales &amp; Use Tax Information --></label>
+            <section>Sales &amp; Use Tax Information</section>
+        </sections>
+        <sections>
+            <label><!-- VAT/GST Information --></label>
+            <section>VAT/GST Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FinancialForce Account Layout (community)</layout>
+        <sections>
+            <label>自定义链接</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>字段</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Validate Billing Address --></label>
+        <name>fferpcore__ValidateBillingAddress</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Validate Shipping Address --></label>
+        <name>fferpcore__ValidateShippingAddress</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- This Account is in use by FinancialForce Accounting. You cannot change its currency. --></errorMessage>
+        <name>Lock_Account_Currency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot set up an Account with Auto Quote and No Response --></errorMessage>
+        <name>SCMC__Both_Auto_Quote_No_Response_Checked</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions --></label>
+        <name>MC4SF__MailChimp_Subscriptions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateBillingAddress --></label>
+        <name>c2g__CODAValidateBillingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateCustomer --></label>
+        <name>c2g__CODAValidateCustomer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateShippingAddress --></label>
+        <name>c2g__CODAValidateShippingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateVendor --></label>
+        <name>c2g__CODAValidateVendor</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CashMatching --></label>
+        <name>c2g__CashMatching</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ValidateBillingAddress --></label>
+        <name>fferpcore__ValidateBillingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ValidateShippingAddress --></label>
+        <name>fferpcore__ValidateShippingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Account_Billing --></label>
+        <name>pse__Account_Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Change_Request --></label>
+        <name>pse__Create_Change_Request</name>
+    </webLinks>
+</CustomObjectTranslation>

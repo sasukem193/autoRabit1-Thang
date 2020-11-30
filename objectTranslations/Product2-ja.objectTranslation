@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Allow Deletion of Product in Use --></label>
+        <name>c2g__CODAAllowDeleteInUse__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>c2g__CODAExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deprecated: Include in Income Schedule --></label>
+        <name>c2g__CODAIncludeInIncomeSchedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Income Schedule --></label>
+        <name>c2g__CODAIncomeSchedule__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Input VAT/GST Code --></label>
+        <name>c2g__CODAInputTaxCode__c</name>
+        <relationshipLabel><!-- Products (Purchase Tax Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Analysis Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAPurchaseAnalysisAccount__c</name>
+        <relationshipLabel><!-- Products (Purchase Analysis Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Revenue Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODASalesRevenueAccount__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Tax Code --></label>
+        <name>c2g__CODASalesTaxRule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Tax Status --></label>
+        <name>c2g__CODASalesTaxStatus__c</name>
+        <picklistValues>
+            <masterLabel>Exempt</masterLabel>
+            <translation>免除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt for Qualifying Accounts</masterLabel>
+            <translation>対象アカウントの免除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable</masterLabel>
+            <translation>課税対象</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Output VAT/GST Code --></label>
+        <name>c2g__CODATaxCode__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deprecated: XXX Email --></label>
+        <name>c2g__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT/GST Place of Supply Rules --></label>
+        <name>c2g__PlaceOfSupply__c</name>
+        <picklistValues>
+            <masterLabel>With Account</masterLabel>
+            <translation>アカウントあり</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>With Customer</masterLabel>
+            <translation>お客様と</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VAT/GST Reverse Charge --></label>
+        <name>c2g__ReverseCharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Type --></label>
+        <name>ffbc__BillingType__c</name>
+        <picklistValues>
+            <masterLabel>One-off</masterLabel>
+            <translation>一回限り</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Fixed</masterLabel>
+            <translation>定期的な修正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Variable</masterLabel>
+            <translation>繰り返し変数</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>SUT会社に対するこの製品の税ステータス。</help>
+        <label><!-- Sales Tax Status --></label>
+        <name>fferpcore__SalesTaxStatus__c</name>
+        <picklistValues>
+            <masterLabel>Exempt</masterLabel>
+            <translation>免除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt for Qualifying Accounts</masterLabel>
+            <translation>対象アカウントの免除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable</masterLabel>
+            <translation>課税対象</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>VAT会社またはGST会社で税を計算するときに使用される税コード。</help>
+        <label><!-- Output VAT/GST Code --></label>
+        <name>fferpcore__TaxCode__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revenue Recognition Account --></label>
+        <name>ffrr_exa__RevenueRecognitionAccount__c</name>
+        <relationshipLabel><!-- Products (Revenue Recognition Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Forecast Curve --></label>
+        <name>pse__Forecast_Curve__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsServicesProduct --></label>
+        <name>pse__IsServicesProduct__c</name>
+    </fields>
+    <layouts>
+        <layout>FinancialForce Product Layout</layout>
+        <sections>
+            <label>会計情報</label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>フィールド</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>スケジュール</label>
+            <section>Schedules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>フィールド</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

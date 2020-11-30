@@ -1,0 +1,208 @@
+<!-- sfdcmonkey.com || Date 12/07/2017 || API Version 41.0 || Parent Component-->
+<aura:component controller="inlineEditCtrl" implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:appHostable">   
+    <!--Init handler which is call initRecords js function on component Load-->  
+    <aura:handler name="init" value="{!this}" action="{!c.initRecords}"/>
+    <!--Event handler for Add and Delete Row Event which is fire from Child Component-->    
+    <aura:handler name="DeleteRowEvt" event="c:DeleteRowEvt" action="{!c.removeDeletedRow}"/>
+    <aura:handler name="AddRowEvt" event="c:AddNewRowEvt" action="{!c.addNewRow}"/>
+    
+    <!--declare aura attributes-->
+    <aura:attribute name="CostingList" type="Costing__C[]" description="store account records list"/>
+    <aura:attribute name="deletedList" type="Costing__C[]" description="store deleted list"/>
+    <aura:attribute name="DetailList" type="Costing__C[]" description="store account records list"/>
+    <aura:attribute name="showSaveCancelBtn" type="boolean" default="false" description="flag for rendered save and cancel buttons in aura:if "/>
+    <aura:attribute name="showEditSaveCancelBtn" type="boolean" default="false" description="flag for rendered save and cancel buttons in aura:if "/>
+    <aura:attribute name="newRowMode" type="boolean" default="false"/>    
+    <aura:attribute name="editModeBtn" type="boolean" default="false" description="flag for rendered save and cancel buttons in aura:if "/>
+    <aura:attribute name="HideSpinner" type="Boolean" default="false"/>
+    <aura:attribute name="saveEditStatus" type="Boolean" default="false"/>
+    <aura:attribute name="saveRowStatus" type="Boolean" default="false"/>
+    <aura:attribute name="emptyList" type="Boolean" default="false"/>
+    <aura:attribute name="record" type="Project_Costing__c"/>
+
+    <aura:attribute name="recordError" type="String"/>
+    <aura:attribute name="noOfRecords" type="Decimal"/>
+
+    
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="property" type="Costing__c" />
+    <aura:attribute name="brokerFields" type="String[]" default="Name" />
+    
+    
+    <aura:attribute name="contactList" type="Contact[]"/>
+    <aura:attribute name="newCostingList" type="Costing__c[]"/>
+
+    
+    
+    <aura:attribute name="headerTitle" type="Aura.Component[]">
+        <div class="slds-card__header-title">
+            <h2>
+                <b>Costings ({!v.noOfRecords})
+                </b>
+            </h2>	
+        </div>
+    </aura:attribute>
+    
+    
+    
+    
+    
+    <!--    <force:recordData aura:id="recordLoader"
+                      layoutType="FULL"
+      recordId="{!v.recordId}"
+      targetFields="{!v.simpleRecord}"
+                      targetError="{!v.recordError}"
+                      mode="VIEW"
+
+      />-->
+    <div class="slds-align_absolute-center slds-p-around_medium">
+        
+    </div>
+    
+    
+    <lightning:card iconName="action:new_group" class="slds-card slds-card_boundary" >
+        
+        <aura:set attribute="title">
+            {!v.headerTitle}
+            <!--            <b>            <a onclick="{!c.onClick}">{!v.headerTitle}</a></b>-->
+        </aura:set>
+        <aura:set attribute="actions">
+            <!-- New button added -->
+            
+            
+            
+            <lightning:button label="Edit" onclick="{!c.toggleEdit}" />
+            
+            <!--<lightning:button label="Bleh" onclick="{!c.newContact}" />-->
+            <lightning:button label="New" onclick="{!c.addNewRow}" />
+            
+            <aura:if isTrue="{!v.showSaveCancelBtn}">
+                <!--button for save and cancel Record after Inline Edit-->
+                
+                <lightning:button label="Cancel" onclick="{!c.cancel}"/>
+                <lightning:button label="Save" onclick="{!c.allSave}" class="slds-button slds-button_brand"/>
+                
+            </aura:if> 
+        </aura:set>
+        
+        <div class="slds-m-around_large">
+            <aura:renderIf isTrue="{!v.HideSpinner}">
+                <div class="slds-spinner_container" >
+                    <div class="slds-spinner--brand slds-spinner slds-spinner--large" role="alert">
+                        <span class="slds-assistive-text">Loading, Please Wait...</span>
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                    </div>
+                </div>
+            </aura:renderIf>
+            
+            <!--Data Table-->     
+            <table  style="width: 100%;" class="slds-table slds-table_bordered slds-max-medium-table_stacked-horizontal slds-table_striped slds-card_boundary">
+                <thead>
+                    
+                    <tr class="slds-text-title--caps">
+                        <!--<th width = "10px" scope="col"><div class="slds-truncate" title="Id">S.No</div></th> -->
+                        <th width = "40px" scope="col"><div class="slds-truncate" title="Account Namee">Role</div></th>
+                        <th width = "6%" scope="col"><div class="slds-truncate" title="Sample">Level</div></th>
+                        <th width = "10px" scope="col"><div class="slds-truncate" title="Website">Cost</div></th>
+                        <th width = "10px" scope="col"><div class="slds-truncate" title="Website">45% Ref</div></th>
+                        <th width = "6%" scope="col"><div class="slds-truncate" title="Website">Sales Rate</div></th>
+                        <th width = "10px" scope="col"><div class="slds-truncate" title="Website">Architect</div></th>
+                        <th width = "10px" scope="col"><div class="slds-truncate" title="Website">Construct</div></th>
+                        <th width = "10px" scope="col"><div class="slds-truncate" title="Website">Validate</div></th>
+                        <th width = "10px" scope="col"><div class="slds-truncate" title="Website">Deploy</div></th>
+                        <th width = "10px" scope="col"><div class="slds-truncate" title="Website">Support</div></th>
+                        <th width = "10px" scope="col"><div class="slds-truncate" title="Website">Total Days</div></th>
+                        <th width = "10px" scope="col"><div class="slds-truncate" title="Website">Total Hours</div></th>
+                        <th width = "10px" scope="col"><div class="slds-truncate" title="Website">Total Price</div></th>
+                        
+                        <!--<th scope="col"><div class="slds-truncate" title="Rating">Ratingggg</div></th>-->
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <!--### display all records of AccountList attribute one by one by aura:iteration ###-->
+                    <aura:iteration items="{!v.CostingList}" var="acc" indexVar="sNo">
+                        <!-- Child Lightning Component --> 
+                        <c:inlineEditRow singleRec="{!acc}"
+                                         showSaveCancelBtn="{!v.showSaveCancelBtn}"
+                                         editMode="{!v.editModeBtn}"
+                                         HideSpinner="{!v.HideSpinner}"                                         
+                                         sNo="{!sNo + 1}" />
+                    </aura:iteration>
+                </tbody>
+                
+                <tbody id="tbodyid">
+                    <!--Iterate the child Component for display Table rows 
+               with pass the List Item Index for track the Every child Component 
+               and pass each List Contact Instance -->         
+                    <aura:iteration items="{!v.newCostingList}" var="item" indexVar="index">
+                        <c:dynamicRowItem CostingInstance="{!item}" 
+                                          rowIndex="{!index}" 
+                                          editMode="{!v.editModeBtn}"/>
+                    </aura:iteration>
+
+                </tbody>
+                
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <aura:if isTrue="{!v.showEditSaveCancelBtn}"> 
+                                <div class="slds-float_right">
+                                    <lightning:button label="Cancel" onclick="{!c.cancel}"/>
+                                    
+                                </div>
+                            </aura:if> 
+                            
+                        </td>
+                        
+                        <td>
+                            <aura:if isTrue="{!v.showEditSaveCancelBtn}"> 
+                                <a onclick="{!c.saveNew}">
+                                    <lightning:icon iconName="utility:save" class="slds-icon slds-icon_small" size="small" alternativeText="icon"/>
+                                    <span class="slds-assistive-text">Delete Icon</span>
+                                </a>
+                            </aura:if>  
+                        </td>
+                    </tr>
+                    
+                </tfoot>
+                
+                <!--button for save and cancel Record after Inline Edit-->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </table>
+            <aura:if isTrue="{!v.emptyList}"> 
+                <i>There are no costing records found.</i>
+            </aura:if> 
+            
+        </div>
+        <aura:if isTrue="{!v.showSaveCancelBtn}"> 
+            <div class="slds-button-group slds-align_absolute-center" role="group" style="height: 0.65rem;">
+                <lightning:button label="Cancel" onclick="{!c.cancel}"/>
+                <lightning:button label="Save" onclick="{!c.allSave}" class="slds-button slds-button_brand"/>
+            </div>
+        </aura:if>  
+        
+    </lightning:card>
+</aura:component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>OpptPath</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;PO or contract signature in placer.&lt;/p&gt;</info>
+        <picklistValueName>Closed Won</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Engagement with decision maker, differentiation from competitors.&lt;/p&gt;</info>
+        <picklistValueName>Develop Proposal</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Contact with interest in our solutions.&lt;/p&gt;</info>
+        <picklistValueName>Lead</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Everything is formally agreed with customer.&lt;/p&gt;</info>
+        <picklistValueName>PO in Progress</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Customer is actually planning to start a project; budget, timeline is available.&lt;/p&gt;</info>
+        <picklistValueName>Qualify Opportunity</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Timeline agreed with customer, proposal is sent.&lt;/p&gt;</info>
+        <picklistValueName>Secure &amp; Negotiate</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Budget matches our estimate, our offering provides real value.&lt;/p&gt;</info>
+        <picklistValueName>Validate Offering</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,25 @@
+.THIS .inputFieldWidth {
+    width:85%;
+}
+
+.THIS a:link{
+    color: rgb(0, 109, 204);
+
+}
+
+.THIS a:visited{
+    color: rgb(0, 109, 204);
+
+}
+
+.THIS a:hover{
+    color: red;
+background:""; text-decoration: none
+}
+
+
+a:hover.THIS{
+    color: red;
+  background: #FFCC00; text-decoration: none
+  
+}

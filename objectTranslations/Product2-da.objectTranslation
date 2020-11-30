@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Allow Deletion of Product in Use --></label>
+        <name>c2g__CODAAllowDeleteInUse__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>c2g__CODAExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deprecated: Include in Income Schedule --></label>
+        <name>c2g__CODAIncludeInIncomeSchedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Income Schedule --></label>
+        <name>c2g__CODAIncomeSchedule__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Input VAT/GST Code --></label>
+        <name>c2g__CODAInputTaxCode__c</name>
+        <relationshipLabel><!-- Products (Purchase Tax Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Analysis Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAPurchaseAnalysisAccount__c</name>
+        <relationshipLabel><!-- Products (Purchase Analysis Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Revenue Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODASalesRevenueAccount__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Tax Code --></label>
+        <name>c2g__CODASalesTaxRule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Tax Status --></label>
+        <name>c2g__CODASalesTaxStatus__c</name>
+        <picklistValues>
+            <masterLabel>Exempt</masterLabel>
+            <translation>Fritaget</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt for Qualifying Accounts</masterLabel>
+            <translation>Fritaget for kvalificerende regnskaber</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable</masterLabel>
+            <translation>Skattepligtig</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Output VAT/GST Code --></label>
+        <name>c2g__CODATaxCode__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deprecated: XXX Email --></label>
+        <name>c2g__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT/GST Place of Supply Rules --></label>
+        <name>c2g__PlaceOfSupply__c</name>
+        <picklistValues>
+            <masterLabel>With Account</masterLabel>
+            <translation>Med konto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>With Customer</masterLabel>
+            <translation>Med kunden</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VAT/GST Reverse Charge --></label>
+        <name>c2g__ReverseCharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Type --></label>
+        <name>ffbc__BillingType__c</name>
+        <picklistValues>
+            <masterLabel>One-off</masterLabel>
+            <translation>One-off</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Fixed</masterLabel>
+            <translation>Tilbagevendende Fixed</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Variable</masterLabel>
+            <translation>Tilbagevendende variabel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Skat status for dette produkt til SUT virksomheder.</help>
+        <label><!-- Sales Tax Status --></label>
+        <name>fferpcore__SalesTaxStatus__c</name>
+        <picklistValues>
+            <masterLabel>Exempt</masterLabel>
+            <translation>Fritaget</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt for Qualifying Accounts</masterLabel>
+            <translation>Fritaget for kvalificerende regnskaber</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable</masterLabel>
+            <translation>Skattepligtig</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Den skattekode, der skal anvendes ved beregning af skat i et moms- eller GST-selskab.</help>
+        <label><!-- Output VAT/GST Code --></label>
+        <name>fferpcore__TaxCode__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revenue Recognition Account --></label>
+        <name>ffrr_exa__RevenueRecognitionAccount__c</name>
+        <relationshipLabel><!-- Products (Revenue Recognition Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Forecast Curve --></label>
+        <name>pse__Forecast_Curve__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsServicesProduct --></label>
+        <name>pse__IsServicesProduct__c</name>
+    </fields>
+    <layouts>
+        <layout>FinancialForce Product Layout</layout>
+        <sections>
+            <label>Regnskabsoplysninger</label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label>Brugerdefinerede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Felter</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Tidsplaner</label>
+            <section>Schedules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product Layout</layout>
+        <sections>
+            <label>Brugerdefinerede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Felter</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,105 @@
+<aura:component controller="ganttChart" access="GLOBAL" implements="force:hasRecordId,forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForAllPageTypes">
+<!--    <ltng:require scripts="{!join(',',$Resource.Amchart + '/amcharts/amcharts.js', $amcharts.Amchart + '/amcharts/serial.js',$Resource.Amchart + '/amcharts/themes/light.js', $Resource.Amchart + '/amcharts/plugins/export/export.js',$Resource.Amchart + '/amcharts/gantt.js',$Resource.Amchart + '/amcharts/gauge.js',$Resource.Amchart + '/amcharts/pie.js',$Resource.Amchart + '/amcharts/radar.js',$Resource.Amchart + '/amcharts/xy.js',$amcharts.Amchart + '/amcharts/funnel.js')}"  afterScriptsLoaded="{!c.scriptsLoaded}" />-->
+    <ltng:require scripts="{!join(',',$Resource.Amchart + '/amcharts/amcharts.js', $Resource.Amchart + '/amcharts/serial.js',$Resource.Amchart + '/amcharts/themes/light.js', $Resource.Amchart + '/amcharts/plugins/export/export.js', $Resource.Amchart + '/amcharts/gantt.js',$Resource.Amchart + '/amcharts/gauge.js',$Resource.Amchart + '/amcharts/pie.js',$Resource.Amchart + '/amcharts/radar.js',$Resource.Amchart + '/amcharts/xy.js',$Resource.Amchart + '/amcharts/funnel.js')}"  afterScriptsLoaded="{!c.initRecords}" />
+    <!--<aura:handler name="init" value="{!this}" action="{!c.initRecords}"/>-->
+
+  
+
+    <aura:attribute name="scriptsLoaded" type="Boolean" default="{!false}"/>
+    <aura:attribute name="chartRendered" type="Boolean" default="{!false}"/>
+    <aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name="Architect" type="Integer" default="0"/>
+    <aura:attribute name="Construct" type="Integer" default="0"/>
+    <aura:attribute name="Validate" type="Integer" default="0"/>
+    <aura:attribute name="Deploy" type="Integer" default="0"/>
+    <aura:attribute name="Support" type="Integer" default="0"/>
+    <aura:attribute name="weeks" type="Integer"/>
+    <aura:attribute name="months" type="Integer"/>
+    <aura:attribute name="name" type="String"/>
+    <aura:attribute name="backgroundColor" type="String"/>
+    <aura:attribute name="axisConfig" type="String"/>
+    <aura:attribute name="showTitle" type="Boolean"/>
+    <aura:attribute name="showAxisLabels" type="Boolean"/>
+    <aura:attribute name="yAxisLabel" type="String"/>
+    <aura:attribute name="xAxisLabel" type="String"/>
+    <aura:attribute name="durationSettings" type="String"/>
+
+
+    <aura:attribute name="type" type="String" required="{!true}" default="gantt" description="Type of the chart user wants to render."/>
+    <aura:attribute name="data" type="Object" required="{!true}" description="The data used by chart to render."/>
+    <aura:attribute name="bullettype" type="String" required="{!true}" description="The bullet shape used in the chart."/>
+    <aura:attribute name="bullettextposition" type="String" required="{!true}" description="The position of the text to be displayed for a bullet shape."/>
+    <aura:attribute name="bullettext" type="String" required="{!true}" description="The value to be displayed as text for a bullet shape."/>
+    <aura:attribute name="bulletballoonttext" type="String" required="{!true}" description="Controlling the hovering and text to be displayed on bullet."/>
+    <aura:attribute name="linecolor" type="String" required="{!true}" description="The line color of chart to be displayed."/>
+    <aura:attribute name="charttitle" type="String" required="{!true}" description="The chart title to be dispalyed."/>
+    <aura:attribute name="xaxistitle" type="String" required="{!true}" description="The X-axis text to be dispalyed."/>
+    <aura:attribute name="yaxistitle" type="String" required="{!true}" description="The Y-axis text to be dispalyed."/>
+    <aura:attribute name="gaugeValue" type="Integer" required="{!true}" description="The gauge value."/>
+    <aura:attribute name="gaugebottomText" type="String" required="{!true}" description="The gauge chart bottom text."/>
+    <aura:attribute name="gaugeEndValue" type="Integer" required="{!true}" description="The gauge chart end value."/>
+    <aura:attribute name="gaugeValueInterval" type="Integer" required="{!true}" description="The gauge chart interval value."/>
+    <aura:attribute name="gaugeChartText" type="String" required="{!true}" description="The gauge chart title text value."/>
+    
+    <aura:attribute name="bubbleColor" type="String" required="{!true}" description="The bubble color to be dispalyed."/>
+    <aura:attribute name="bubbletype" type="String" required="{!true}" description="The bubble shape to be dispalyed."/>
+    <aura:attribute name="bubbleline" type="Integer" required="{!true}" description="The bubble line to be dispalyed."/>
+    
+    <aura:attribute name="linesecondcolor" type="String" required="{!true}" description="The second colour for the stacked chart."/>
+    
+    <aura:attribute name="ganttMarginRight" type="Integer" required="{!true}" description="The right hand margin"/>
+    <aura:attribute name="ganttCursorColor" type="String" required="{!true}" description="The color of value box appearing on Y-axis at the time of hovering."/>
+    <aura:attribute name="ganttValueBalloonsEnabled" type="Boolean" required="{!true}" description="Option to enable hovering text when cursor points to chart area."/>
+    <aura:attribute name="ganttCursorAlpha" type="Integer" required="{!true}" description="Opacity of the cursor line.."/>
+    <aura:attribute name="ganttValueLineAlpha" type="Decimal" required="{!true}" description="Opacity of value line. Will use cursorAlpha value if not set.."/>
+    <aura:attribute name="ganttValueLineBalloonEnabled" type="Boolean" required="{!true}" description="Specify if value balloon next to value axes labels should be displayed.."/>
+    <aura:attribute name="ganttValueLineEnabled" type="Boolean" required="{!true}" description="Specify if cursor of Serial chart should display horizontal (or vertical if chart is rotated) line."/>
+    <aura:attribute name="ganttZoomable" type="Boolean" required="{!true}" description="Specify if the user can zoom-in the chart. If pan is set to true, zoomable is switched to false automatically."/>
+    <aura:attribute name="ganttValueZoomable" type="Boolean" required="{!true}" description="Specify if the user can zoom-in value axes of a serial chart.."/>
+    <aura:attribute name="ganttBrightnessStep" type="Integer" required="{!true}" description="Lightness increase of each subsequent bar of one series. Value range is from -255 to 255."/>
+    <aura:attribute name="ganttRotate" type="Boolean" required="{!true}" description="If you set this to true, the chart will be rotated by 90 degrees (the columns will become bars).."/>
+    <aura:attribute name="ganttStartDate" type="String" required="{!true}" description="Initial date of value axis."/>
+    <aura:attribute name="ganttFillAlphas" type="Integer" required="{!true}" description="Specify Opacity of plot area."/>
+    <aura:attribute name="ganttLineAlpha" type="Integer" required="{!true}" description="Specify opacity of the line (or column border). Value range is 0 - 1."/>
+    <aura:attribute name="ganttLineColor" type="String" required="{!true}" description="Specify color of the line (or column border)."/>
+    <aura:attribute name="ganttAutoGridCount" type="Boolean" required="{!true}" description="Specify true to enable axis labels."/>
+    <aura:attribute name="ganttColumnWidth" type="Decimal" required="{!true}" description="Specify relative width of columns. Value range is 0 - 1."/>
+    
+    <aura:attribute name="graphtitles" type="String" description="Specify title of the graph."/>
+    <aura:attribute name="typesofbullets" type="String" description="Specify type of the bullets."/>
+	<div aura:id="chartContainer" style="width: 100%; height: 100%; background-color: #FFFFFF;" ></div>
+    
+    <div id="hehe" class="slds-float_right">
+
+
+        
+     <button class="slds-button slds-button--neutral">
+<!--            <lightning:icon size="small"iconName="utility:photo"iconPosition="left"/>-->
+                     <div id="pngContainer" class="slds-float_right"></div>
+
+        </button>        
+        
+  
+  
+        
+        <button onclick="{!c.changeview}" class="slds-button slds-button--neutral">
+            <lightning:icon 
+                          size="x-small"
+                          iconName="utility:monthlyview"
+                          iconPosition="left"
+                          variant=""
+                          />
+        </button>
+        <button onclick="{!c.sampletry}" class="slds-button slds-button--neutral">
+            <lightning:icon 
+                            size="x-small"
+                            iconName="utility:refresh"
+                            iconPosition="left"
+                            variant=""
+                            />
+        </button>
+
+
+    </div>
+    
+</aura:component>

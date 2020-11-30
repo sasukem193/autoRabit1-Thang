@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Account Filter Fields --></label>
+        <name>MC4SF__Account_Filter_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Backlog Amount --></label>
+        <name>Backlog_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Power1 --></label>
+        <name>Power1__c</name>
+    </fields>
+    <fields>
+        <help>A conta está disponível para comércio SCM se marcada</help>
+        <label><!-- Active? --></label>
+        <name>SCMC__Active__c</name>
+    </fields>
+    <fields>
+        <help>Quando marcada, o sistema está autorizado a criar Cotações automaticamente para este Cliente.</help>
+        <label><!-- Auto Quote? --></label>
+        <name>SCMC__Auto_Quote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill-to E-mail --></label>
+        <name>SCMC__Bill_to_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAGE Code --></label>
+        <name>SCMC__CAGE_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capability Listing --></label>
+        <name>SCMC__Capability_Listing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certifications --></label>
+        <name>SCMC__Certifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate City --></label>
+        <name>SCMC__Corp_City__c</name>
+    </fields>
+    <fields>
+        <help>O país do endereço corporativo</help>
+        <label><!-- Corporate Country --></label>
+        <name>SCMC__Corp_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Address Line 1 --></label>
+        <name>SCMC__Corp_Line1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Address Line 2 --></label>
+        <name>SCMC__Corp_Line2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Zip / Postal Code --></label>
+        <name>SCMC__Corp_PostalCode__c</name>
+    </fields>
+    <fields>
+        <help>Insira o estado ou província corporativa</help>
+        <label><!-- Corporate State/Province --></label>
+        <name>SCMC__Corp_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Credit Card Expiration Date --></label>
+        <name>SCMC__Credit_Card_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Credit Card Number --></label>
+        <name>SCMC__Credit_Card_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Credit Card Type --></label>
+        <name>SCMC__Credit_Card_Type__c</name>
+        <picklistValues>
+            <masterLabel>American Express</masterLabel>
+            <translation>Expresso americano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discover</masterLabel>
+            <translation>Descobrir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Card</masterLabel>
+            <translation>Master Card</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visa</masterLabel>
+            <translation>mostrar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O código da American Express (AMEX) -AMEX é um número de quatro dígitos na frente do cartão, acima do número do cartão de crédito. Visa - O valor de verificação do cartão Visa (CVV) e o código de validação MasterCard (CVC) são números de três dígitos no verso do cartão.</help>
+        <label><!-- DEPRECATED: Credit Card Validation Code --></label>
+        <name>SCMC__Credit_Card_Validation_Code__c</name>
+    </fields>
+    <fields>
+        <help>Moeda da conta.</help>
+        <label><!-- Currency --></label>
+        <name>SCMC__Currency__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>SCMC__CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Alto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Baixo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Médio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Insira um ID exclusivo para esta conta. Se RFQs forem recuperados de um sistema externo, use o valor para o site que o sistema externo atribui.</help>
+        <label><!-- Customer Site Id --></label>
+        <name>SCMC__Customer_Site_Id__c</name>
+    </fields>
+    <fields>
+        <help>Selecione Head Quarters se esta conta for a sede da empresa. Selecione Divisão se esta conta for uma divisão de uma empresa e selecione Subsidiária se esta conta for uma subsidiária de outra conta.</help>
+        <label><!-- Customer Type --></label>
+        <name>SCMC__Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Division</masterLabel>
+            <translation>Divisão</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head Quarters</masterLabel>
+            <translation>Quartel general</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation>Subsidiária</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Verifique se a conta é uma conta de cliente SCM.</help>
+        <label><!-- Customer? --></label>
+        <name>SCMC__Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- DUNS Number --></label>
+        <name>SCMC__DUNS_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Address --></label>
+        <name>SCMC__Default_Address__c</name>
+    </fields>
+    <fields>
+        <help>Selecione o método de pagamento preferido do cliente</help>
+        <label><!-- Default Payment Type --></label>
+        <name>SCMC__Default_Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation>Cartão de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation>Ordem de Compra</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Insira o desconto do preço padrão para este cliente.</help>
+        <label><!-- Discount off Standard Price --></label>
+        <name>SCMC__Discount_off_Standard__c</name>
+    </fields>
+    <fields>
+        <label><!-- E-Mail --></label>
+        <name>SCMC__E_Mail__c</name>
+    </fields>
+    <fields>
+        <help>Destino, Origem, COD etc ...</help>
+        <label><!-- FOB --></label>
+        <name>SCMC__FOB__c</name>
+    </fields>
+    <fields>
+        <help>Bill, Prepay, Collect etc ...</help>
+        <label><!-- Freight --></label>
+        <name>SCMC__Freight__c</name>
+    </fields>
+    <fields>
+        <help>Insira o nome de uma página do Visualforce que processa a fatura. Você só precisa disso se tiver uma fatura específica para este cliente</help>
+        <label><!-- Invoice Format --></label>
+        <name>SCMC__Invoice_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>SCMC__Language__c</name>
+    </fields>
+    <fields>
+        <help>Selecione este sinalizador se você não deseja devolver nada quando uma solicitação de orçamento for recebida desta conta.</help>
+        <label><!-- No Response? --></label>
+        <name>SCMC__No_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>SCMC__NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <help>Insira o nome de uma página do Visualforce que renderiza um pacote que está em um formato específico para esta conta. Você não precisa inserir nada aqui se não precisar de um recibo de embalagem específico do cliente.</help>
+        <label><!-- Packslip Format --></label>
+        <name>SCMC__Packslip_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms Name --></label>
+        <name>SCMC__Payment_Terms_Name__c</name>
+    </fields>
+    <fields>
+        <help>Especifique as condições de pagamento padrão para esta conta</help>
+        <label><!-- Payment Terms --></label>
+        <name>SCMC__Payment_Terms__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>O veículo de comunicação preferido para correspondência</help>
+        <label><!-- Preferred Communication --></label>
+        <name>SCMC__Preferred_Communication__c</name>
+        <picklistValues>
+            <masterLabel>E-Mail</masterLabel>
+            <translation>O email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation>Fax</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation>Enviar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>telefone</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Para clientes e parceiros, defina um tipo de preço que controlará como os itens são tarifados automaticamente.</help>
+        <label><!-- Price Type --></label>
+        <name>SCMC__Price_Type__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica se um aviso prévio de envio é necessário ou não.</help>
+        <label><!-- Provide Advanced Ship Notice? --></label>
+        <name>SCMC__Provide_Advanced_Ship_Notice__c</name>
+    </fields>
+    <fields>
+        <help>Marque esta caixa se desejar que uma fatura eletrônica seja enviada a este cliente sempre que um envio for confirmado.</help>
+        <label><!-- Provide Electronic Invoice --></label>
+        <name>SCMC__Provide_Electronic_Invoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Temporary Hold --></label>
+        <name>SCMC__Reason_for_Temporary_Hold__c</name>
+    </fields>
+    <fields>
+        <help>O usuário que é o representante de vendas desta conta</help>
+        <label><!-- Sales Rep --></label>
+        <name>SCMC__Sales_Rep__c</name>
+        <relationshipLabel><!-- Accounts (Sales Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>A responsabilidade de vendas que normalmente cuida desta conta.</help>
+        <label><!-- Sales Responsibility --></label>
+        <name>SCMC__Sales_Responsibility__c</name>
+        <relationshipLabel><!-- Customer Sites (Sales Responsibility) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Operadora preferida</help>
+        <label><!-- Ship Via --></label>
+        <name>SCMC__Ship_Via__c</name>
+    </fields>
+    <fields>
+        <help>Insira o número da conta a ser usado ao enviar para este cliente.</help>
+        <label><!-- Shipping Account --></label>
+        <name>SCMC__Shipping_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Small Business Designations --></label>
+        <name>SCMC__Small_Business_Designations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Order Detail --></label>
+        <name>SCMC__Standard_Order_Detail__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Exemption Group --></label>
+        <name>SCMC__Tax_Exemption_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temporary Hold --></label>
+        <name>SCMC__Temporary_Hold__c</name>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>Finança</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation>Qualidade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>Vendas</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Terms --></label>
+        <name>SCMC__Terms__c</name>
+    </fields>
+    <fields>
+        <help>Se os pedidos para este cliente forem alocados de um depósito específico, especifique esse depósito aqui.</help>
+        <label><!-- Warehouse --></label>
+        <name>SCMC__Warehouse__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TextFieldTest --></label>
+        <name>TextFieldTest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Contract Value --></label>
+        <name>Total_Contract_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Invoiced Amount --></label>
+        <name>Total_Invoiced_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Invoiced Hours --></label>
+        <name>Total_Invoiced_Hours__c</name>
+    </fields>
+    <fields>
+        <help>Número de dias que o cliente leva para pagar em média, com base nos pagamentos dos últimos 365 dias. O valor neste campo é calculado automaticamente.</help>
+        <label><!-- Average Days to Pay --></label>
+        <name>c2g__AverageDaysToPay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Trading Currency --></label>
+        <name>c2g__CODAAccountTradingCurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accounts Payable Control --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAAccountsPayableControl__c</name>
+        <relationshipLabel><!-- Accounts (Accounts Payable Control Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accounts Receivable Control --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAAccountsReceivableControl__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Allow Deletion of Account in Use --></label>
+        <name>c2g__CODAAllowDeleteInUse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Name --></label>
+        <name>c2g__CODABankAccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Number --></label>
+        <name>c2g__CODABankAccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Reference --></label>
+        <name>c2g__CODABankAccountReference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank City --></label>
+        <name>c2g__CODABankCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Country --></label>
+        <name>c2g__CODABankCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Fax --></label>
+        <name>c2g__CODABankFax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank IBAN Number --></label>
+        <name>c2g__CODABankIBANNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Name --></label>
+        <name>c2g__CODABankName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Phone --></label>
+        <name>c2g__CODABankPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank SWIFT Number --></label>
+        <name>c2g__CODABankSWIFTNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Sort Code --></label>
+        <name>c2g__CODABankSortCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank State/Province --></label>
+        <name>c2g__CODABankStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Street --></label>
+        <name>c2g__CODABankStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Zip/Postal Code --></label>
+        <name>c2g__CODABankZipPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Date 1 --></label>
+        <name>c2g__CODABaseDate1__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>Fim do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>Data da fatura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>Início do próximo mês</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Base Date 2 --></label>
+        <name>c2g__CODABaseDate2__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>Fim do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>Data da fatura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>Início do próximo mês</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Base Date 3 --></label>
+        <name>c2g__CODABaseDate3__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>Fim do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>Data da fatura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>Início do próximo mês</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Base Date 4 --></label>
+        <name>c2g__CODABaseDate4__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>Fim do próximo mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>Data da fatura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>Início do próximo mês</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Validated --></label>
+        <name>c2g__CODABillingAddressIsValid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Method --></label>
+        <name>c2g__CODABillingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Electronic</masterLabel>
+            <translation>Eletrônico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper</masterLabel>
+            <translation>Papel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-billing</masterLabel>
+            <translation>Auto faturamento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Credit Agency --></label>
+        <name>c2g__CODACreditAgency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit Enabled --></label>
+        <name>c2g__CODACreditLimitEnabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit Reviewed --></label>
+        <name>c2g__CODACreditLimitReviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit --></label>
+        <name>c2g__CODACreditLimit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Manager --></label>
+        <name>c2g__CODACreditManager__c</name>
+        <relationshipLabel><!-- Accounts (Credit Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating Reviewed --></label>
+        <name>c2g__CODACreditRatingReviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating --></label>
+        <name>c2g__CODACreditRating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Reference --></label>
+        <name>c2g__CODACreditReference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Status --></label>
+        <name>c2g__CODACreditStatus__c</name>
+        <picklistValues>
+            <masterLabel>Cash with Order</masterLabel>
+            <translation>Dinheiro com ordem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Allowed</masterLabel>
+            <translation>Crédito permitido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation>Em espera</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 1 --></label>
+        <name>c2g__CODADaysOffset1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 2 --></label>
+        <name>c2g__CODADaysOffset2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 3 --></label>
+        <name>c2g__CODADaysOffset3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 4 --></label>
+        <name>c2g__CODADaysOffset4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Expense Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODADefaultExpenseAccount__c</name>
+        <relationshipLabel><!-- Accounts (Default Expense Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description 1 --></label>
+        <name>c2g__CODADescription1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description 2 --></label>
+        <name>c2g__CODADescription2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description 3 --></label>
+        <name>c2g__CODADescription3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description 4 --></label>
+        <name>c2g__CODADescription4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dimension 1 --></label>
+        <name>c2g__CODADimension1__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dimension 2 --></label>
+        <name>c2g__CODADimension2__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dimension 3 --></label>
+        <name>c2g__CODADimension3__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dimension 4 --></label>
+        <name>c2g__CODADimension4__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Discount 1 --></label>
+        <name>c2g__CODADiscount1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount 2 --></label>
+        <name>c2g__CODADiscount2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount 3 --></label>
+        <name>c2g__CODADiscount3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount 4 --></label>
+        <name>c2g__CODADiscount4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Country Code --></label>
+        <name>c2g__CODAECCountryCode__c</name>
+        <picklistValues>
+            <masterLabel>AE</masterLabel>
+            <translation>AE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT</masterLabel>
+            <translation>AT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AU</masterLabel>
+            <translation>AT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE</masterLabel>
+            <translation>ESTAR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG</masterLabel>
+            <translation>BG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>AQUELE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH</masterLabel>
+            <translation>CH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CY</masterLabel>
+            <translation>CY</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CZ</masterLabel>
+            <translation>CZ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation>DO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK</masterLabel>
+            <translation>DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EE</masterLabel>
+            <translation>EE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL</masterLabel>
+            <translation>ELE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES</masterLabel>
+            <translation>ISTO É</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation>ESTAR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FR</masterLabel>
+            <translation>FR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GB</masterLabel>
+            <translation>GB</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GR</masterLabel>
+            <translation>GR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HK</masterLabel>
+            <translation>HK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HU</masterLabel>
+            <translation>HU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IE</masterLabel>
+            <translation>IE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>ISTO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LT</masterLabel>
+            <translation>LT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LU</masterLabel>
+            <translation>LU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LV</masterLabel>
+            <translation>LV</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation>MT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY</masterLabel>
+            <translation>MEU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL</masterLabel>
+            <translation>NL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation>NÃO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ</masterLabel>
+            <translation>NZ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PL</masterLabel>
+            <translation>PL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT</masterLabel>
+            <translation>PT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RO</masterLabel>
+            <translation>RO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE</masterLabel>
+            <translation>EU SEI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SG</masterLabel>
+            <translation>SG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation>E</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SK</masterLabel>
+            <translation>SK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation>NOS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZA</masterLabel>
+            <translation>PARA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Entity / Use Code --></label>
+        <name>c2g__CODAEntityUseCode__c</name>
+        <picklistValues>
+            <masterLabel>A - Federal government - United States</masterLabel>
+            <translation>A - Governo federal - Estados Unidos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B - State government - United States</masterLabel>
+            <translation>B - Governo estadual - Estados Unidos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C - Tribe / Status Indian / Indian Band - both</masterLabel>
+            <translation>C - Tribo / Status Índio / Banda Indígena - ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D - Foreign diplomat - both</masterLabel>
+            <translation>D - Diplomata estrangeiro - ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E - Charitable or benevolent org - both</masterLabel>
+            <translation>E - organização beneficente ou benevolente - ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F - Religious or educational org - both</masterLabel>
+            <translation>F - Organização religiosa ou educacional - ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G - Resale - both</masterLabel>
+            <translation>G - Revenda - ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H - Commercial agricultural production - both</masterLabel>
+            <translation>H - Produção agrícola comercial - ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I - Industrial production / manufacturer - both</masterLabel>
+            <translation>I - Produção industrial / fabricante - ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J - Direct pay permit - United States</masterLabel>
+            <translation>J - Autorização de pagamento direto - Estados Unidos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K - Direct mail - United States</masterLabel>
+            <translation>K - Mala direta - Estados Unidos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L - Other - both</masterLabel>
+            <translation>L - Outro - ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N - Local government - United States</masterLabel>
+            <translation>N - Governo local - Estados Unidos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P - Commercial aquaculture - Canada</masterLabel>
+            <translation>P - Aquicultura comercial - Canadá</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q - Commercial Fishery - Canada</masterLabel>
+            <translation>Q - Pesca Comercial - Canadá</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R - Non-resident - Canada</masterLabel>
+            <translation>R - Não residente - Canadá</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exemption Certificate --></label>
+        <name>c2g__CODAExemptionCertificate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>c2g__CODAExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Federally Reportable 1099 --></label>
+        <name>c2g__CODAFederallyReportable1099__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Contact --></label>
+        <name>c2g__CODAFinanceContact__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Income Tax Type --></label>
+        <name>c2g__CODAIncomeTaxType__c</name>
+        <picklistValues>
+            <masterLabel>1 - Rents</masterLabel>
+            <translation>1 - Rendas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Crop Insurance Proceeds</masterLabel>
+            <translation>10 - Receitas de seguro agrícola</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 - Unused 11</masterLabel>
+            <translation>11 - Não utilizado 11</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 - Unused 12</masterLabel>
+            <translation>12 - Não utilizado 12</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 - Excess Golden Parachute Payments</masterLabel>
+            <translation>13 - Excesso de Pagamentos de Pára-quedas Dourado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 - Gross Proceeds Paid to an Attorney</masterLabel>
+            <translation>14 - Produto bruto pago a um advogado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Royalties</masterLabel>
+            <translation>2 - Royalties</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Other Income</masterLabel>
+            <translation>3 - Outras Receitas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Federal Income Tax Withheld</masterLabel>
+            <translation>4 - Imposto de Renda Federal Retido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Fishing Boat Proceeds</masterLabel>
+            <translation>5 - Receitas do barco de pesca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Medical and Healthcare Payments</masterLabel>
+            <translation>6 - Pagamentos médicos e de saúde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Nonemployee Compensation</masterLabel>
+            <translation>7 - Remuneração de Não Funcionários</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 - Substitute Payments in Lieu of Dividends or Interest</masterLabel>
+            <translation>8 - Pagamentos substitutos em lugar de dividendos ou juros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 - Payer Made Direct Sales of 5000 or More</masterLabel>
+            <translation>9 - O pagador fez vendas diretas de 5.000 ou mais</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Reportable</masterLabel>
+            <translation>Não reportável</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Input VAT/GST Code --></label>
+        <name>c2g__CODAInputVATCode__c</name>
+        <relationshipLabel><!-- Accounts (Input VAT/GST Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Intercompany Account --></label>
+        <name>c2g__CODAIntercompanyAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Email --></label>
+        <name>c2g__CODAInvoiceEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Id --></label>
+        <name>c2g__CODAMergeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output VAT/GST Code --></label>
+        <name>c2g__CODAOutputVATCode__c</name>
+        <relationshipLabel><!-- Accounts (Output VAT/GST Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>c2g__CODAPaymentMethod__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation>Dinheiro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation>Verifica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronic</masterLabel>
+            <translation>Eletrônico</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reporting Code --></label>
+        <name>c2g__CODAReportingCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Tax Status --></label>
+        <name>c2g__CODASalesTaxStatus__c</name>
+        <picklistValues>
+            <masterLabel>Exempt</masterLabel>
+            <translation>Isentar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt for Qualifying Products</masterLabel>
+            <translation>Isento para produtos qualificados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable</masterLabel>
+            <translation>Tributável</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address Validated --></label>
+        <name>c2g__CODAShippingAddressIsValid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Calculation Method --></label>
+        <name>c2g__CODATaxCalculationMethod__c</name>
+        <picklistValues>
+            <masterLabel>Gross</masterLabel>
+            <translation>Bruto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net of Discount</masterLabel>
+            <translation>Líquido de Desconto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax Code 1 --></label>
+        <name>c2g__CODATaxCode1__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Code 2 --></label>
+        <name>c2g__CODATaxCode2__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Code 3 --></label>
+        <name>c2g__CODATaxCode3__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Taxpayer Identification Number --></label>
+        <name>c2g__CODATaxpayerIdentificationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Registration Number --></label>
+        <name>c2g__CODAVATRegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Status --></label>
+        <name>c2g__CODAVATStatus__c</name>
+        <picklistValues>
+            <masterLabel>EC Non-registered</masterLabel>
+            <translation>EC não registrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EC Registered</masterLabel>
+            <translation>EC registrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export</masterLabel>
+            <translation>Exportar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>Casa</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingCity --></label>
+        <name>c2g__CODAValidatedBillingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingCountry --></label>
+        <name>c2g__CODAValidatedBillingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingPostCode --></label>
+        <name>c2g__CODAValidatedBillingPostCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingState --></label>
+        <name>c2g__CODAValidatedBillingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingStreet --></label>
+        <name>c2g__CODAValidatedBillingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingCity --></label>
+        <name>c2g__CODAValidatedShippingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingCountry --></label>
+        <name>c2g__CODAValidatedShippingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingPostCode --></label>
+        <name>c2g__CODAValidatedShippingPostCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingState --></label>
+        <name>c2g__CODAValidatedShippingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingStreet --></label>
+        <name>c2g__CODAValidatedShippingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collections On Hold Reason --></label>
+        <name>c2g__CollectionsOnHoldReason__c</name>
+        <picklistValues>
+            <masterLabel>Account in dispute</masterLabel>
+            <translation>Conta em disputa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice in dispute</masterLabel>
+            <translation>Fatura em disputa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>De outros</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Collections On Hold --></label>
+        <name>c2g__CollectionsOnHold__c</name>
+    </fields>
+    <fields>
+        <help>Número médio de dias necessários para receber o pagamento após a realização de uma venda, com base nas vendas e pagamentos efetuados nos últimos 365 dias. O valor neste campo é calculado automaticamente.</help>
+        <label><!-- Days Sales Outstanding (Annual) --></label>
+        <name>c2g__DaysSalesOutstanding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Culture --></label>
+        <name>ffaci__CurrencyCulture__c</name>
+    </fields>
+    <fields>
+        <help>Procure a conta do Salesforce a ser usada para o endereço de cobrança.</help>
+        <label><!-- Billing Account --></label>
+        <name>ffbc__BillingAccount__c</name>
+        <relationshipLabel><!-- Related Billing Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Particulars --></label>
+        <name>ffbf__AccountParticulars__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank BIC --></label>
+        <name>ffbf__BankBIC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Code --></label>
+        <name>ffbf__PaymentCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Country ISO --></label>
+        <name>ffbf__PaymentCountryISO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Priority --></label>
+        <name>ffbf__PaymentPriority__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U</masterLabel>
+            <translation><!-- U --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Routing Method --></label>
+        <name>ffbf__PaymentRoutingMethod__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Certificado de isenção de impostos para a conta. Insira um valor se você não precisar coletar impostos para a conta e sua equipe financeira rastrear e verificar os certificados de isenção de impostos manualmente.</help>
+        <label><!-- Exemption Certificate --></label>
+        <name>fferpcore__ExemptionCertificate__c</name>
+    </fields>
+    <fields>
+        <help>Indica se o endereço de cobrança foi validado em relação aos endereços no serviço de cálculo de imposto externo.</help>
+        <label><!-- Billing Address Validated --></label>
+        <name>fferpcore__IsBillingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <help>Indica se o endereço de entrega foi validado em relação aos endereços no serviço de cálculo de imposto externo.</help>
+        <label><!-- Shipping Address Validated --></label>
+        <name>fferpcore__IsShippingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Validated Reference --></label>
+        <name>fferpcore__MaterializedBillingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address Validated Reference --></label>
+        <name>fferpcore__MaterializedShippingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <help>O código de imposto a ser usado ao calcular o imposto em uma empresa de IVA ou GST.</help>
+        <label><!-- Output VAT/GST Code --></label>
+        <name>fferpcore__OutputVatCode__c</name>
+        <relationshipLabel><!-- Accounts (Output VAT/GST Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>O status fiscal desta conta para empresas do SUT.</help>
+        <label><!-- Sales Tax Status --></label>
+        <name>fferpcore__SalesTaxStatus__c</name>
+        <picklistValues>
+            <masterLabel>Exempt</masterLabel>
+            <translation>Isentar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt for Qualifying Products</masterLabel>
+            <translation>Isento para produtos qualificados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable</masterLabel>
+            <translation>Tributável</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>O primeiro código de imposto SUT para esta conta.</help>
+        <label><!-- Tax Code 1 --></label>
+        <name>fferpcore__TaxCode1__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>O segundo código de imposto SUT para esta conta.</help>
+        <label><!-- Tax Code 2 --></label>
+        <name>fferpcore__TaxCode2__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>O terceiro código de imposto SUT para esta conta.</help>
+        <label><!-- Tax Code 3 --></label>
+        <name>fferpcore__TaxCode3__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>O código do país para esta conta. Isso é necessário para a declaração correta de IVA em transações internacionais dentro da União Europeia.</help>
+        <label><!-- Tax Country Code --></label>
+        <name>fferpcore__TaxCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing City --></label>
+        <name>fferpcore__ValidatedBillingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing Country --></label>
+        <name>fferpcore__ValidatedBillingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing Zip/Postal Code --></label>
+        <name>fferpcore__ValidatedBillingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing State/Province --></label>
+        <name>fferpcore__ValidatedBillingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing Street --></label>
+        <name>fferpcore__ValidatedBillingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping City --></label>
+        <name>fferpcore__ValidatedShippingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping Country --></label>
+        <name>fferpcore__ValidatedShippingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping Zip/Postal Code --></label>
+        <name>fferpcore__ValidatedShippingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping State/Province --></label>
+        <name>fferpcore__ValidatedShippingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping Street --></label>
+        <name>fferpcore__ValidatedShippingStreet__c</name>
+    </fields>
+    <fields>
+        <help>Número de identificação usado para fins fiscais.</help>
+        <label><!-- Tax Registration Number --></label>
+        <name>fferpcore__VatRegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <help>O status fiscal desta conta para contas de IVA / GST.</help>
+        <label><!-- Tax Status --></label>
+        <name>fferpcore__VatStatus__c</name>
+        <picklistValues>
+            <masterLabel>EC Non-registered</masterLabel>
+            <translation>EC não registrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EC Registered</masterLabel>
+            <translation>EC registrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export</masterLabel>
+            <translation>Exportar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>Casa</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se selecionado, todos os itens de evento de cobrança existentes são adicionados a um evento de cobrança existente em vez de criar um novo evento de cobrança.</help>
+        <label><!-- Add BEIs To Existing Batches --></label>
+        <name>pse__Add_BEIs_To_Existing_Batches__c</name>
+    </fields>
+    <fields>
+        <help>Isso registra a chave de correlação do trabalhador usada no sistema Foundations.</help>
+        <label><!-- Foundations Worker Correlation --></label>
+        <name>pse__ERP_Worker_Correlation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Billing Time Period Type --></label>
+        <name>pse__Services_Billing_Time_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation>Mês</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation>Trimestre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation>Semana</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation>Ano</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Customer Contracts and Invoices numbers --></label>
+            <section>Customer Contracts and Invoices numbers</section>
+        </sections>
+        <sections>
+            <label>SUT Tax Information</label>
+            <section>SUT Tax Information</section>
+        </sections>
+        <sections>
+            <label>Informações fiscais de IVA / GST</label>
+            <section>VAT/GST Tax Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account SCM</layout>
+        <sections>
+            <label><!-- Classification Information --></label>
+            <section>Classification Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Standard Order --></label>
+            <section>Standard Order</section>
+        </sections>
+        <sections>
+            <label><!-- Trade Information --></label>
+            <section>Trade Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FinancialForce Account Layout</layout>
+        <sections>
+            <label><!-- Account Balance --></label>
+            <section>Account Balance</section>
+        </sections>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Bank Details --></label>
+            <section>Bank Details</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Management Information --></label>
+            <section>Credit Management Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms --></label>
+            <section>Credit Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dimension Analysis --></label>
+            <section>Dimension Analysis</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Correspondence --></label>
+            <section>Finance Correspondence</section>
+        </sections>
+        <sections>
+            <label><!-- Sales &amp; Use Tax Information --></label>
+            <section>Sales &amp; Use Tax Information</section>
+        </sections>
+        <sections>
+            <label><!-- VAT/GST Information --></label>
+            <section>VAT/GST Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FinancialForce Account Layout (community)</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Campos</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Validate Billing Address --></label>
+        <name>fferpcore__ValidateBillingAddress</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Validate Shipping Address --></label>
+        <name>fferpcore__ValidateShippingAddress</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- This Account is in use by FinancialForce Accounting. You cannot change its currency. --></errorMessage>
+        <name>Lock_Account_Currency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot set up an Account with Auto Quote and No Response --></errorMessage>
+        <name>SCMC__Both_Auto_Quote_No_Response_Checked</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions --></label>
+        <name>MC4SF__MailChimp_Subscriptions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateBillingAddress --></label>
+        <name>c2g__CODAValidateBillingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateCustomer --></label>
+        <name>c2g__CODAValidateCustomer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateShippingAddress --></label>
+        <name>c2g__CODAValidateShippingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateVendor --></label>
+        <name>c2g__CODAValidateVendor</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CashMatching --></label>
+        <name>c2g__CashMatching</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ValidateBillingAddress --></label>
+        <name>fferpcore__ValidateBillingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ValidateShippingAddress --></label>
+        <name>fferpcore__ValidateShippingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Account_Billing --></label>
+        <name>pse__Account_Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Change_Request --></label>
+        <name>pse__Create_Change_Request</name>
+    </webLinks>
+</CustomObjectTranslation>

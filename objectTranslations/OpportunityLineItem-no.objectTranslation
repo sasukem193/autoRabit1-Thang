@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Henvisning til ordrelinjen for kundetilbud som denne mulighetslinjen er assosiert med. Dette blir befolket når du oppretter</help>
+        <label><!-- Customer Quotation Line --></label>
+        <name>SCMC__Customer_Quotation_Line__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Override Product GLA --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAGeneralLedgerAccount__c</name>
+        <relationshipLabel><!-- Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <help>Se etter den myke datoen som bestemmer når fakturering skjer.</help>
+        <label><!-- Billing Term --></label>
+        <name>ffbc__BillingTerm__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Typen av fakturering for denne muligheten linjeposten.</help>
+        <label><!-- Billing Type --></label>
+        <name>ffbc__BillingType__c</name>
+        <picklistValues>
+            <masterLabel>One-off</masterLabel>
+            <translation>Engangs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Fixed</masterLabel>
+            <translation>Gjentatt fast</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Variable</masterLabel>
+            <translation>Gjentakende variabel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Dato som kontraktsposten avsluttes.</help>
+        <label><!-- Contract Line End Date --></label>
+        <name>ffbc__ContractLineEndDate__c</name>
+    </fields>
+    <fields>
+        <help>Første dato som kontraktsposten skal faktureres.</help>
+        <label><!-- Contract Line First Bill Date --></label>
+        <name>ffbc__ContractLineFirstBillDate__c</name>
+    </fields>
+    <fields>
+        <help>Dato fra hvilken fakturering kan påbegynnes for kontraktsposten.</help>
+        <label><!-- Contract Line Start Date --></label>
+        <name>ffbc__ContractLineStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Planlegg som denne muligheten linjeposten vedrører.</help>
+        <label><!-- Plan Name --></label>
+        <name>ffbc__Plan__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Oppslag til måleenhet som brukes til å bestemme kundebruk på denne mulighetens linjepost.</help>
+        <label><!-- Unit Of Measure --></label>
+        <name>ffbc__UnitOfMeasure__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Added To Project --></label>
+        <name>pse__Added_To_Project__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsServicesProductLine --></label>
+        <name>pse__IsServicesProductLine__c</name>
+    </fields>
+</CustomObjectTranslation>

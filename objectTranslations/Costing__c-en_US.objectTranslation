@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Costing</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Costings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Architect --></label>
+        <name>Architect__c</name>
+    </fields>
+    <fields>
+        <label><!-- Construct --></label>
+        <name>Construct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deploy --></label>
+        <name>Deploy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Costing --></label>
+        <name>Project_Costing__c</name>
+        <relationshipLabel><!-- Costings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reference Price (45%) --></label>
+        <name>Reference_Price_45__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Rate --></label>
+        <name>Sales_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support --></label>
+        <name>Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost Price --></label>
+        <name>Total_Cost_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Days --></label>
+        <name>Total_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours --></label>
+        <name>Total_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sales Price --></label>
+        <name>Total_Sales_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validate --></label>
+        <name>Validate__c</name>
+    </fields>
+    <layouts>
+        <layout>Costing Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Project Phases (Days) --></label>
+            <section>Project Phases (Days)</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

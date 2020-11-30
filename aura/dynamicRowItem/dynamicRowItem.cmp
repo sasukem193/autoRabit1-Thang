@@ -1,0 +1,101 @@
+<!-- sfdcMonkey.com -->
+<!-- Child Lightning Component for Create New Row Instance-->
+<aura:component controller="inlineEditCtrl">
+    
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <!-- Aura Attribute for store single Contact[standard Object] Instance
+         And Store Index of Particular Instance -->
+    <aura:attribute name="objInfo" type="sobject" default="{sobjectType : 'Costing__c'}" />
+    
+    <aura:attribute name="objInfoForPicklistValues" type="sobject" default="{sobjectType : 'Costing__c'}" description="object information to fetch picklist values"/>
+    <aura:attribute name="ratingPicklistOpts" type="string[]" description="store picklist options values"/>
+    <aura:attribute name="ContactInstance" type="Contact"/>
+    <aura:attribute name="CostingInstance" type="Costing__c"/>
+    <aura:attribute name="rowIndex" type="String"/>
+    <aura:attribute name="editMode" type="boolean"/>
+    <aura:attribute name="testsNo" type="Integer"/>
+
+    
+    
+    <!-- Register 2 Lightning Event for handle add or Delete rows on Parent Component  --> 
+    <aura:registerEvent name="DeleteRowEvt" type="c:DeleteRowEvt"/> 
+    <aura:registerEvent name="AddRowEvt" type="c:AddNewRowEvt"/> 
+    
+    <!-- Table Row -->   
+    <tr class="slds-text-title_caps">
+        <!--<td> 
+            {!v.rowIndex + 1}
+        </td>-->
+        <td>
+            <ui:inputText class="slds-input" value="{!v.CostingInstance.Name}"/>
+        </td>
+        
+        
+        <td>
+            <ui:inputSelect  aura:id="accIndustry" class="slds-select" change="{!c.onPicklistChange}" value="{!v.CostingInstance.Level__c}"/>
+            
+        </td>
+        
+        <td>
+            <div class="slds-truncate">-</div>
+        </td>
+        <td>
+            <div class="slds-truncate">-</div>
+        </td>  
+        <td>
+            <ui:inputNumber class="slds-input" value="{!v.CostingInstance.Sales_Rate__c}"/>
+        </td>
+        <td>
+            <ui:inputNumber class="slds-input" value="{!v.CostingInstance.Architect__c }"/>
+        </td> 
+        <td>
+            <ui:inputNumber class="slds-input" value="{!v.CostingInstance.Construct__c }"/>
+        </td> 
+        <td>
+            <ui:inputNumber class="slds-input" value="{!v.CostingInstance.Validate__c }"/>
+        </td> 
+        <td>
+            <ui:inputNumber class="slds-input" value="{!v.CostingInstance.Deploy__c }"/>
+        </td>         
+        <td>
+            <ui:inputNumber class="slds-input" value="{!v.CostingInstance.Support__c }"/>
+        </td>  
+        <td>
+            <div class="slds-truncate">-</div>
+        </td>
+        <td>
+            <div class="slds-truncate">-</div>
+        </td>
+        
+        <aura:if isTrue="{!v.editMode}">
+            <td>
+                <div class="slds-truncate">-</div>
+            </td> 
+        </aura:if>
+        
+        <!--<td>
+            <div class="slds-truncate">{!v.CostingInstance.Project_Costing__c}</div>
+
+        </td> -->    
+        <td>
+            <!-- conditionally Display Add or Delete Icons
+                 if rowIndex is 0 then show Add New Row Icon else show delete Icon
+             --> 
+            <aura:if isTrue="{!v.rowIndex == 0}">
+                <a onclick="{!c.AddNewRow}">
+                    <lightning:icon iconName="utility:add" class="slds-icon slds-icon_small" size="small" alternativeText="add"/>
+                    <span class="slds-assistive-text">Add Icon</span>
+                </a>    
+         
+                <aura:set attribute="else">
+                    <a onclick="{!c.removeRow}">
+                        <lightning:icon iconName="utility:dash" class="slds-icon slds-icon_small" size="small" alternativeText="icon"/>
+                        <span class="slds-assistive-text">Delete Icon</span>
+                    </a>
+                </aura:set> 
+            </aura:if>
+        </td> 
+    </tr>
+</aura:component>

@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Contact Filter Fields --></label>
+        <name>MC4SF__Contact_Filter_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Assign Multiple Resources to Project Filter Options --></label>
+        <name>pse__AssignMultiResourceFilterOptions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Assign Multiple Resources to Project Search Columns --></label>
+        <name>pse__AssignMultiResourceSearchColumns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resource Planner Columns --></label>
+        <name>pse__Resource_Planner_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resource Planner Enabled Filters --></label>
+        <name>pse__Resource_Planner_Enabled_Filters</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Resource Tooltip Fieldset --></label>
+        <name>pse__Resource_Tooltip_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SearchResourcesFilterFields --></label>
+        <name>pse__SearchResourcesFilterFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SearchResourcesResultFields --></label>
+        <name>pse__SearchResourcesResultFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- MC Subscriber --></label>
+        <name>MC4SF__MC_Subscriber__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Wenn diese Option aktiviert ist, ist der Kundenkontakt aktiv</help>
+        <label><!-- Active? --></label>
+        <name>SCMC__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>SCMC__Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Languages --></label>
+        <name>SCMC__Languages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>SCMC__Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation>Primär</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation>Sekundär</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation>Tertiär</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Previous Companies --></label>
+        <name>SCMC__Previous_Companies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suffix --></label>
+        <name>SCMC__Suffix__c</name>
+        <picklistValues>
+            <masterLabel>II</masterLabel>
+            <translation>II</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>III</masterLabel>
+            <translation>III</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IV</masterLabel>
+            <translation>IV</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JR</masterLabel>
+            <translation>JR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHD</masterLabel>
+            <translation>PHD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SR</masterLabel>
+            <translation>SR</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deprecated:Last Access Date --></label>
+        <name>appirio_core__Last_Access_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deprecated:Licensed Features --></label>
+        <name>appirio_core__Licensed_Features__c</name>
+        <picklistValues>
+            <masterLabel>Expenses Only</masterLabel>
+            <translation>Nur Ausgaben</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Enrollment</masterLabel>
+            <translation>Anmeldung öffnen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Management</masterLabel>
+            <translation>Projektmanagement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource</masterLabel>
+            <translation>Ressource</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timecard Only</masterLabel>
+            <translation>Nur Zeitkarte</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deprecated:PIN --></label>
+        <name>appirio_core__PIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collections Communication Contact --></label>
+        <name>c2g__CollectionsCommunicationContact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collections Communication Preference --></label>
+        <name>c2g__CollectionsCommunicationPreference__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>Email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation>E-Mail</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Enable Email Notification (FM Community) --></label>
+        <name>c2g__EnableEmailNotification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image Data Only --></label>
+        <name>eContacts__Business_Card__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By eContacts --></label>
+        <name>eContacts__Created_By_eContacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Text --></label>
+        <name>eContacts__Location_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>eContacts__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image Data2 Only --></label>
+        <name>eContacts__Secondary_Image__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, ob diesem Kontakt Rechnungsbelege für das Konto gesendet werden, zu dem sie gehören. Sie können Fakturabelege an einen Kontakt pro Konto senden. Aktivieren Sie das Kontrollkästchen für nur einen der Kontakte, die einem Konto zugeordnet sind.</help>
+        <label><!-- Billing Contact --></label>
+        <name>ffbc__BillingContact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Reimbursement Account --></label>
+        <name>ffpsai__ExpenseReimbursementAccount__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hist Sch Utilization --></label>
+        <name>psa_report__Hist_Sch_Utilization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resource Name --></label>
+        <name>psa_report__Resource_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- API Resource Correlation ID --></label>
+        <name>pse__API_Resource_Correlation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action: Calculate Utilization --></label>
+        <name>pse__Action_Calculate_Utilization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action: Update Current Time Period --></label>
+        <name>pse__Action_Update_Current_Time_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actuals: Last Update Date --></label>
+        <name>pse__Actuals_Last_Update_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actuals: Last Updated By --></label>
+        <name>pse__Actuals_Last_Updated_By__c</name>
+        <relationshipLabel><!-- Contacts (Actuals: Last Updated By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Überprüfen Sie dies, wenn die Ressource als &quot;globale&quot; Ressourcen behandelt werden soll. &apos;Globale&apos; Ressourcen können Zeit für jedes Projekt eingeben, selbst wenn dieses Projekt normalerweise Zuweisungen für die Zeiteingabe benötigt.</help>
+        <label><!-- Allow Timecards Without Assignment --></label>
+        <name>pse__Allow_Timecards_Without_Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billable Hours (External) --></label>
+        <name>pse__Billable_External_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billable Hours (Internal) --></label>
+        <name>pse__Billable_Internal_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billed --></label>
+        <name>pse__Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billings --></label>
+        <name>pse__Billings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bookings --></label>
+        <name>pse__Bookings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credited Hours --></label>
+        <name>pse__Credited_Non_Billable_Internal_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Time Period End Date --></label>
+        <name>pse__Current_Time_Period_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Time Period --></label>
+        <name>pse__Current_Time_Period__c</name>
+        <relationshipLabel><!-- Current Time Period For Resources --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Default Cost Rate is Daily Rate --></label>
+        <name>pse__Daily_Default_Cost_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Cost Rate --></label>
+        <name>pse__Default_Cost_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Hiermit wird der Worker-Korrelationsschlüssel aufgezeichnet, der im Foundations-System verwendet wird.</help>
+        <label><!-- Foundations Worker Correlation --></label>
+        <name>pse__ERP_Worker_Correlation_Id__c</name>
+    </fields>
+    <fields>
+        <help>Das Datum, an dem der Beschäftigungsstatus der Ressource wirksam wird.</help>
+        <label><!-- Employment Status Effective Date --></label>
+        <name>pse__Employment_Status_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help>Der Beschäftigungsstatus der Ressource.</help>
+        <label><!-- Employment Status --></label>
+        <name>pse__Employment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Aktiv</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated</masterLabel>
+            <translation>Beendet</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exclude From Missing Timecards --></label>
+        <name>pse__Exclude_From_Missing_Timecards__c</name>
+    </fields>
+    <fields>
+        <help>Ob der Benutzer von Zeitkartenberechnungen wie der Auslastung ausgeschlossen werden soll</help>
+        <label><!-- Exclude from Time Calculations --></label>
+        <name>pse__Exclude_From_Time_Calculations__c</name>
+    </fields>
+    <fields>
+        <help>Wenn dies der Fall ist, wird die Ressource von Zeitvarianzberechnungen ausgeschlossen.</help>
+        <label><!-- Exclude From Time Variance Calculations --></label>
+        <name>pse__Exclude_From_Time_Variance__c</name>
+    </fields>
+    <fields>
+        <help>Ob diese Ressource vom Ressourcenplaner ausgeschlossen werden soll.</help>
+        <label><!-- Exclude from Resource Planner --></label>
+        <name>pse__Exclude_from_Resource_Planner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Excluded Hours --></label>
+        <name>pse__Excluded_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Budget --></label>
+        <name>pse__Expense_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Costs --></label>
+        <name>pse__Expense_Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Costs --></label>
+        <name>pse__External_Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Resource --></label>
+        <name>pse__External_Resource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>pse__Group__c</name>
+        <relationshipLabel><!-- Resources --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hist Sch Utilization Billable Hours --></label>
+        <name>pse__Hist_Sch_Utilization_Billable_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hist Sch Utilization Credited Hours --></label>
+        <name>pse__Hist_Sch_Utilization_Credited_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hist Sch Utilization Excluded Hours --></label>
+        <name>pse__Hist_Sch_Utilization_Excluded_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hist Sch Utilization Held Hours --></label>
+        <name>pse__Hist_Sch_Utilization_Held_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hist Sch Utilization Non Billable Hrs --></label>
+        <name>pse__Hist_Sch_Utilization_Non_Billable_Hrs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Utilization Billable Hours --></label>
+        <name>pse__Historical_Utilization_Billable_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Utilization Calendar Hours --></label>
+        <name>pse__Historical_Utilization_Calendar_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Utilization Credited Hours --></label>
+        <name>pse__Historical_Utilization_Credited_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Utilization Excluded Hours --></label>
+        <name>pse__Historical_Utilization_Excluded_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Utilization Non Billable Hrs --></label>
+        <name>pse__Historical_Utilization_Non_Billable_Hrs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Utilization Target Attainment --></label>
+        <name>pse__Historical_Utilization_Target_Attainment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Utilization Target Hours --></label>
+        <name>pse__Historical_Utilization_Target_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Utilization Target --></label>
+        <name>pse__Historical_Utilization_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historical Utilization --></label>
+        <name>pse__Historical_Utilization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Budget --></label>
+        <name>pse__Internal_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Costs --></label>
+        <name>pse__Internal_Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoiced --></label>
+        <name>pse__Invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Resource Active --></label>
+        <name>pse__Is_Resource_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Resource --></label>
+        <name>pse__Is_Resource__c</name>
+    </fields>
+    <fields>
+        <help>Eindeutige ID des verwandten Benutzers in Jira. Wird zur Synchronisation verwendet. Wird automatisch ausgefüllt, nachdem der Benutzer in Jira erstellt wurde.</help>
+        <label><!-- Jira Correlation ID --></label>
+        <name>pse__Jira_Correlation_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Languages --></label>
+        <name>pse__Languages__c</name>
+    </fields>
+    <fields>
+        <help>Der letzte Arbeitstag einer Ressource.</help>
+        <label><!-- Last Date --></label>
+        <name>pse__Last_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latitude (PSA) --></label>
+        <name>pse__Latitude_PSA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>pse__Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation>Primär</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation>Sekundär</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation>Tertiär</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Longitude (PSA) --></label>
+        <name>pse__Longitude_PSA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margin --></label>
+        <name>pse__Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Billable Hours (External) --></label>
+        <name>pse__Non_Billable_External_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Billable Hours (Internal) --></label>
+        <name>pse__Non_Billable_Internal_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Costs --></label>
+        <name>pse__Other_Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pass-Through Billings --></label>
+        <name>pse__Pass_Through_Billings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Practice --></label>
+        <name>pse__Practice__c</name>
+        <relationshipLabel><!-- Resources --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pre-Billed --></label>
+        <name>pse__Pre_Billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>pse__Region__c</name>
+        <relationshipLabel><!-- Resources --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resource Role --></label>
+        <name>pse__Resource_Role__c</name>
+        <picklistValues>
+            <masterLabel>Architect</masterLabel>
+            <translation>Architekt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Analyst</masterLabel>
+            <translation>Business Analyst</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Manager</masterLabel>
+            <translation>Kundenmanager</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation>Berater</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractor</masterLabel>
+            <translation>Auftragnehmer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation>Exekutive</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Manager</masterLabel>
+            <translation>Projektmanager</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Consultant</masterLabel>
+            <translation>Senior Berater</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trainer</masterLabel>
+            <translation>Trainer</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Revenue --></label>
+        <name>pse__Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce User --></label>
+        <name>pse__Salesforce_User__c</name>
+        <relationshipLabel><!-- Contacts (Salesforce User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Utilization Billable Hours --></label>
+        <name>pse__Scheduled_Utilization_Billable_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Utilization Calendar Hours --></label>
+        <name>pse__Scheduled_Utilization_Calendar_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Utilization Credited Hours --></label>
+        <name>pse__Scheduled_Utilization_Credited_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Utilization Excluded Hours --></label>
+        <name>pse__Scheduled_Utilization_Excluded_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Utilization Held Hours --></label>
+        <name>pse__Scheduled_Utilization_Held_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Utilization Non Billable Hrs --></label>
+        <name>pse__Scheduled_Utilization_Non_Billable_Hrs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Utilization Target Attainment --></label>
+        <name>pse__Scheduled_Utilization_Target_Attainment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Utilization Target Hours --></label>
+        <name>pse__Scheduled_Utilization_Target_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Utilization Target --></label>
+        <name>pse__Scheduled_Utilization_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Utilization --></label>
+        <name>pse__Scheduled_Utilization__c</name>
+    </fields>
+    <fields>
+        <help>Steuert, ob die Ressource an eine Kostenanwendung eines Drittanbieters gesendet wird.</help>
+        <label><!-- Send to Third-Party Expenses Application --></label>
+        <name>pse__Send_to_Third_Party_Expenses_Application__c</name>
+    </fields>
+    <fields>
+        <help>Das erste Beschäftigungsdatum einer Ressource.</help>
+        <label><!-- Start Date --></label>
+        <name>pse__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Steuert, ob die Ressource mit Jira synchronisiert wird.</help>
+        <label><!-- Sync with Jira --></label>
+        <name>pse__Sync_with_Jira__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Costs --></label>
+        <name>pse__Total_Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Time Period Hours --></label>
+        <name>pse__Total_Time_Period_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization --></label>
+        <name>pse__Total_Utilization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization:  Last Calculation Date --></label>
+        <name>pse__Utilization_Calculation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization: Elapsed Hours --></label>
+        <name>pse__Utilization_Elapsed_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization: Over Full Time Period --></label>
+        <name>pse__Utilization_Full_Time_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization: Last Update Date --></label>
+        <name>pse__Utilization_Last_Update_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization: Last Updated By --></label>
+        <name>pse__Utilization_Last_Updated_By__c</name>
+        <relationshipLabel><!-- Contacts (Utilization: Last Updated By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Utilization Target Attainment --></label>
+        <name>pse__Utilization_Target_Attainment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization Target Average --></label>
+        <name>pse__Utilization_Target_Average__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization Target Hours --></label>
+        <name>pse__Utilization_Target_Hours__c</name>
+    </fields>
+    <fields>
+        <help>Ein Zielprozentsatz der Auslastung für diese Ressource. Beispiel: Ein Ziel von 50% für einen Arbeitskalender mit 8 Stunden pro Tag führt zu einem Ziel von 4 Stunden pro Tag, für das die Ressource verwendet werden sollte.</help>
+        <label><!-- Utilization Target --></label>
+        <name>pse__Utilization_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Utilization --></label>
+        <name>pse__Utilization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Calendar --></label>
+        <name>pse__Work_Calendar__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label>Zusätzliche Information</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Beschreibung Informationen</label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label>System Information</label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact SCM</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FinancialForce Contact Layout (community)</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Felder</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Developer Data --></label>
+            <section>Developer Data</section>
+        </sections>
+        <sections>
+            <label><!-- Resource Actuals --></label>
+            <section>Resource Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Resource Information --></label>
+            <section>Resource Information</section>
+        </sections>
+        <sections>
+            <label><!-- Resource Time Actuals --></label>
+            <section>Resource Time Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Resource Utilization --></label>
+            <section>Resource Utilization</section>
+        </sections>
+        <sections>
+            <label><!-- Selected Time Period --></label>
+            <section>Selected Time Period</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Calculate Utilization --></label>
+        <name>pse__CalculateUtilization</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions_detail --></label>
+        <name>MC4SF__MailChimp_Subscriptions_detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions_list --></label>
+        <name>MC4SF__MailChimp_Subscriptions_list</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Calculate_Utilization --></label>
+        <name>pse__Calculate_Utilization</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Schedule_Report --></label>
+        <name>pse__Generate_Schedule_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Resource_Planner --></label>
+        <name>pse__Resource_Planner</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Resource_Planner_Detail --></label>
+        <name>pse__Resource_Planner_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Resource_Planner_Group --></label>
+        <name>pse__Resource_Planner_Group</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Resource_Planner_Practice --></label>
+        <name>pse__Resource_Planner_Practice</name>
+    </webLinks>
+</CustomObjectTranslation>

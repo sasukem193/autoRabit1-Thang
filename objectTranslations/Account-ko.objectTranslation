@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Account Filter Fields --></label>
+        <name>MC4SF__Account_Filter_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Backlog Amount --></label>
+        <name>Backlog_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Power1 --></label>
+        <name>Power1__c</name>
+    </fields>
+    <fields>
+        <help>체크하면 SCM 거래에 대한 계정을 사용할 수 있습니다</help>
+        <label><!-- Active? --></label>
+        <name>SCMC__Active__c</name>
+    </fields>
+    <fields>
+        <help>이 옵션을 선택하면 시스템이이 고객에게 견적을 자동으로 생성 할 수 있습니다.</help>
+        <label><!-- Auto Quote? --></label>
+        <name>SCMC__Auto_Quote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill-to E-mail --></label>
+        <name>SCMC__Bill_to_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAGE Code --></label>
+        <name>SCMC__CAGE_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capability Listing --></label>
+        <name>SCMC__Capability_Listing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certifications --></label>
+        <name>SCMC__Certifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate City --></label>
+        <name>SCMC__Corp_City__c</name>
+    </fields>
+    <fields>
+        <help>회사 주소의 국가</help>
+        <label><!-- Corporate Country --></label>
+        <name>SCMC__Corp_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Address Line 1 --></label>
+        <name>SCMC__Corp_Line1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Address Line 2 --></label>
+        <name>SCMC__Corp_Line2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Zip / Postal Code --></label>
+        <name>SCMC__Corp_PostalCode__c</name>
+    </fields>
+    <fields>
+        <help>회사 주 또는도를 입력하십시오</help>
+        <label><!-- Corporate State/Province --></label>
+        <name>SCMC__Corp_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Credit Card Expiration Date --></label>
+        <name>SCMC__Credit_Card_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Credit Card Number --></label>
+        <name>SCMC__Credit_Card_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Credit Card Type --></label>
+        <name>SCMC__Credit_Card_Type__c</name>
+        <picklistValues>
+            <masterLabel>American Express</masterLabel>
+            <translation>아메리칸 익스프레스</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discover</masterLabel>
+            <translation>발견하다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Card</masterLabel>
+            <translation>마스터 카드</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visa</masterLabel>
+            <translation>비자</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>아메리칸 익스프레스 (AMEX) -AMEX 코드는 신용 카드 번호 위의 카드 앞면에있는 4 자리 숫자입니다. 비자-비자 카드 확인 가치 (CVV) 및 마스터 카드 확인 코드 (CVC)는 카드 뒷면의 3 자리 숫자입니다.</help>
+        <label><!-- DEPRECATED: Credit Card Validation Code --></label>
+        <name>SCMC__Credit_Card_Validation_Code__c</name>
+    </fields>
+    <fields>
+        <help>계정 통화.</help>
+        <label><!-- Currency --></label>
+        <name>SCMC__Currency__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>SCMC__CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>높은</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>낮은</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>매질</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>이 계정의 고유 ID를 입력하십시오. 외부 시스템에서 RFQ를 검색하는 경우 외부 시스템이 할당 한 사이트의 값을 사용하십시오.</help>
+        <label><!-- Customer Site Id --></label>
+        <name>SCMC__Customer_Site_Id__c</name>
+    </fields>
+    <fields>
+        <help>이 계정이 회사의 본사 인 경우 본사를 선택하십시오. 이 계정이 회사의 부서 인 경우 부서를 선택하고이 계정이 다른 계정의 자회사 인 경우 자회사를 선택하십시오.</help>
+        <label><!-- Customer Type --></label>
+        <name>SCMC__Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Division</masterLabel>
+            <translation>분할</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head Quarters</masterLabel>
+            <translation>헤드 쿼터</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation>자회사</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>계정이 SCM 고객 계정 인 경우이를 확인하십시오.</help>
+        <label><!-- Customer? --></label>
+        <name>SCMC__Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- DUNS Number --></label>
+        <name>SCMC__DUNS_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Address --></label>
+        <name>SCMC__Default_Address__c</name>
+    </fields>
+    <fields>
+        <help>고객이 선호하는 지불 방법을 선택하십시오</help>
+        <label><!-- Default Payment Type --></label>
+        <name>SCMC__Default_Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation>신용 카드</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Order</masterLabel>
+            <translation>구매 오더</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>이 고객의 표준 가격 할인을 입력하십시오.</help>
+        <label><!-- Discount off Standard Price --></label>
+        <name>SCMC__Discount_off_Standard__c</name>
+    </fields>
+    <fields>
+        <label><!-- E-Mail --></label>
+        <name>SCMC__E_Mail__c</name>
+    </fields>
+    <fields>
+        <help>목적지, 출발지, 대구 등…</help>
+        <label><!-- FOB --></label>
+        <name>SCMC__FOB__c</name>
+    </fields>
+    <fields>
+        <help>청구서, 선불, 징수 등…</help>
+        <label><!-- Freight --></label>
+        <name>SCMC__Freight__c</name>
+    </fields>
+    <fields>
+        <help>송장을 렌더링하는 Visualforce 페이지의 이름을 입력하십시오. 이 고객에 대한 특정 송장이있는 경우에만 필요합니다</help>
+        <label><!-- Invoice Format --></label>
+        <name>SCMC__Invoice_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>SCMC__Language__c</name>
+    </fields>
+    <fields>
+        <help>이 계정에서 견적 요청을 받았을 때 아무 것도 반환하지 않으려면이 플래그를 선택하십시오.</help>
+        <label><!-- No Response? --></label>
+        <name>SCMC__No_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>SCMC__NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <help>이 계정에 대한 특정 형식의 packslip을 렌더링하는 Visualforce 페이지의 이름을 입력하십시오. 고객 별 packslip이 필요하지 않은 경우 여기에 아무 것도 입력하지 않아도됩니다.</help>
+        <label><!-- Packslip Format --></label>
+        <name>SCMC__Packslip_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms Name --></label>
+        <name>SCMC__Payment_Terms_Name__c</name>
+    </fields>
+    <fields>
+        <help>이 계정에 대한 기본 지불 조건을 지정하십시오</help>
+        <label><!-- Payment Terms --></label>
+        <name>SCMC__Payment_Terms__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>통신에 선호되는 통신 수단</help>
+        <label><!-- Preferred Communication --></label>
+        <name>SCMC__Preferred_Communication__c</name>
+        <picklistValues>
+            <masterLabel>E-Mail</masterLabel>
+            <translation>이메일</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation>팩스</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation>우편</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>전화</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>고객 및 파트너의 경우 품목 가격이 자동으로 결정되는 방식을 결정하는 가격 유형을 정의하십시오.</help>
+        <label><!-- Price Type --></label>
+        <name>SCMC__Price_Type__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>고급 선박 통지가 필요한지 여부를 나타냅니다.</help>
+        <label><!-- Provide Advanced Ship Notice? --></label>
+        <name>SCMC__Provide_Advanced_Ship_Notice__c</name>
+    </fields>
+    <fields>
+        <help>배송이 확인 될 때마다이 고객에게 전자 송장을 보내려면이 상자를 선택하십시오.</help>
+        <label><!-- Provide Electronic Invoice --></label>
+        <name>SCMC__Provide_Electronic_Invoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Temporary Hold --></label>
+        <name>SCMC__Reason_for_Temporary_Hold__c</name>
+    </fields>
+    <fields>
+        <help>이 계정의 영업 담당자 인 사용자</help>
+        <label><!-- Sales Rep --></label>
+        <name>SCMC__Sales_Rep__c</name>
+        <relationshipLabel><!-- Accounts (Sales Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>일반적으로이 계정을 돌보는 영업 책임.</help>
+        <label><!-- Sales Responsibility --></label>
+        <name>SCMC__Sales_Responsibility__c</name>
+        <relationshipLabel><!-- Customer Sites (Sales Responsibility) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>선호 항공사</help>
+        <label><!-- Ship Via --></label>
+        <name>SCMC__Ship_Via__c</name>
+    </fields>
+    <fields>
+        <help>이 고객에게 배송 할 때 사용할 계정 번호를 입력하십시오.</help>
+        <label><!-- Shipping Account --></label>
+        <name>SCMC__Shipping_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Small Business Designations --></label>
+        <name>SCMC__Small_Business_Designations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Order Detail --></label>
+        <name>SCMC__Standard_Order_Detail__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Exemption Group --></label>
+        <name>SCMC__Tax_Exemption_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temporary Hold --></label>
+        <name>SCMC__Temporary_Hold__c</name>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>재원</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation>품질</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>매상</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Terms --></label>
+        <name>SCMC__Terms__c</name>
+    </fields>
+    <fields>
+        <help>이 고객에 대한 주문이 특정 창고에서 할당 된 경우 여기에서 해당 창고를 지정하십시오.</help>
+        <label><!-- Warehouse --></label>
+        <name>SCMC__Warehouse__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TextFieldTest --></label>
+        <name>TextFieldTest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Contract Value --></label>
+        <name>Total_Contract_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Invoiced Amount --></label>
+        <name>Total_Invoiced_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Invoiced Hours --></label>
+        <name>Total_Invoiced_Hours__c</name>
+    </fields>
+    <fields>
+        <help>지난 365 일 동안의 지불을 기준으로 고객이 평균 지불 한 일수. 이 필드의 값은 자동으로 계산됩니다.</help>
+        <label><!-- Average Days to Pay --></label>
+        <name>c2g__AverageDaysToPay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Trading Currency --></label>
+        <name>c2g__CODAAccountTradingCurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accounts Payable Control --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAAccountsPayableControl__c</name>
+        <relationshipLabel><!-- Accounts (Accounts Payable Control Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accounts Receivable Control --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAAccountsReceivableControl__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Allow Deletion of Account in Use --></label>
+        <name>c2g__CODAAllowDeleteInUse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Name --></label>
+        <name>c2g__CODABankAccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Number --></label>
+        <name>c2g__CODABankAccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Reference --></label>
+        <name>c2g__CODABankAccountReference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank City --></label>
+        <name>c2g__CODABankCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Country --></label>
+        <name>c2g__CODABankCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Fax --></label>
+        <name>c2g__CODABankFax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank IBAN Number --></label>
+        <name>c2g__CODABankIBANNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Name --></label>
+        <name>c2g__CODABankName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Phone --></label>
+        <name>c2g__CODABankPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank SWIFT Number --></label>
+        <name>c2g__CODABankSWIFTNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Sort Code --></label>
+        <name>c2g__CODABankSortCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank State/Province --></label>
+        <name>c2g__CODABankStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Street --></label>
+        <name>c2g__CODABankStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Zip/Postal Code --></label>
+        <name>c2g__CODABankZipPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Date 1 --></label>
+        <name>c2g__CODABaseDate1__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>다음 달의 끝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>송장 날짜</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>다음 달 시작</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Base Date 2 --></label>
+        <name>c2g__CODABaseDate2__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>다음 달의 끝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>송장 날짜</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>다음 달 시작</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Base Date 3 --></label>
+        <name>c2g__CODABaseDate3__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>다음 달의 끝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>송장 날짜</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>다음 달 시작</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Base Date 4 --></label>
+        <name>c2g__CODABaseDate4__c</name>
+        <picklistValues>
+            <masterLabel>End of Next Month</masterLabel>
+            <translation>다음 달의 끝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Date</masterLabel>
+            <translation>송장 날짜</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start of Next Month</masterLabel>
+            <translation>다음 달 시작</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Validated --></label>
+        <name>c2g__CODABillingAddressIsValid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Method --></label>
+        <name>c2g__CODABillingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Electronic</masterLabel>
+            <translation>전자</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper</masterLabel>
+            <translation>종이</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-billing</masterLabel>
+            <translation>자체 청구</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Credit Agency --></label>
+        <name>c2g__CODACreditAgency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit Enabled --></label>
+        <name>c2g__CODACreditLimitEnabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit Reviewed --></label>
+        <name>c2g__CODACreditLimitReviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit --></label>
+        <name>c2g__CODACreditLimit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Manager --></label>
+        <name>c2g__CODACreditManager__c</name>
+        <relationshipLabel><!-- Accounts (Credit Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating Reviewed --></label>
+        <name>c2g__CODACreditRatingReviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating --></label>
+        <name>c2g__CODACreditRating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Reference --></label>
+        <name>c2g__CODACreditReference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Status --></label>
+        <name>c2g__CODACreditStatus__c</name>
+        <picklistValues>
+            <masterLabel>Cash with Order</masterLabel>
+            <translation>주문에 따른 현금</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Allowed</masterLabel>
+            <translation>신용 허용</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation>보류 중</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 1 --></label>
+        <name>c2g__CODADaysOffset1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 2 --></label>
+        <name>c2g__CODADaysOffset2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 3 --></label>
+        <name>c2g__CODADaysOffset3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Offset 4 --></label>
+        <name>c2g__CODADaysOffset4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Expense Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODADefaultExpenseAccount__c</name>
+        <relationshipLabel><!-- Accounts (Default Expense Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description 1 --></label>
+        <name>c2g__CODADescription1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description 2 --></label>
+        <name>c2g__CODADescription2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description 3 --></label>
+        <name>c2g__CODADescription3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description 4 --></label>
+        <name>c2g__CODADescription4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dimension 1 --></label>
+        <name>c2g__CODADimension1__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dimension 2 --></label>
+        <name>c2g__CODADimension2__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dimension 3 --></label>
+        <name>c2g__CODADimension3__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dimension 4 --></label>
+        <name>c2g__CODADimension4__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Discount 1 --></label>
+        <name>c2g__CODADiscount1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount 2 --></label>
+        <name>c2g__CODADiscount2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount 3 --></label>
+        <name>c2g__CODADiscount3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount 4 --></label>
+        <name>c2g__CODADiscount4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Country Code --></label>
+        <name>c2g__CODAECCountryCode__c</name>
+        <picklistValues>
+            <masterLabel>AE</masterLabel>
+            <translation>AE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT</masterLabel>
+            <translation>에서</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AU</masterLabel>
+            <translation>누구나</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE</masterLabel>
+            <translation>있다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG</masterLabel>
+            <translation>BG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>캘리포니아 주</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH</masterLabel>
+            <translation>CH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CY</masterLabel>
+            <translation>CY</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CZ</masterLabel>
+            <translation>CZ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation>DE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK</masterLabel>
+            <translation>디케이</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EE</masterLabel>
+            <translation>EE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL</masterLabel>
+            <translation>엘자</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES</masterLabel>
+            <translation>ES</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation>FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FR</masterLabel>
+            <translation>FR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GB</masterLabel>
+            <translation>GB</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GR</masterLabel>
+            <translation>GR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HK</masterLabel>
+            <translation>홍콩</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HU</masterLabel>
+            <translation>휴</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IE</masterLabel>
+            <translation>IE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>그것</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LT</masterLabel>
+            <translation>LT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LU</masterLabel>
+            <translation>LU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LV</masterLabel>
+            <translation>LV</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation>몬태나 주</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY</masterLabel>
+            <translation>나의</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL</masterLabel>
+            <translation>NL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation>아니</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ</masterLabel>
+            <translation>뉴질랜드</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PL</masterLabel>
+            <translation>PL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT</masterLabel>
+            <translation>태평양 표준시</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RO</masterLabel>
+            <translation>소유주</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE</masterLabel>
+            <translation>SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SG</masterLabel>
+            <translation>SG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation>시</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SK</masterLabel>
+            <translation>SK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation>우리</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZA</masterLabel>
+            <translation>ZA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Entity / Use Code --></label>
+        <name>c2g__CODAEntityUseCode__c</name>
+        <picklistValues>
+            <masterLabel>A - Federal government - United States</masterLabel>
+            <translation>A - 연방 정부 - 미국</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B - State government - United States</masterLabel>
+            <translation>B - 주정부 - 미국</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C - Tribe / Status Indian / Indian Band - both</masterLabel>
+            <translation>C - 부족 / 상태 인도 / 인도 밴드 - 둘 다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D - Foreign diplomat - both</masterLabel>
+            <translation>D - 외교관 - 모두</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E - Charitable or benevolent org - both</masterLabel>
+            <translation>E - 자선 또는 자선 단체 - 둘 다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F - Religious or educational org - both</masterLabel>
+            <translation>F - 종교 또는 교육 기관 - 둘 다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G - Resale - both</masterLabel>
+            <translation>G - 재판매 - 모두</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H - Commercial agricultural production - both</masterLabel>
+            <translation>H - 상업적 농산물 - 둘 다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I - Industrial production / manufacturer - both</masterLabel>
+            <translation>나 - 산업 생산 / 제조업체 - 둘 다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J - Direct pay permit - United States</masterLabel>
+            <translation>J - 직접 지불 허가 - 미국</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K - Direct mail - United States</masterLabel>
+            <translation>K - 직접 우송 - 미국</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L - Other - both</masterLabel>
+            <translation>L - 기타 - 둘 다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N - Local government - United States</masterLabel>
+            <translation>N - 지방 정부 - 미국</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P - Commercial aquaculture - Canada</masterLabel>
+            <translation>P - 상업 양식 - 캐나다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q - Commercial Fishery - Canada</masterLabel>
+            <translation>Q - 상업 어업 - 캐나다</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R - Non-resident - Canada</masterLabel>
+            <translation>R - 비거주자 - 캐나다</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exemption Certificate --></label>
+        <name>c2g__CODAExemptionCertificate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>c2g__CODAExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Federally Reportable 1099 --></label>
+        <name>c2g__CODAFederallyReportable1099__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Contact --></label>
+        <name>c2g__CODAFinanceContact__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Income Tax Type --></label>
+        <name>c2g__CODAIncomeTaxType__c</name>
+        <picklistValues>
+            <masterLabel>1 - Rents</masterLabel>
+            <translation>1 - 렌트</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Crop Insurance Proceeds</masterLabel>
+            <translation>10 - 농작물 수익</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 - Unused 11</masterLabel>
+            <translation>11 - 사용하지 않은 11</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 - Unused 12</masterLabel>
+            <translation>12 - 미사용 12</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 - Excess Golden Parachute Payments</masterLabel>
+            <translation>13 - 초과 낙찰자 지불</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 - Gross Proceeds Paid to an Attorney</masterLabel>
+            <translation>14 - 변호사에게 지불 한 총 수익금</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Royalties</masterLabel>
+            <translation>2 - 로열티</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Other Income</masterLabel>
+            <translation>3 - 기타 소득</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Federal Income Tax Withheld</masterLabel>
+            <translation>4 - 연방 소득세 보류</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Fishing Boat Proceeds</masterLabel>
+            <translation>5 - 낚시 보트 수익</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Medical and Healthcare Payments</masterLabel>
+            <translation>6 - 의료 및 건강 관리 지불</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Nonemployee Compensation</masterLabel>
+            <translation>7 - 비경제적인 보상</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 - Substitute Payments in Lieu of Dividends or Interest</masterLabel>
+            <translation>8 - 배당금 또는이자 대신에 대체 지불</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 - Payer Made Direct Sales of 5000 or More</masterLabel>
+            <translation>9 - 직접 판매액이 5000 명 이상인 경우</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Reportable</masterLabel>
+            <translation>보고 할 수 없음</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Input VAT/GST Code --></label>
+        <name>c2g__CODAInputVATCode__c</name>
+        <relationshipLabel><!-- Accounts (Input VAT/GST Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Intercompany Account --></label>
+        <name>c2g__CODAIntercompanyAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Email --></label>
+        <name>c2g__CODAInvoiceEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge Id --></label>
+        <name>c2g__CODAMergeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output VAT/GST Code --></label>
+        <name>c2g__CODAOutputVATCode__c</name>
+        <relationshipLabel><!-- Accounts (Output VAT/GST Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>c2g__CODAPaymentMethod__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation>현금</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation>검사</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronic</masterLabel>
+            <translation>전자</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reporting Code --></label>
+        <name>c2g__CODAReportingCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Tax Status --></label>
+        <name>c2g__CODASalesTaxStatus__c</name>
+        <picklistValues>
+            <masterLabel>Exempt</masterLabel>
+            <translation>면제</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt for Qualifying Products</masterLabel>
+            <translation>자격있는 제품 면제</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable</masterLabel>
+            <translation>과세 대상</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address Validated --></label>
+        <name>c2g__CODAShippingAddressIsValid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Calculation Method --></label>
+        <name>c2g__CODATaxCalculationMethod__c</name>
+        <picklistValues>
+            <masterLabel>Gross</masterLabel>
+            <translation>심한</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net of Discount</masterLabel>
+            <translation>할인 순</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax Code 1 --></label>
+        <name>c2g__CODATaxCode1__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Code 2 --></label>
+        <name>c2g__CODATaxCode2__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Code 3 --></label>
+        <name>c2g__CODATaxCode3__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Taxpayer Identification Number --></label>
+        <name>c2g__CODATaxpayerIdentificationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Registration Number --></label>
+        <name>c2g__CODAVATRegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Status --></label>
+        <name>c2g__CODAVATStatus__c</name>
+        <picklistValues>
+            <masterLabel>EC Non-registered</masterLabel>
+            <translation>EC 미등록</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EC Registered</masterLabel>
+            <translation>EC 등록</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export</masterLabel>
+            <translation>수출</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>집</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingCity --></label>
+        <name>c2g__CODAValidatedBillingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingCountry --></label>
+        <name>c2g__CODAValidatedBillingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingPostCode --></label>
+        <name>c2g__CODAValidatedBillingPostCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingState --></label>
+        <name>c2g__CODAValidatedBillingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedBillingStreet --></label>
+        <name>c2g__CODAValidatedBillingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingCity --></label>
+        <name>c2g__CODAValidatedShippingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingCountry --></label>
+        <name>c2g__CODAValidatedShippingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingPostCode --></label>
+        <name>c2g__CODAValidatedShippingPostCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingState --></label>
+        <name>c2g__CODAValidatedShippingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidatedShippingStreet --></label>
+        <name>c2g__CODAValidatedShippingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collections On Hold Reason --></label>
+        <name>c2g__CollectionsOnHoldReason__c</name>
+        <picklistValues>
+            <masterLabel>Account in dispute</masterLabel>
+            <translation>분쟁중인 계정</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice in dispute</masterLabel>
+            <translation>분쟁중인 인보이스</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>다른</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Collections On Hold --></label>
+        <name>c2g__CollectionsOnHold__c</name>
+    </fields>
+    <fields>
+        <help>지난 365 일 동안의 판매 및 지불을 기준으로 판매가 이루어진 후 지불금을 징수하는 데 걸리는 평균 일수입니다. 이 필드의 값은 자동으로 계산됩니다.</help>
+        <label><!-- Days Sales Outstanding (Annual) --></label>
+        <name>c2g__DaysSalesOutstanding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Culture --></label>
+        <name>ffaci__CurrencyCulture__c</name>
+    </fields>
+    <fields>
+        <help>청구서 수신 주소로 사용할 Salesforce 계정 조회.</help>
+        <label><!-- Billing Account --></label>
+        <name>ffbc__BillingAccount__c</name>
+        <relationshipLabel><!-- Related Billing Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Particulars --></label>
+        <name>ffbf__AccountParticulars__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank BIC --></label>
+        <name>ffbf__BankBIC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Code --></label>
+        <name>ffbf__PaymentCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Country ISO --></label>
+        <name>ffbf__PaymentCountryISO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Priority --></label>
+        <name>ffbf__PaymentPriority__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation>엘</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation>엔</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U</masterLabel>
+            <translation>유</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Routing Method --></label>
+        <name>ffbf__PaymentRoutingMethod__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation>씨</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>계정에 대한 면세 증명서. 계정에 세금을 징수 할 필요가 없으며 금융 팀이 면세 증명서를 수동으로 추적하고 확인하는 경우 값을 입력하십시오.</help>
+        <label><!-- Exemption Certificate --></label>
+        <name>fferpcore__ExemptionCertificate__c</name>
+    </fields>
+    <fields>
+        <help>대금 청구 주소가 외부 세금 계산 서비스의 주소와 비교하여 유효한지 여부를 나타냅니다.</help>
+        <label><!-- Billing Address Validated --></label>
+        <name>fferpcore__IsBillingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <help>배송 주소가 외부 세금 계산 서비스의 주소와 유효한지 여부를 나타냅니다.</help>
+        <label><!-- Shipping Address Validated --></label>
+        <name>fferpcore__IsShippingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Validated Reference --></label>
+        <name>fferpcore__MaterializedBillingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address Validated Reference --></label>
+        <name>fferpcore__MaterializedShippingAddressValidated__c</name>
+    </fields>
+    <fields>
+        <help>VAT 또는 GST 회사에서 세금을 계산할 때 사용할 세금 코드입니다.</help>
+        <label><!-- Output VAT/GST Code --></label>
+        <name>fferpcore__OutputVatCode__c</name>
+        <relationshipLabel><!-- Accounts (Output VAT/GST Code) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>SUT 회사에 대한이 계정의 세금 상태.</help>
+        <label><!-- Sales Tax Status --></label>
+        <name>fferpcore__SalesTaxStatus__c</name>
+        <picklistValues>
+            <masterLabel>Exempt</masterLabel>
+            <translation>면제</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exempt for Qualifying Products</masterLabel>
+            <translation>자격있는 제품 면제</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable</masterLabel>
+            <translation>과세 대상</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>이 계정에 대한 첫 번째 SUT 세금 코드.</help>
+        <label><!-- Tax Code 1 --></label>
+        <name>fferpcore__TaxCode1__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>이 계정의 두 번째 SUT 세금 코드.</help>
+        <label><!-- Tax Code 2 --></label>
+        <name>fferpcore__TaxCode2__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>이 계정에 대한 세 번째 SUT 세금 코드.</help>
+        <label><!-- Tax Code 3 --></label>
+        <name>fferpcore__TaxCode3__c</name>
+        <relationshipLabel><!-- Accounts (Tax Code 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>이 계정의 국가 코드입니다. 이것은 유럽 연합 내 국경 간 거래에 대한 부가가치세의 정확한보고를 위해 필요합니다.</help>
+        <label><!-- Tax Country Code --></label>
+        <name>fferpcore__TaxCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing City --></label>
+        <name>fferpcore__ValidatedBillingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing Country --></label>
+        <name>fferpcore__ValidatedBillingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing Zip/Postal Code --></label>
+        <name>fferpcore__ValidatedBillingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing State/Province --></label>
+        <name>fferpcore__ValidatedBillingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Billing Street --></label>
+        <name>fferpcore__ValidatedBillingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping City --></label>
+        <name>fferpcore__ValidatedShippingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping Country --></label>
+        <name>fferpcore__ValidatedShippingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping Zip/Postal Code --></label>
+        <name>fferpcore__ValidatedShippingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping State/Province --></label>
+        <name>fferpcore__ValidatedShippingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validated Shipping Street --></label>
+        <name>fferpcore__ValidatedShippingStreet__c</name>
+    </fields>
+    <fields>
+        <help>세금 목적으로 사용 된 번호 식별.</help>
+        <label><!-- Tax Registration Number --></label>
+        <name>fferpcore__VatRegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <help>VAT / GST 계정에 대한이 계정의 세금 상태입니다.</help>
+        <label><!-- Tax Status --></label>
+        <name>fferpcore__VatStatus__c</name>
+        <picklistValues>
+            <masterLabel>EC Non-registered</masterLabel>
+            <translation>EC 미등록</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EC Registered</masterLabel>
+            <translation>EC 등록</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export</masterLabel>
+            <translation>수출</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>집</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>이 옵션을 선택하면 새 청구 이벤트를 작성하는 대신 모든 기존 청구 이벤트 항목이 기존 청구 이벤트에 추가됩니다.</help>
+        <label><!-- Add BEIs To Existing Batches --></label>
+        <name>pse__Add_BEIs_To_Existing_Batches__c</name>
+    </fields>
+    <fields>
+        <help>이것은 Foundations 시스템 내에서 사용 된 작업자 상관 키를 기록합니다.</help>
+        <label><!-- Foundations Worker Correlation --></label>
+        <name>pse__ERP_Worker_Correlation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Billing Time Period Type --></label>
+        <name>pse__Services_Billing_Time_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation>달</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation>쿼터</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation>주</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation>년</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Customer Contracts and Invoices numbers --></label>
+            <section>Customer Contracts and Invoices numbers</section>
+        </sections>
+        <sections>
+            <label>SUT 세금 정보</label>
+            <section>SUT Tax Information</section>
+        </sections>
+        <sections>
+            <label>VAT / GST 세금 정보</label>
+            <section>VAT/GST Tax Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account SCM</layout>
+        <sections>
+            <label><!-- Classification Information --></label>
+            <section>Classification Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Standard Order --></label>
+            <section>Standard Order</section>
+        </sections>
+        <sections>
+            <label><!-- Trade Information --></label>
+            <section>Trade Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FinancialForce Account Layout</layout>
+        <sections>
+            <label><!-- Account Balance --></label>
+            <section>Account Balance</section>
+        </sections>
+        <sections>
+            <label><!-- Accounting Information --></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label><!-- Bank Details --></label>
+            <section>Bank Details</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Management Information --></label>
+            <section>Credit Management Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms --></label>
+            <section>Credit Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dimension Analysis --></label>
+            <section>Dimension Analysis</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Correspondence --></label>
+            <section>Finance Correspondence</section>
+        </sections>
+        <sections>
+            <label><!-- Sales &amp; Use Tax Information --></label>
+            <section>Sales &amp; Use Tax Information</section>
+        </sections>
+        <sections>
+            <label><!-- VAT/GST Information --></label>
+            <section>VAT/GST Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FinancialForce Account Layout (community)</layout>
+        <sections>
+            <label>맞춤 링크</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>전지</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Validate Billing Address --></label>
+        <name>fferpcore__ValidateBillingAddress</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Validate Shipping Address --></label>
+        <name>fferpcore__ValidateShippingAddress</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- This Account is in use by FinancialForce Accounting. You cannot change its currency. --></errorMessage>
+        <name>Lock_Account_Currency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot set up an Account with Auto Quote and No Response --></errorMessage>
+        <name>SCMC__Both_Auto_Quote_No_Response_Checked</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions --></label>
+        <name>MC4SF__MailChimp_Subscriptions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateBillingAddress --></label>
+        <name>c2g__CODAValidateBillingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateCustomer --></label>
+        <name>c2g__CODAValidateCustomer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateShippingAddress --></label>
+        <name>c2g__CODAValidateShippingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CODAValidateVendor --></label>
+        <name>c2g__CODAValidateVendor</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CashMatching --></label>
+        <name>c2g__CashMatching</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ValidateBillingAddress --></label>
+        <name>fferpcore__ValidateBillingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ValidateShippingAddress --></label>
+        <name>fferpcore__ValidateShippingAddress</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Account_Billing --></label>
+        <name>pse__Account_Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Change_Request --></label>
+        <name>pse__Create_Change_Request</name>
+    </webLinks>
+</CustomObjectTranslation>

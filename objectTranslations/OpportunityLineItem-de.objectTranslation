@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Verweis auf die Kundenangebotsposition, der diese Opportunity-Position zugeordnet ist. Dies wird beim Erstellen ausgefüllt</help>
+        <label><!-- Customer Quotation Line --></label>
+        <name>SCMC__Customer_Quotation_Line__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Override Product GLA --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAGeneralLedgerAccount__c</name>
+        <relationshipLabel><!-- Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <help>Suchen Sie nach dem Soft-Date, das bestimmt, wann die Abrechnung erfolgt.</help>
+        <label><!-- Billing Term --></label>
+        <name>ffbc__BillingTerm__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Die Art der Fakturierung für diese Werbebuchung.</help>
+        <label><!-- Billing Type --></label>
+        <name>ffbc__BillingType__c</name>
+        <picklistValues>
+            <masterLabel>One-off</masterLabel>
+            <translation>Einmalig</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Fixed</masterLabel>
+            <translation>Wiederkehrend Fest</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Variable</masterLabel>
+            <translation>Wiederkehrende Variable</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Datum, an dem die Vertragsposition endet</help>
+        <label><!-- Contract Line End Date --></label>
+        <name>ffbc__ContractLineEndDate__c</name>
+    </fields>
+    <fields>
+        <help>Erstes Datum, an dem die Vertragsposition in Rechnung gestellt werden soll.</help>
+        <label><!-- Contract Line First Bill Date --></label>
+        <name>ffbc__ContractLineFirstBillDate__c</name>
+    </fields>
+    <fields>
+        <help>Datum, ab dem die Fakturierung für die Vertragsposition beginnen kann.</help>
+        <label><!-- Contract Line Start Date --></label>
+        <name>ffbc__ContractLineStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Plan, auf den sich diese Werbebuchung bezieht</help>
+        <label><!-- Plan Name --></label>
+        <name>ffbc__Plan__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Suchen Sie nach der Maßeinheit, die verwendet wird, um die Kundennutzung für diese Werbebuchung zu ermitteln.</help>
+        <label><!-- Unit Of Measure --></label>
+        <name>ffbc__UnitOfMeasure__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Added To Project --></label>
+        <name>pse__Added_To_Project__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsServicesProductLine --></label>
+        <name>pse__IsServicesProductLine__c</name>
+    </fields>
+</CustomObjectTranslation>

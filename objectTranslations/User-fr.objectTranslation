@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Assistant --></label>
+        <name>SCMC__Assistant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asst. Phone --></label>
+        <name>SCMC__Asst_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home Phone --></label>
+        <name>SCMC__Home_Phone__c</name>
+    </fields>
+    <fields>
+        <help>Indique comment l’utilisateur souhaite être informé des erreurs qui se produisent dans les processus d’arrière-plan.</help>
+        <label><!-- Notification Type --></label>
+        <name>SCMC__Notification_Type__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation>Tous les deux</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>Email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task</masterLabel>
+            <translation>Tâche</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other Phone --></label>
+        <name>SCMC__Other_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Companies --></label>
+        <name>SCMC__Previous_Companies__c</name>
+    </fields>
+    <fields>
+        <help>Utilisé pour une deuxième vérification pour créer une signature numérique sur les enregistrements d’inspection</help>
+        <label><!-- Stamp Number --></label>
+        <name>SCMC__Stamp_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- API License Key --></label>
+        <name>c2g__APILicenseKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support Data Access Key --></label>
+        <name>c2g__SupportDataAccessKey__c</name>
+    </fields>
+    <layouts>
+        <layout>Community Member Layout</layout>
+        <layoutType>CommunityMemberLayout</layoutType>
+        <sections>
+            <label><!-- Basic Information --></label>
+            <section>Basic Information</section>
+        </sections>
+        <sections>
+            <label><!-- Chatter Settings --></label>
+            <section>Chatter Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Language And Locale Settings --></label>
+            <section>Language And Locale Settings</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Profile Layout</layout>
+        <layoutType>UserAlt</layoutType>
+        <sections>
+            <label><!-- About --></label>
+            <section>About</section>
+        </sections>
+        <sections>
+            <label><!-- Background --></label>
+            <section>Background</section>
+        </sections>
+        <sections>
+            <label><!-- Contact --></label>
+            <section>Contact</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User SCM</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+</CustomObjectTranslation>

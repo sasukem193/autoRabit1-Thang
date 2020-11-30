@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Purchase order --></label>
+        <name>Purchase_order</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Opportunity Detail Fields on RR From Template Field Set --></label>
+        <name>pse__OppDetailOnRRFromTemplateFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Opportunity Fields For Rate Card Set --></label>
+        <name>pse__Opportunity_Fields_For_Rate_Card_Set</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Amount to be invoiced --></label>
+        <name>Amount_to_be_invoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Type --></label>
+        <name>Billing_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Price</masterLabel>
+            <translation><!-- Fixed Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support - Retainer</masterLabel>
+            <translation><!-- Support - Retainer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support - T&amp;M</masterLabel>
+            <translation><!-- Support - T&amp;M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support - Upfront</masterLabel>
+            <translation><!-- Support - Upfront --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T&amp;M</masterLabel>
+            <translation><!-- T&amp;M --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Blended Rate --></label>
+        <name>BlendedRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Synced Project --></label>
+        <name>Default_Project__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expected Close Date --></label>
+        <name>Expected_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of Months --></label>
+        <name>No_of_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of records --></label>
+        <name>No_of_records__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO No --></label>
+        <name>PO_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Per Month Hours --></label>
+        <name>Per_Month_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project End --></label>
+        <name>Project_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Start --></label>
+        <name>Project_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Status --></label>
+        <name>Project_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Hours --></label>
+        <name>Total_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Invoiced Amount --></label>
+        <name>Total_Invoiced_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Invoiced Hours --></label>
+        <name>Total_Invoiced_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- XXX Batch Process --></label>
+        <name>c2g__BatchProcess__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>ffbc__Company__c</name>
+        <relationshipLabel><!-- Related Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Data in cui termina il contratto.</help>
+        <label><!-- Contract End Date --></label>
+        <name>ffbc__ContractEndDate__c</name>
+    </fields>
+    <fields>
+        <help>Prima data in cui il contratto deve essere fatturato.</help>
+        <label><!-- Contract First Bill Date --></label>
+        <name>ffbc__ContractFirstBillDate__c</name>
+    </fields>
+    <fields>
+        <help>Data da cui può iniziare la fatturazione per il contratto.</help>
+        <label><!-- Contract Start Date --></label>
+        <name>ffbc__ContractStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Consulta il contratto a cui si riferisce questa opportunità.</help>
+        <label><!-- Contract --></label>
+        <name>ffbc__Contract__c</name>
+        <relationshipLabel><!-- Related Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cerca l&apos;opportunità da cui è nata questa opportunità.</help>
+        <label><!-- Original Opportunity --></label>
+        <name>ffbc__OriginalOpportunity__c</name>
+        <relationshipLabel><!-- Original Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- XXX Batch Process --></label>
+        <name>ffr__BatchProcess__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Forecast Curve --></label>
+        <name>pse__Forecast_Curve__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>pse__Group__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deprecated:IsParentOpportunityServices --></label>
+        <name>pse__IsParentOpportunityServices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Change Request --></label>
+        <name>pse__Is_Change_Request__c</name>
+    </fields>
+    <fields>
+        <help>Controlla se questa è un&apos;opportunità di servizi</help>
+        <label><!-- Is Services Opportunity --></label>
+        <name>pse__Is_Services_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Opportunity --></label>
+        <name>pse__Parent_Opportunity__c</name>
+        <relationshipLabel><!-- Child Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Practice --></label>
+        <name>pse__Practice__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Pre-Billed Amount --></label>
+        <name>pse__PreBilledAmount__c</name>
+    </fields>
+    <fields>
+        <help>Questo campo sostituisce il vecchio campo Pre-Billed Amount (PreBilledAmount__c) che non consentiva decimali non interi.</help>
+        <label><!-- Pre-Billed Amount --></label>
+        <name>pse__Pre_Billed_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Project --></label>
+        <name>pse__Primary_Project__c</name>
+        <relationshipLabel><!-- Primary Project For Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>La tariffa minima consigliata per il tariffario a cui verrà applicato lo sconto.</help>
+        <label><!-- Rate Card Discount Limit --></label>
+        <name>pse__Rate_Card_Discount_Limit__c</name>
+    </fields>
+    <fields>
+        <help>Lo sconto in percentuale applicabile al tasso di spesa suggerito da un tariffario quando si crea o si aggiorna una richiesta di risorsa su un&apos;opportunità.</help>
+        <label><!-- Rate Card Percentage Discount --></label>
+        <name>pse__Rate_Card_Percentage_Discount__c</name>
+    </fields>
+    <fields>
+        <help>Un tariffario, composto da più tariffari separati, determina quali tariffari vengono applicati a un progetto</help>
+        <label><!-- Rate Card Set --></label>
+        <name>pse__Rate_Card_Set__c</name>
+        <relationshipLabel><!-- Rate Card Set Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>pse__Region__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Services Attached From Products --></label>
+        <name>pse__Services_Attached_From_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Attached % From Products --></label>
+        <name>pse__Services_Attached_Percent_From_Products__c</name>
+    </fields>
+    <layouts>
+        <layout>FinancialForce Opportunity Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Descrizione Informazioni</label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label>Informazioni sull&apos;opportunità</label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label>Altre informazioni</label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label>Informazioni di sistema</label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Billings Information --></label>
+            <section>Billings Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cost and Revenue Summary --></label>
+            <section>Cost and Revenue Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Forecast Information --></label>
+            <section>Forecast Information</section>
+        </sections>
+        <sections>
+            <label><!-- PSA Data --></label>
+            <section>PSA Data</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Plan --></label>
+        <name>ffbc__AddPlan</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- End date cannot be earlier than start date. --></errorMessage>
+        <name>End_Date_Logic</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Start date cannot be later than end date. --></errorMessage>
+        <name>Start_Date_Logic</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Rate Card Percentage Discount must be between 0 and 100. --></errorMessage>
+        <name>pse__Discount_Rates_Must_Be_Between_0_to_100</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot associate the rate card set with the opportunity. They must both use the same currency. --></errorMessage>
+        <name>pse__Opp_Rate_Card_Set_Currency_Mismatch</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Customer_Quote --></label>
+        <name>SCMC__Create_Customer_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateInvoice --></label>
+        <name>c2g__CreateInvoice</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateInvoices --></label>
+        <name>c2g__CreateInvoices</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AddPlan --></label>
+        <name>ffbc__AddPlan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Apply_Rate_Card_Discount --></label>
+        <name>pse__Apply_Rate_Card_Discount</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Change_Request --></label>
+        <name>pse__Create_Change_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Project --></label>
+        <name>pse__Create_Project</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_Revenue_Forecast --></label>
+        <name>pse__Run_Revenue_Forecast</name>
+    </webLinks>
+</CustomObjectTranslation>

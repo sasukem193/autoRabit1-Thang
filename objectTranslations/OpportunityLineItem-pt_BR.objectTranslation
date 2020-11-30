@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Referência ao item de linha de cotação do cliente ao qual esta linha de oportunidade está associada. Isso é preenchido quando você cria</help>
+        <label><!-- Customer Quotation Line --></label>
+        <name>SCMC__Customer_Quotation_Line__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Override Product GLA --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected GLA does not exist or is not valid. It must be a corporate GLA. --></errorMessage>
+        </lookupFilter>
+        <name>c2g__CODAGeneralLedgerAccount__c</name>
+        <relationshipLabel><!-- Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unit of Work --></label>
+        <name>c2g__CODAUnitOfWork__c</name>
+    </fields>
+    <fields>
+        <help>Consulte a data temporária que determina quando ocorre o faturamento.</help>
+        <label><!-- Billing Term --></label>
+        <name>ffbc__BillingTerm__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>O tipo de faturamento para este item de linha de oportunidade.</help>
+        <label><!-- Billing Type --></label>
+        <name>ffbc__BillingType__c</name>
+        <picklistValues>
+            <masterLabel>One-off</masterLabel>
+            <translation>One-off</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Fixed</masterLabel>
+            <translation>Recorrente Fixo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Variable</masterLabel>
+            <translation>Variável Recorrente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Data em que o item de linha do contrato termina.</help>
+        <label><!-- Contract Line End Date --></label>
+        <name>ffbc__ContractLineEndDate__c</name>
+    </fields>
+    <fields>
+        <help>Primeira data em que o item de linha do contrato deve ser cobrado.</help>
+        <label><!-- Contract Line First Bill Date --></label>
+        <name>ffbc__ContractLineFirstBillDate__c</name>
+    </fields>
+    <fields>
+        <help>Data a partir da qual o faturamento pode começar para o item de linha do contrato.</help>
+        <label><!-- Contract Line Start Date --></label>
+        <name>ffbc__ContractLineStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Planeje ao qual esse item de linha de oportunidade está relacionado.</help>
+        <label><!-- Plan Name --></label>
+        <name>ffbc__Plan__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Consulte a unidade de medida usada para determinar o uso do cliente neste item de linha de oportunidade.</help>
+        <label><!-- Unit Of Measure --></label>
+        <name>ffbc__UnitOfMeasure__c</name>
+        <relationshipLabel><!-- Related Opportunity Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Added To Project --></label>
+        <name>pse__Added_To_Project__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsServicesProductLine --></label>
+        <name>pse__IsServicesProductLine__c</name>
+    </fields>
+</CustomObjectTranslation>

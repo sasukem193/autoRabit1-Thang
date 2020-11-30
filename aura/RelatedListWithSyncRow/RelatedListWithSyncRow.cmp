@@ -1,0 +1,229 @@
+<aura:component controller="relatedListWithSyncCtrl">
+    <!-- on component load, fetch picklist values dynamically from apex controller -->   
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:registerEvent name="invokeParent" type="c:invokeParent"/>
+    
+    
+    
+    <!--declare aura attributes-->
+    <aura:attribute name="objInfoForPicklistValues" type="sobject" default="{sobjectType : 'Costing__c'}" description="object information to fetch picklist values"/>
+    <aura:attribute name="ratingPicklistOpts" type="string[]" description="store picklist options values"/> 
+    <aura:attribute name="showSaveCancelBtn" type="boolean"/>
+    <aura:attribute name="editModeBtn" type="boolean"/>
+    <aura:attribute name="showErrorClass" type="boolean" default="false"/>
+    <aura:attribute name="sNo" type="string" />
+    <aura:attribute name="isOpen" type="boolean" default="false"/>
+    <aura:attribute name="HideSpinner" type="Boolean" default="false"/>
+    
+    <aura:attribute name="singleRecc" type="sobject" default="{'sobjectType' : 'account',
+                                                              'Name' : '',
+                                                              'Website' : '',
+                                                              'AnnualRevenue' :'',
+                                                              'Rating': ''
+                                                              }"/>
+    
+    
+    
+    <aura:attribute name="singleRectt" type="Costing__c" />
+    
+    <aura:attribute name="singleRec" type="Project_Costing__C[]" description="store account records list"/>
+    
+    
+    <aura:attribute name="singleRecyy" type="sobject" default="{'sobjectType' : 'Project_Costing__C',
+                                                               'Name' : '',
+                                                               'Level__c' : '',
+                                                               'Cost__c' :'',
+                                                               'Architect__c' :'',
+                                                               'Sales_Rate__c': ''
+                                                               }"/>
+    
+    
+    <aura:attribute name="editMode" type="boolean" default="false" />
+    <aura:attribute name="nameEditMode" type="boolean" default="false" />
+    <aura:attribute name="ratingEditMode" type="boolean" default="false" />
+    
+    
+    <aura:registerEvent name="DeleteRowEvt" type="c:DeleteRowEvt"/> 
+    
+    
+    
+    <!--Table Row Start-->  
+    
+    <tr height="100">
+        <!--<td><div class="slds-truncate">{!v.sNo}</div></td> -->
+        
+        <td data-label="Project Name: " class="{! v.showErrorClass == true ? 'slds-cell-edit slds-has-error' : 'slds-cell-edit'}">
+            <span class="slds-grid slds-grid_align-spread">
+                <!-- show input and output section based on boolean flag --> 
+                <aura:if isTrue="{!v.nameEditMode == false}">
+                    <span class="slds-truncate" title="Project Name">
+                        <p><a onclick="{!c.onClick}">{!v.singleRec.Name}</a></p>
+                    </span>
+                    
+                    <!--<button onclick="{!c.inlineEditName}" class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" tabindex="0" title="Edit Name">
+                      <lightning:icon iconName="utility:edit" size="xx-small" alternativeText="edit"/>
+                    </button>-->
+                    
+                    <!-- Inline Edit Section in else case-->  
+                    <aura:set attribute="else">
+                        <section  tabindex="0" class="slds-popover slds-popover_edit" role="dialog" style="position: absolute; top: 0px">
+                            <div class="slds-popover__body">
+                                <div class="slds-form-element slds-grid slds-wrap">
+                                    <div class="slds-form-element__control slds-grow">
+                                        <ui:inputText class="slds-input inputFieldWidth"
+                                                      labelClass="slds-form-element__label slds-form-element__label_edit slds-no-flex"
+                                                      aura:id="inputId"
+                                                      blur="{!c.closeNameBox}"
+                                                      change="{!c.onNameChange}"
+                                                      required="true"
+                                                      label="Name"
+                                                      value="{!v.singleRec.Name}" />
+                                    </div>
+                                </div>
+                            </div>
+                            <span id="form-end" tabindex="0"></span>
+                        </section>  
+                    </aura:set>  
+                </aura:if> 
+            </span>
+        </td>
+        
+        
+        
+        
+        <td data-label="Net Cost Price">
+            
+            
+            <div>
+                {!v.singleRec.CurrencyIsoCode} &nbsp; 
+                <!--                <ui:outputCurrency value="{!v.singleRec.Net_Cost_Price__c}" format="##,##,###,###.00"/> -->
+                <ui:outputnumber value="{!v.singleRec.Net_Cost_Price__c}"/>
+                
+                
+            </div>
+            
+            
+        </td>
+        
+        <td data-label="Net Sales Price">
+            
+            
+            <div>
+                {!v.singleRec.CurrencyIsoCode} &nbsp; 
+                <ui:outputnumber value="{!v.singleRec.Net_Sales_Price__c}"/>
+                
+                
+            </div>
+            
+            
+        </td>
+        
+        
+        
+        
+        
+        
+        <td data-label="Total Margin">
+            
+            <!--            <div class="slds-truncate">{!v.singleRec.Total_Margin__c }%</div>  -->
+            <ui:outputnumber value="{!v.singleRec.Total_Margin__c}"/>%
+            
+            
+        </td>   
+        <td data-label="Total Hours">
+            <div class="slds-truncate">{!v.singleRec.Total_Hours__c }</div>
+        </td>
+        
+        <td data-label="Sync">	
+            <ui:outputCheckbox aura:id="output" value="{!v.singleRec.Selected_Default__c}"/>
+            
+        </td>
+        
+        
+        
+        <!--<td>
+            <div class="slds-truncate">
+                
+                <ui:outputCurrency value="{!v.singleRec.Total_Sales_Price__c}" format="$##,##,###,###."/>
+                
+            </div>
+            
+            
+            
+            
+        </td> --> 
+        
+        
+        
+        
+        
+        
+        
+        <td>
+            <ui:menu>
+                <ui:menuTrigger>
+                    
+                    <button class="slds-button slds-button--icon-xx-small slds-button--icon-border-filled" size="xx-small" aria-haspopup="true" title="Show More">
+                        <lightning:icon iconName="utility:down" size="xx-small" alternativeText="Move this item up" />
+                        
+                    </button>
+                </ui:menuTrigger>
+                <ui:menuList class="actionMenu" aura:id="actionMenu">
+                    <ui:actionMenuItem aura:id="item2" label="Sync" click="{!c.synctwo}"/>
+                    <ui:actionMenuItem aura:id="item2" label="Edit" click="{!c.edit}"/>
+                    
+                    <ui:actionMenuItem aura:id="item3" label="Delete" click="{!c.openModel}"/>
+                </ui:menuList>
+            </ui:menu>
+        </td>
+        
+        
+        
+        
+        
+        
+        <!--<td>
+            <div class="slds-truncate">{!v.singleRec.Level__c}</div>
+        </td> -->
+    </tr>
+    <aura:if isTrue="{!v.isOpen}">
+        
+        <!--###### MODAL BOX Start From Here ######--> 
+        <div role="dialog" tabindex="-1" aria-labelledby="header99" class="slds-modal slds-fade-in-open ">
+            <div class="slds-modal__container">
+                <!-- ###### MODAL BOX HEADER Part Start From Here ######-->
+                <div class="slds-modal__header">
+                    <button class="slds-button slds-modal__close slds-button--icon-inverse" title="Close" onclick="{!c.closeModel}">
+                        X
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                    <h2 id="header99" class="slds-text-heading--medium">Delete Confirmation</h2>
+                </div>
+                <!--###### MODAL BOX BODY Part Start From Here ######-->
+                <div class="slds-modal__content slds-p-around--medium">
+                    <p>Are you sure you want to delete
+                        <b>
+                            {!v.singleRec.Name}
+                        </b>?
+                    </p>
+                </div>
+                <!--###### MODAL BOX FOOTER Part Start From Here ######-->
+                <div class="slds-modal__footer">
+                    <button class="slds-button slds-button--neutral" onclick="{!c.closeModel}" >Cancel</button>
+                    <lightning:button label="Delete"
+                                      iconName="utility:delete"
+                                      iconPosition="left"
+                                      variant="destructive"
+                                      type="submit"
+                                      onclick="{!c.removeRow}"
+                                      />
+                </div>
+            </div>
+        </div>
+        <div class="slds-backdrop slds-backdrop--open"></div>
+        <!--###### MODAL BOX Part END Here ######-->
+        
+    </aura:if>
+    
+    
+</aura:component>

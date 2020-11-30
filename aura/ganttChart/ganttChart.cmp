@@ -1,0 +1,82 @@
+<aura:component access="GLOBAL" controller="ganttChart" implements="force:hasRecordId,forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForAllPageTypes">
+    <ltng:require scripts="{!join(',',$Resource.Html_Canvas, $Resource.Amchart + '/amcharts/plugins/export/libs/pdfmake/pdfmake.min.js.map', $Resource.jsPDF+ '/main.js')}"/>
+
+    <aura:attribute name="lineData" type="Object" required="{!true}" description="The lineData based on which chart renders."/>
+    <aura:attribute name="stackedBarData" type="Object" required="{!true}" description="The stackedBarData based on which chart renders."/>
+    <aura:attribute name="stackedColumnData" type="Object" required="{!true}" description="The stackedColumnData based on which chart renders."/>
+    <aura:attribute name="areaData" type="Object" required="{!true}" description="The areaData based on which chart renders."/>
+    <aura:attribute name="columnData" type="Object" required="{!true}" description="The columnData based on which chart renders."/>
+    <aura:attribute name="barData" type="Object" required="{!true}" description="The barData based on which chart renders."/>
+    <aura:attribute name="bubbleData" type="Object" required="{!true}" description="The bubbleData based on which chart renders."/>
+    <aura:attribute name="pieData" type="Object" required="{!true}" description="The pieData based on which chart renders."/>
+    <aura:attribute name="donutData" type="Object" required="{!true}" description="The donutData based on which chart renders."/>
+    <aura:attribute name="gaugeData" type="Object" required="{!true}" description="The gaugeData based on which chart renders."/>
+    <aura:attribute name="ganttData" type="Object" required="{!true}" description="The ganttData based on which chart renders."/>
+    <aura:attribute name="lineAreaHybridData" type="Object" required="{!true}" description="The lineAreaHybridData based on which chart renders."/>
+    <aura:attribute name="backgroundColor" type="String" default="#1A242E"/>
+    <aura:attribute name="axisConfig" type="String" default="white"/>
+    <aura:attribute name="showTitle" type="Boolean" default="{!true}"/>
+    <aura:attribute name="showAxisLabels" type="Boolean" default="{!true}"/>
+    <aura:attribute name="yAxisLabel" type="String" default="Project Phases"/>
+    <aura:attribute name="xAxisLabel" type="String" default="Number of Weeks"/>
+    <aura:attribute name="durationSettings" type="String" default="Month"/>
+
+
+
+    <aura:attribute name="gaugeValue" type="Integer" required="{!true}" description="The gauge value."/>
+    <aura:attribute name="gaugebottomText" type="String" required="{!true}" description="The gauge chart bottom text."/>
+    <aura:attribute name="gaugeEndValue" type="Integer" required="{!true}" description="The gauge chart end value."/>
+    <aura:attribute name="gaugeValueInterval" type="Integer" required="{!true}" description="The gauge chart interval value."/>
+    <aura:attribute name="gaugeChartText" type="String" required="{!true}" description="The gauge chart title text value."/>
+    <aura:attribute name="balloonColor" type="String" required="{!true}" description="The balloon color."/>
+    <aura:attribute name="emptyList" type="Boolean" default="false"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <!--<div class="buttonDiv">
+        <ui:button label="generate Pdf" class="right" press="{!c.toPDFFormat}"/>
+    </div>-->
+    <aura:if isTrue="{!v.emptyList}"> 
+        <div style="text-align: center; margin-bottom: 20px;">
+            <b>Summoning of a beautiful chart has been interrupted.<br /> </b>
+                Reason: 0 Total Days of work, 没工作 😭 <br/>
+            <div style="font-size:xx-small">                
+                <i>*Refresh page when project phases have been updated. </i>
+            </div>
+        </div>
+
+        <aura:set attribute="else">
+    
+<div class="chartDiv">
+        <c:am_Chart type="gantt" 
+                    data="{!v.ganttData}" 
+                    ganttMarginRight="20"
+                    ganttCursorColor="#55bb76"
+                    ganttValueBalloonsEnabled="false"
+                    ganttCursorAlpha="0"
+                    ganttValueLineAlpha="0.5"
+                    ganttValueLineBalloonEnabled="true"
+                    ganttValueLineEnabled="true"
+                    ganttZoomable="true"
+                    ganttValueZoomable="true"
+                    ganttBrightnessStep="10"
+                    ganttRotate="false"
+                    ganttStartDate="2015-01-01"
+                    ganttFillAlphas="1"
+                    ganttLineAlpha="1"
+                    ganttLineColor="#FFFFFF"
+                    ganttAutoGridCount="false"
+                    ganttColumnWidth="0.5"
+                    recordId="{!v.recordId}"
+                    backgroundColor="{!v.backgroundColor}"
+                    axisConfig="{!v.axisConfig}"
+                    showTitle="{!v.showTitle}"
+                    showAxisLabels="{!v.showAxisLabels}"
+                    xAxisLabel="{!v.xAxisLabel}"
+                    yAxisLabel="{!v.yAxisLabel}"
+                    durationSettings="{!v.durationSettings}"
+                    />
+
+    </div>        </aura:set>
+    </aura:if> 
+
+</aura:component>

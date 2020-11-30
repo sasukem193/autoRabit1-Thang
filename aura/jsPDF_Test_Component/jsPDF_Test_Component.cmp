@@ -1,0 +1,5 @@
+<aura:component >   
+    <ltng:require scripts="/resource/jsPDF/jspdf.debug.js"
+                  afterScriptsLoaded="{!c.doInit}"/>
+    <div id="prinpdf"><h1>Ejemplo PDF</h1></div>
+</aura:component>
